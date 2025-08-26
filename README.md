@@ -1,2 +1,2 @@
 # Lokas-Daniel-Portfolio
-AP Networking Portfolio – [2026/2027]
+AP Networking Portfolio – [2025/2026]
