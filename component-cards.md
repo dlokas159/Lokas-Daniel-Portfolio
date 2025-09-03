@@ -171,21 +171,6 @@ This project helped us practice building a communication system without speaking
 
 ---
 
-## Pseudocode Representation
-
-```python
-### Yes/No Rule
-if card_color == "blue":
-    response = "Yes"
-elif card_color == "white":
-    response = "No"
-
-### Numbers
-number = flip_count  # e.g., 3 flips = number 3
-
-### Months
-month = flip_count_until_target  # keep flipping until October
-
 # 8. Reflection for Silent Signals
 I learned that making a communication system without words is difficult because meanings can easily get mixed up. My first system failed because the writing wasn’t clear. Then we tried colors, but “blue” could mean different things, which caused confusion. The flipping system worked better because it gave a clear way to count numbers and show months. From this project, I learned that a good communication system needs simple, consistent, and easy-to-remember rules. If I did this again, I would make the meanings even simpler and test with more partners to make sure it always works.
 
