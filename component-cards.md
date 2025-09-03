@@ -1,6 +1,6 @@
 ## 1. Project Overview
 
-**Problem Statement:**  
+**Problem Statement:** 
 This project helped us learn all of the different parts of a computer and their functions.
 
 **Objectives:**  
