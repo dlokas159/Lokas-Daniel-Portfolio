@@ -1,7 +1,7 @@
 # Lokas-Daniel-Portfolio
 AP Networking Portfolio – [2025/2026]
-# Honors Engineering/CS Portfolio — First Last
-This repository hosts my Honors Engineering/Computer Science portfolio for
+# AP Netowrking
+This repository hosts my AP Networking portfolio for
 2025/2026 at Charlotte Latin School.
 - **Live site (GitHub Pages):** &lt;https://dlokas159.github.io/Lokas-Daniel-Portfolio/&gt;
 ## About Me
