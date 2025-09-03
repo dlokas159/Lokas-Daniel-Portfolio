@@ -8,8 +8,6 @@ Welcome — this is my AP Networking portfolio. Below are the projects I’m doc
 
 ## Projects (AP Networking)
 - [Component Cards](component-cards.md)
-- [Component Song](component-song.md)
-- [Silent Signals](silent-signals.md)
 
 ---
 
