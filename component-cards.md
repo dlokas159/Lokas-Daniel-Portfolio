@@ -33,7 +33,7 @@ This project helped us learn all of the different parts of a computer and their 
 | **Input/Output Devices (I/O Devices)** | **What they are:** The tools you use to interact with the computer.<br>**Input devices:** Send data to the computer (keyboard, mouse, microphone, scanner).<br>**Output devices:** Display or output information from the computer (monitor, speakers, printer).<br>**Why they matter:** They are the user’s main way to give commands and receive results from the system. |
 
 
-**Hardware Process:**  
+# Hardware Card Arrangment with Comparison
 First diagram (Image 1):
 Layout is more vertical and linear.
 Information flows mostly top-to-bottom, with the motherboard in the center and arrows pointing outward to GPU, CPU, RAM, and storage. It’s simpler, easier to follow, but less detailed about the back-and-forth relationships between parts.
@@ -45,7 +45,7 @@ Uses more arrows, including loops, to show two-way connections (e.g., between CP
 It gives a clearer sense of interaction between components, but looks more cluttered compared to the first.
 ![screenshot](IMG_2202.jpg)
 
-**Software Process:**  
+# Software Card Arrangment
 This diagram shows the layers of computer software, from bottom to top. At the base is Firmware/UEFI, which starts the machine. Above that are Device Drivers, which let the operating system talk to hardware. The Operating System manages programs and hardware, while the Networking Stack handles internet connections. Libraries and Runtimes give apps extra code they need, and Applications are the programs people use. On the side, extra layers like Virtual Machines, Security/Encryption, and the File System add protection, file organization, and support for different programming environments.
 ![screenshot](IMG_2205.JPG)
 
