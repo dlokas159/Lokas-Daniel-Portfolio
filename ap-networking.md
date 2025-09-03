@@ -16,7 +16,5 @@ Welcome — this is my AP Networking portfolio. Below are the projects I’m doc
 **How this site is organized**
 
 Each project folder contains:
-- `README.md` (this becomes the project page)
+- `index.md` (the project page)
 - `assets/` (screenshots, diagrams, PDF)
-- `code/` (source files, configs)
-
