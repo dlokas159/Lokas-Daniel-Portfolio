@@ -46,4 +46,4 @@ It saves my view
 Every part's got a job to do
 
 # 2. AI Generated Component Song 
-
+![Video](IMG_2205.JPG)
