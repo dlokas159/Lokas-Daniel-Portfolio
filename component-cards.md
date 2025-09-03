@@ -1,4 +1,4 @@
-# 1. Project Overview
+# 1. Component Cards Project Overview
 
 **Problem Statement:** 
 This project helped us learn all of the different parts of a computer and their functions.
@@ -142,7 +142,7 @@ This project taught me how both hardware and software components work together t
 
 ---
 
-# 6. Project Overview
+# 6. Silent Signals Project Overview
 
 **Problem Statement:**  
 This project helped us practice building a communication system without speaking, writing, or gesturing — only using blue and white cards.
