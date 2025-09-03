@@ -141,3 +141,51 @@ Every part's got a job to do
 This project taught me how both hardware and software components work together to make a computer work. I learned the roles of CPU, RAM, GPU, storage devices, and I/O devices. Mapping the data flow when typing and saving a document helped me understand the how components worked with each other and communicate. Working with software strips also helped me understand how applications, libraries, OS, drivers, and firmware interact. During the Build-A-PC challenge, I had to make upgrade decisions, which taught me about performance real-world planning. I now better understand why drivers are essential. Next steps include practicing more networking configuration and maybe buildinhg another pc in the future. 
 
 ---
+
+# 6. Project Overview
+
+**Problem Statement:**  
+This project helped us practice building a communication system without speaking, writing, or gesturing — only using blue and white cards.
+
+**Objectives:**  
+- Design a system to send numbers, months, and yes/no responses using cards.  
+- Test the system with a partner to check if the message can be understood the first time.  
+- Reflect on misunderstandings and redesign for better clarity.  
+
+**Success Criteria:**  
+- Create a working card “language.”  
+- Partner can understand the number, month, and yes/no answer on the first try.  
+- Document design, testing, and reflection.  
+
+---
+
+# 7. Design & Planning
+
+## Card System Plan
+
+| Element | Method |
+|---------|--------|
+| **Numbers** | Flip the card over to count each number (e.g., 3 flips = number 3). |
+| **Months** | Continue flipping until you land on the correct month (e.g., October). |
+| **Yes/No** | Blue = Yes, White = No. |
+
+---
+
+## Pseudocode Representation
+
+```python
+# Yes/No Rule
+if card_color == "blue":
+    response = "Yes"
+elif card_color == "white":
+    response = "No"
+
+# Numbers
+number = flip_count  # e.g., 3 flips = number 3
+
+# Months
+month = flip_count_until_target  # keep flipping until October
+
+# 8. Reflection for Silent Signals
+I learned that making a communication system without words is difficult because meanings can easily get mixed up. My first system failed because the writing wasn’t clear. Then we tried colors, but “blue” could mean different things, which caused confusion. The flipping system worked better because it gave a clear way to count numbers and show months. From this project, I learned that a good communication system needs simple, consistent, and easy-to-remember rules. If I did this again, I would make the meanings even simpler and test with more partners to make sure it always works.
+
