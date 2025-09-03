@@ -1,5 +1,5 @@
 # Home
-!Daniel Lokas
+Daniel Lokas
 ## About Me
 I am Daniel Lokas, a 12th grade student in the Ap Networking program at Charlotte Latin. I am especially
 interested in Engineering. Outside of class, I participate in
