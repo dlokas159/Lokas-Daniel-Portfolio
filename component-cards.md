@@ -49,6 +49,39 @@ It gives a clearer sense of interaction between components, but looks more clutt
 This diagram shows the layers of computer software, from bottom to top. At the base is Firmware/UEFI, which starts the machine. Above that are Device Drivers, which let the operating system talk to hardware. The Operating System manages programs and hardware, while the Networking Stack handles internet connections. Libraries and Runtimes give apps extra code they need, and Applications are the programs people use. On the side, extra layers like Virtual Machines, Security/Encryption, and the File System add protection, file organization, and support for different programming environments.
 ![screenshot](IMG_2205.JPG)
 
+## PC Upgrade Plan (Budget: $1000)
+
+### CPU – Mid-range 6-core processor ($150)
+- **Upgrade Chosen:** $150 CPU  
+- **Why This Matters:** A mid-range CPU makes the computer run faster and smoother, especially for gaming and multitasking. It ensures the system can keep up with demanding applications without slowing down.
+
+---
+
+### RAM – 16 GB total RAM ($150)
+- **Upgrade Chosen:** $150 RAM  
+- **Why This Matters:** 16 GB of RAM allows the computer to load programs and games more quickly. It also helps with multitasking, so you can run multiple applications without lag.
+
+---
+
+### GPU – High-end graphics card ($400)
+- **Upgrade Chosen:** $400 GPU  
+- **Why This Matters:** A powerful GPU gives high-quality graphics for games and other graphics-heavy tasks. It improves frame rates, visual effects, and overall gaming performance.
+
+---
+
+### NIC – 2.5 Gbps network card ($100)
+- **Upgrade Chosen:** $100 NIC  
+- **Why This Matters:** A faster network card improves online gaming by reducing lag and keeping connections stable. It ensures smoother multiplayer experiences.
+
+---
+
+### Cooling System – Liquid cooling system ($200)
+- **Upgrade Chosen:** $200 Cooling System  
+- **Why This Matters:** A liquid cooling system prevents overheating during long or high-load gaming sessions. This keeps the system reliable and extends the lifespan of components.
+
+---
+
+### Total Cost: $1000
 
 ---
 
