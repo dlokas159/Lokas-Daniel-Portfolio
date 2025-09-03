@@ -22,6 +22,7 @@ This project helped us learn all of the different parts of a computer and their 
 ![screenshot](main/IMG_2202.jpg)
 ![screenshot](main/IMG_2205.JPG)
 
+
 ---
 
 ## 3. Reflection & Analysis
