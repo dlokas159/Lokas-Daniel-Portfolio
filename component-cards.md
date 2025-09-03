@@ -19,7 +19,7 @@ This project helped us learn all of the different parts of a computer and their 
 ## 2. Design & Planning
 
 **Design Evidence:**  
-• Include sketches, flowcharts, or pseudocode (a step-by-step plan).
+
 
 ---
 
