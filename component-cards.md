@@ -21,9 +21,9 @@ This project helped us learn all of the different parts of a computer and their 
 **Hardware Process:**  
 First diagram (Image 1):
 Layout is more vertical and linear.
-Information flows mostly top-to-bottom, with the motherboard in the center and arrows pointing outward to GPU, CPU, RAM, and storage.
+Information flows mostly top-to-bottom, with the motherboard in the center and arrows pointing outward to GPU, CPU, RAM, and storage. It’s simpler, easier to follow, but less detailed about the back-and-forth relationships between parts.
 ![screenshot](IMG_2202.jpg)
-It’s simpler, easier to follow, but less detailed about the back-and-forth relationships between parts.
+
 Second diagram (Image 2):
 Layout is more spread out and complex, showing multiple directions of data and power flow.
 Uses more arrows, including loops, to show two-way connections (e.g., between CPU, RAM, NIC, GPU, and I/O devices).
