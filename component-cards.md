@@ -174,16 +174,16 @@ This project helped us practice building a communication system without speaking
 ## Pseudocode Representation
 
 ```python
-# Yes/No Rule
+### Yes/No Rule
 if card_color == "blue":
     response = "Yes"
 elif card_color == "white":
     response = "No"
 
-# Numbers
+### Numbers
 number = flip_count  # e.g., 3 flips = number 3
 
-# Months
+### Months
 month = flip_count_until_target  # keep flipping until October
 
 # 8. Reflection for Silent Signals
