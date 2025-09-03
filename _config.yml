@@ -2,4 +2,4 @@ title: "Daniel Lokas – AP Networking Portfolio"
 description: "AP Networking projects: Getting Started, Silent Signals, Metal to Magic, Component Song"
 baseurl: "https://dlokas159.github.io/Lokas-Daniel-Portfolio/"   
 url: "https://<dlokas159>.github.io"  
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
