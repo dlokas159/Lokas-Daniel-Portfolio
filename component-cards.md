@@ -1,37 +1,30 @@
-1. Project Overview
-• Problem Statement: What problem are you solving in 1–2 sentences.
-• Objectives: 3–5 clear goals.
-• Success Criteria: How will you know you met your goals? (Example: “All tests
-pass” or “Network routes correctly”).
+## 1. Project Overview
 
-2. Design & Planning
+**Problem Statement:**  
+This project helped us learn all of the different parts of a computer and their functions.
+
+**Objectives:**  
+- Identify main hardware components (CPU, RAM, GPU, Storage, Motherboard, PSU, NIC, Cooling System, I/O Devices).  
+- Describe the function of each component.  
+- Trace the path of data through hardware during typing and saving a file.  
+- Understand software layers (Firmware/UEFI, Drivers, OS, Libraries/Runtimes, Applications).  
+
+**Success Criteria:**  
+- Complete hardware card arrangement correctly for the typing/saving exercise.  
+- Correctly map software layers and interactions.  
+- Document choices, reflections, and explanations.  
+
+---
+
+## 2. Design & Planning
+
+**Design Evidence:**  
 • Include sketches, flowcharts, or pseudocode (a step-by-step plan).
 
-• If needed, add diagrams (like a site map or network diagram).
-• Write a short plan with tasks and due dates.
-3. Technical Development
-• Post your important code/config with comments.
-• Show your version history (log of what you changed and when).
-• List the tools and languages you used.
-• Add your GitHub link if you used one.
-4. Testing & Evaluation
-• Explain what kinds of tests you ran (unit tests, system tests, traceroute, etc.).
-• Show results with screenshots or logs.
-• List bugs you found and how you fixed them.
-5. Reflection & Analysis
-• Write 1 strong paragraph (6–10 sentences):
-§ What you learned
-§ Choices you made and why
-§ How this connects to real-world CS/Networking/Web work
-§ Next steps or improvements
+---
 
-6. Professional Presentation
-• Write clearly and keep it organized.
-• Add screenshots or diagrams where helpful.
-• Make sure images have alt text (a short description).
-• Cite your sources and note if you used AI help.
-7. Submission & Links
-• Post the published URL of your project page.
-• Add repo link or zipped code (if required).
-• Include instructions on how your teacher can run or check your work.
-• Note the version/commit you’re submitting.
+## 3. Reflection & Analysis
+
+This project taught me how both hardware and software components work together to make a computer work. I learned the roles of CPU, RAM, GPU, storage devices, and I/O devices. Mapping the data flow when typing and saving a document helped me understand the how components worked with each other and communicate. Working with software strips also helped me understand how applications, libraries, OS, drivers, and firmware interact. During the Build-A-PC challenge, I had to make upgrade decisions, which taught me about performance real-world planning. I now better understand why drivers are essential. Next steps include practicing more networking configuration and maybe buildinhg another pc in the future. 
+
+---
