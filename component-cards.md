@@ -18,6 +18,21 @@ This project helped us learn all of the different parts of a computer and their 
 
 ## 2. Design & Planning
 
+# Computer Components Guide
+
+| Component | Description |
+|-----------|-------------|
+| **CPU (Central Processing Unit)** | **What it is:** The "brain" of the computer.<br>**What it does:** Executes instructions from programs: performing calculations, logic, and decision-making. Every click, keystroke, and program command eventually passes through the CPU.<br>**Why it matters:** The CPU’s speed and efficiency determine how quickly tasks are processed—whether you’re browsing the web, running a game, or performing complex simulations. |
+| **RAM (Random Access Memory)** | **What it is:** The computer’s short-term working memory.<br>**What it does:** Temporarily stores the data and instructions that the CPU is currently using. Unlike storage drives, RAM is wiped clean when the computer is turned off.<br>**Why it matters:** More RAM allows more programs to run at once and at the same time without slowing down the system. |
+| **Storage (SSD / HDD)** | **What it is:** The computer’s long-term data storage.<br>**What it does:** Holds your operating system, applications, files, and personal data—even after the power is turned off.<br>**SSD:** Uses flash memory with no moving parts, allowing faster speed and durability.<br>**HDD:** Uses spinning magnetic disks, offering more storage for a lower cost but at slower speeds.<br>**Why it matters:** The type and size of storage affect how fast your computer boots, loads programs, and accesses files. |
+| **GPU (Graphics Processing Unit)** | **What it is:** A processor specialized in handling graphics, images, and video.<br>**What it does:** Renders images for your monitor and accelerates tasks that involve heavy parallel processing, such as video editing, 3D modeling, and machine learning.<br>**Why it matters:** A strong GPU improves gaming graphics, speeds up creative workflows, and supports scientific computing tasks. |
+| **Motherboard** | **What it is:** The main circuit board inside the computer.<br>**What it does:** Connects all hardware components (CPU, RAM, storage, GPU, PSU, NIC, etc.) and allows them to communicate via data pathways called “buses.”<br>**Why it matters:** The motherboard determines compatibility between components and affects system expandability. |
+| **PSU (Power Supply Unit)** | **What it is:** The device that provides power to the computer.<br>**What it does:** Converts electricity from your wall outlet (AC power) into the low-voltage DC power that internal components use.<br>**Why it matters:** A PSU with insufficient power or poor quality can cause instability, damage components, or prevent the system from running. |
+| **NIC (Network Interface Card)** | **What it is:** A hardware component for connecting to a network.<br>**What it does:** Translates data between the computer and the network—whether that’s a wired Ethernet connection or wireless Wi-Fi (when integrated with a wireless adapter).<br>**Why it matters:** The NIC affects connection speed, reliability, and the ability to join networks. |
+| **Cooling System** | **What it is:** Fans, heat sinks, liquid cooling, or other systems that remove heat from components.<br>**What it does:** Prevents overheating, which can slow down the computer (thermal throttling) or damage parts.<br>**Why it matters:** Efficient cooling extends hardware lifespan and allows components to run at full speed. |
+| **Input/Output Devices (I/O Devices)** | **What they are:** The tools you use to interact with the computer.<br>**Input devices:** Send data to the computer (keyboard, mouse, microphone, scanner).<br>**Output devices:** Display or output information from the computer (monitor, speakers, printer).<br>**Why they matter:** They are the user’s main way to give commands and receive results from the system. |
+
+
 **Hardware Process:**  
 First diagram (Image 1):
 Layout is more vertical and linear.
