@@ -19,8 +19,8 @@ This project helped us learn all of the different parts of a computer and their 
 ## 2. Design & Planning
 
 **Design Evidence:**  
-![screenshot](main/IMG_2202.jpg)
-![screenshot](main/IMG_2205.JPG)
+![screenshot](IMG_2202.jpg)
+![screenshot](IMG_2205.JPG)
 
 
 ---
