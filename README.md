@@ -1,9 +1,9 @@
 # Lokas-Daniel-Portfolio
 AP Networking Portfolio – [2025/2026]
-# AP Networking
+## AP Networking
 This repository hosts my AP Networking portfolio for
 2025/2026 at Charlotte Latin School.
-# Honors Senior Engineering
+## Honors Senior Engineering
 This repository hosts my Senior Engineering for
 2025/2026 at Charlotte Latin School.
 - **Live site (GitHub Pages):** &lt;https://dlokas159.github.io/Lokas-Daniel-Portfolio/&gt;
@@ -13,3 +13,4 @@ I enjoy creating businesses and plan to pursue Mechanical Engineering and use th
 ## Contents
 - `/index.md` — Website landing page
 - `/ap-networking.md` — AP Networking portfolio
+- `/senior-engineering.md` — Honors Senior Engineering
