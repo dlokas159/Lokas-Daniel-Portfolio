@@ -13,4 +13,4 @@ I enjoy creating businesses and plan to pursue Mechanical Engineering and use th
 ## Contents
 - `/index.md` — Website landing page
 - `classes/ap networking files/ap-networking.md` — AP Networking portfolio
-- `classes/senior-engineering.md` — Honors Senior Engineering
+- `classes/senior engineering/senior-engineering.md` — Honors Senior Engineering
