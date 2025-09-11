@@ -7,7 +7,7 @@ title: "Daniel Lokas – AP Networking Portfolio"
 Welcome — this is my AP Networking portfolio. Below are the projects I’m documenting for the course.
 
 ## Projects (AP Networking)
-- [Component Cards](<classes/ap_networking_files/component-cards.md>)
+- [Component Cards](classes/ap_networking_files/component-cards.md)
 - [Command Line Interface](classes/ap_networking_files/command-line-interface.md)
 
 
