@@ -12,5 +12,5 @@ I am **Daniel Lokas**, a 12th student focusing on Mechanical Engineering.
 I enjoy creating businesses and plan to pursue Mechanical Engineering and use that knowledge to create a company.
 ## Contents
 - `/index.md` — Website landing page
-- `classes/ap networking files/ap-networking.md` — AP Networking portfolio
-- `classes/senior engineering/senior-engineering.md` — Honors Senior Engineering
+- `classes/ap_networking_files/ap-networking.md` — AP Networking portfolio
+- `classes/senior_engineering/senior-engineering.md` — Honors Senior Engineering
