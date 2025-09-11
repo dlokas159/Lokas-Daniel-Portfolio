@@ -6,4 +6,4 @@ interested in Mechanical Engineering. Outside of class, I participate in CLS Lea
 future, I hope to become a Mechanical Engineer and use those skills to create a company.
 ## Portfolio Navigation
 - [AP Networking](classes/ap networking files/ap-networking.md)
-- [Honors Senior Engineering](classes/senior engineering/senior-engineering.md)
+- [Honors Senior Engineering](classes/senior_engineering/senior-engineering.md)
