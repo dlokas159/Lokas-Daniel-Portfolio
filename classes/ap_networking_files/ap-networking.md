@@ -8,8 +8,9 @@ layout: default
 Welcome — this is my AP Networking portfolio. Below are the projects I’m documenting for the course.
 
 ## Projects (AP Networking)
-- [Component Cards]({{ "/classes/ap_networking_files/component-cards.md" | relative_url }}
-- [Command Line Interface]({{ "/classes/ap_networking_files/command-line-interface.md" | relative_url }})
+- [Component Cards](/classes/ap_networking_files/component-cards)
+- [Command Line Interface](/classes/ap_networking_files/command-line-interface)
+
 
 
 
