@@ -7,7 +7,7 @@
               url: classes/ap_networking_files/ap-networking.md
               children: 
               - title: Component Cards
-                url: 
+                url: classes/ap_networking_files/component-cards.md
               - title: Command Line Interface
                 url: 
             - title: Honors Senior Engineering
