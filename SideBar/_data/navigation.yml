@@ -1,14 +1,14 @@
     # _data/navigation.yml
     sidebar_items:
       - title: Home
-        url: /index.md
-      - title: About
-        url: /about/
-      - title: Products
-        children:
-          - title: Product A
-            url: /products/product-a/
-          - title: Product B
-            url: /products/product-b/
-      - title: Contact
-        url: /contact/
+        url: index.md
+        children: 
+            - title: AP Networking
+              url: 
+              children: 
+              - title: Component Cards
+                url: 
+              - title: Command Line Interface
+                url: 
+            - title: Honors Senior Engineering
+              url: 
