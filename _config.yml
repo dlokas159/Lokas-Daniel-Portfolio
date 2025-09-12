@@ -3,3 +3,4 @@ description: "AP Networking Projects: Component Cards, Command Line Interface <b
 url: "https://dlokas159.github.io"  
 baseurl: "/Lokas-Daniel-Portfolio"   
 theme: jekyll-theme-architect
+layout: default
