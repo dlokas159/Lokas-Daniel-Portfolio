@@ -3,11 +3,6 @@
 **Purpose of CLI Work:** 
 The Command Line Interface (CLI) allows users to navigate, create, organize, and share files without relying on interfaces. 
 
-**Objectives for Activities:**  
-- Map the Maze (Part 1): Learn file system structures and how to represent them as diagrams.
-- Map the Maze (Part 2): Practice core commands for navigating and creating files in Linux.
-- House Sitting Adventure: Test CLI knowledge in a simulated scenario with challenges, hidden files, and troubleshooting.
-
 **File System Tree:**  
 /  
 └── Daniel  
@@ -25,6 +20,11 @@ The Command Line Interface (CLI) allows users to navigate, create, organize, and
 5. Move "notes.txt" into Music folder (mv notes.txt Music/).
 6. Verify structure with ls and tree.
 7. Record the full path of Music folder (pwd).
+
+**Objectives for Activities:**  
+- Map the Maze (Part 1): Learn file system structures and how to represent them as diagrams.
+- Map the Maze (Part 2): Practice core commands for navigating and creating files in Ubuntu.
+- House Sitting Adventure: Test CLI knowledge in a simulated scenario with challenges, hidden files, and troubleshooting.
 
 **Reflection on Planning:**  
 Creating both a diagram and pseudocode provided a clear roadmap before using actual commands. Planning ensured that I understood the logic of how folders and files connect, making later execution more accurate and efficient
