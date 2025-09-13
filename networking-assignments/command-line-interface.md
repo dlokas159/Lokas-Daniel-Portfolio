@@ -40,27 +40,27 @@ Creating both a diagram and pseudocode provided a clear roadmap before using act
 
 **Commands & Outputs:**  
 pwd
- /home/ubuntu
+<br> /home/ubuntu
 
 cd Documents
 pwd
- /home/ubuntu/Documents
+<br> /home/ubuntu/Documents
 
 mkdir MazeGame
 cd MazeGame
 ls
- (empty)
+<br> (empty)
 
 touch clue1.txt clue2.txt clue3.txt
 ls
- clue1.txt clue2.txt clue3.txt
+<br> clue1.txt clue2.txt clue3.txt
 
 nano clue1.txt
- Edited text: "Hello my name is Daniel!"
+<br> Edited text: "Hello my name is Daniel!"
 
 cp clue1.txt ~/hostshare/
 ls ~/hostshare
- clue1.txt now visible in Mac host
+<br> clue1.txt now visible in Mac host
 
 
 **Result:**  
