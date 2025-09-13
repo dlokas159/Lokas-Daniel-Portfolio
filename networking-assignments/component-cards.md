@@ -1,8 +1,3 @@
----
-layout: default
----
-
-
 # 1. Component Cards Project Overview
 
 **Problem Statement:** 
