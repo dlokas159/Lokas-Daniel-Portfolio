@@ -9,7 +9,7 @@ Welcome — this is my AP Networking portfolio. Below are the projects I’m doc
 
 ## Projects (AP Networking)
 - [Component Cards](classes/ap_networking_files/subclasses/component-cards.md)
-- [Command Line Interface](/classes/ap_networking_files/command-line-interface)
+- [Command Line Interface](networking-assignments/command-line-interface.md)
 
 
 
