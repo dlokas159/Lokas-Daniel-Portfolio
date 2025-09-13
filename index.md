@@ -10,5 +10,5 @@ I am Daniel Lokas, a 12th grade student who has been taking engineering and comp
 interested in Mechanical Engineering. Outside of class, I participate in CLS Learning Partners and various side businesses that I own. My favorite hobbies are working on my business and fishing. In the
 future, I hope to become a Mechanical Engineer and use those skills to create a company.
 ## Portfolio Navigation
-- [AP Networking](classes/ap_networking_files/ap-networking.md)
-- [Honors Senior Engineering](classes/senior_engineering/senior-engineering.md)
+- [AP Networking](ap-networking.md)
+- [Honors Senior Engineering](senior-engineering.md)
