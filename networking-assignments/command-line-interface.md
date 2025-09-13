@@ -74,7 +74,7 @@ All required commands were executed correctly, with organized documentation of o
 ### Test 1 – Verify Created Files
 cd kitchen
 ls
- apple banana cereal crackers donut milk orange
+<br> apple banana cereal crackers donut milk orange
 
 
 ✅ Confirmed all files appeared as expected.
@@ -82,17 +82,17 @@ ls
 ### Test 2 – Remove Files and Confirm Deletion
 rm orange milk
 ls
- apple banana cereal crackers donut
+<br> apple banana cereal crackers donut
 
 
 ✅ Files successfully removed.
 
 ### Test 3 – Reveal Hidden Items
 ls -a
- . .. .rotten_bananas apple banana cereal crackers donut
+<br> . .. .rotten_bananas apple banana cereal crackers donut
 rm .rotten_bananas
 ls -a
- . ..
+<br> . ..
 
 
 ✅ Hidden file detected and deleted.
@@ -101,9 +101,9 @@ ls -a
 cd main_entrance
 touch note.txt
 nano note.txt
- "Thanks for trusting me to watch your house!"
+<br> "Thanks for trusting me to watch your house!"
 ls
- instructions.txt note.txt
+<br> instructions.txt note.txt
 
 
 ✅ Verified file creation and editing.
