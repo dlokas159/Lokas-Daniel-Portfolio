@@ -1,4 +1,11 @@
-# 1. Planning & Design (Map the Maze Part 1)
+# Objectives for Activities:
+- Map the Maze (Part 1): Learn file system structures and how to represent them as diagrams.
+- Ubuntu Tutorial: Learn how to use VM using Ubuntu. 
+- Map the Maze (Part 2): Practice core commands for navigating and creating files in Ubuntu.
+- House Sitting Adventure: Test CLI knowledge in a simulated scenario with challenges, hidden files, and troubleshooting.
+
+# 1. Planning & Design (Map the Maze Part 1, Ubuntu Tutorial)
+This project focused on understanding the structure of a file system through diagramming and pseudocode. Students planned a folder hierarchy and outlined basic command-line operations like creating directories, adding files, and moving them. This step emphasized the importance of visualizing and logically organizing file systems before executing real commands in a CLI environment.
 
 **Purpose of CLI Work:** 
 The Command Line Interface (CLI) allows users to navigate, create, organize, and share files without relying on interfaces. 
@@ -15,17 +22,13 @@ The Command Line Interface (CLI) allows users to navigate, create, organize, and
 6. Verify structure with ls and tree.
 7. Record the full path of Music folder (pwd).
 
-**Objectives for Activities:**  
-- Map the Maze (Part 1): Learn file system structures and how to represent them as diagrams.
-- Map the Maze (Part 2): Practice core commands for navigating and creating files in Ubuntu.
-- House Sitting Adventure: Test CLI knowledge in a simulated scenario with challenges, hidden files, and troubleshooting.
-
 **Reflection on Planning:**  
 Creating both a diagram and pseudocode provided a clear roadmap before using actual commands. Planning ensured that I understood the logic of how folders and files connect, making later execution more accurate and efficient
 
 ---
 
 # 2. Technical Development (Map the Maze Part 2)
+In this phase, the planned file structure was implemented in a real Ubuntu terminal. Students practiced key commands such as mkdir, touch, cd, pwd, and nano to navigate and manipulate files. Files were also transferred to the host machine using cp, demonstrating integration between systems. 
 
 **Tools Used:** 
 - Ubuntu VM (guest OS)
@@ -63,6 +66,7 @@ All required commands were executed correctly, with organized documentation of o
 ---
 
 # 3. Testing & Evaluation (House Sitting Adventure)
+This challenge-based activity tested the user's CLI skills in a simulated real-world scenario. Tasks included verifying files, deleting items, revealing hidden files, and editing documents. The project emphasized troubleshooting, validation, and adaptability in using command-line tools.
 
 **Example Test Cases:** 
 ### Test 1 – Verify Created Files
