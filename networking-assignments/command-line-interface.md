@@ -105,6 +105,8 @@ nano note.txt
 ls
 <br> instructions.txt note.txt
 
+![img](networking-assignments/files/IMG2291.JPG)
+
 
 ✅ Verified file creation and editing.
 
