@@ -4,6 +4,8 @@
 - Map the Maze (Part 2): Practice core commands for navigating and creating files in Ubuntu.
 - House Sitting Adventure: Test CLI knowledge in a simulated scenario with challenges, hidden files, and troubleshooting.
 
+---
+
 # 1. Planning & Design (Map the Maze Part 1, Ubuntu Tutorial)
 This project focused on understanding the structure of a file system through diagramming and pseudocode. Students planned a folder hierarchy and outlined basic command-line operations like creating directories, adding files, and moving them. This step emphasized the importance of visualizing and logically organizing file systems before executing real commands in a CLI environment.
 
