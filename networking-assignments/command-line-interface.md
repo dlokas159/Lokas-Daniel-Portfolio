@@ -4,7 +4,7 @@
 The Command Line Interface (CLI) allows users to navigate, create, organize, and share files without relying on interfaces. 
 
 **File System Tree:**  
-![screenshot](IMG_2219.jpg)
+![screenshot](files/IMG_2219.jpg)
 
 **Pseudocode for CLI Navigation & File Manipulation:**  
 1. Start at home directory (cd ~).
