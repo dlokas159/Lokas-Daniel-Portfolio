@@ -1,8 +1,3 @@
----
-layout: default
-title: Home
----
-
 # Home
 Daniel Lokas
 ## About Me
