@@ -1,5 +1,5 @@
 ---
-title: "Daniel Lokas – Senior Engineering"
+title: "Daniel Lokas – Senior Engineering Portfolio"
 layout: default
 ---
 
