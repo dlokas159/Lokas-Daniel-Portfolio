@@ -20,5 +20,4 @@ Welcome — this is my AP Networking portfolio. Below are the projects I’m doc
 
 Each project folder contains:
 - `file_name.md` (the project page)
-- `assets/` (screenshots, diagrams, PDF)
 
