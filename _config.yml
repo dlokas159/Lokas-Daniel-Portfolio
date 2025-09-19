@@ -4,9 +4,9 @@ url: "https://dlokas159.github.io"
 baseurl: "/Lokas-Daniel-Portfolio"   
 theme: jekyll-theme-architect
 nav-bar: 
-  - title: "Home"
+  -title: "Home"
     url: "index.md"
-  - title: "AP Networking"
+  -title: "AP Networking"
     url: "ap-networking"
-  - title: "Senior Engineering"
+  -title: "Senior Engineering"
     url: "senior-engineering"
