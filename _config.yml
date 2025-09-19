@@ -3,3 +3,10 @@ description: "AP Networking Projects: Component Cards, Command Line Interface <b
 url: "https://dlokas159.github.io"  
 baseurl: "/Lokas-Daniel-Portfolio"   
 theme: jekyll-theme-architect
+nav-bar: 
+  - title: "Home"
+    url: "/"
+  - title: "AP Networking"
+    url: "/ap-networking"
+  - title: "Senior Engineering"
+    url: "/senior-engineering"
