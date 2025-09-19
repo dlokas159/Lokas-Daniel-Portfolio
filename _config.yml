@@ -5,8 +5,8 @@ baseurl: "/Lokas-Daniel-Portfolio"
 theme: jekyll-theme-architect
 nav-bar: 
   - title: "Home"
-    url: "/"
+    url: "index.md"
   - title: "AP Networking"
-    url: "/ap-networking"
+    url: "ap-networking"
   - title: "Senior Engineering"
-    url: "/senior-engineering"
+    url: "senior-engineering"
