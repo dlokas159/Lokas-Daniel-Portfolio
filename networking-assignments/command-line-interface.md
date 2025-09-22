@@ -126,7 +126,7 @@ Common challenges included syntax errors and remembering operations such as rm -
 
 ---
 
-# 4. Troubleshooting Network Issues
+# 5. Troubleshooting Network Issues
 This activity focused on diagnosing and resolving internet connectivity problems on both a Mac and an Ubuntu VM. The process followed a logical flow: checking IP configuration, testing connectivity to known servers, verifying router connections, and confirming DNS functionality. Students compared networking modes (Shared vs. Bridged) in the VM to understand how devices interact on different networks.
 
 ## Key Steps and Findings
