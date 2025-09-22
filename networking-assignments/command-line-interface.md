@@ -125,3 +125,36 @@ The portfolio demonstrates how file systems function as hierarchical structures 
 Common challenges included syntax errors and remembering operations such as rm -r. However, correcting these mistakes contributed to a deeper understanding of the commands. Overall, the experience strengthened technical accuracy, problem-solving skills, and professional documentation practices.
 
 ---
+
+# 4. Troubleshooting Network Issues
+This activity focused on diagnosing and resolving internet connectivity problems on both a Mac and an Ubuntu VM. The process followed a logical flow: checking IP configuration, testing connectivity to known servers, verifying router connections, and confirming DNS functionality. Students compared networking modes (Shared vs. Bridged) in the VM to understand how devices interact on different networks.
+
+## Key Steps and Findings
+Checking IP Address:
+- On Mac: Observed private IP ranges (10.x.x.x and 192.168.x.x). When disconnected from Wi-Fi, the IP disappeared; when reconnected, it returned.
+- On Ubuntu (Shared mode): 192.168.64.2 (hidden behind the Mac).
+- On Ubuntu (Bridged mode): 10.24.0.157 (acted as a separate device).
+
+Testing Reachability:
+- Pinging Google DNS (8.8.8.8) succeeded with ~325ms.
+- Pinging Cloudflare DNS (1.1.1.1) succeeded with ~7ms, showing faster response.
+- Confirmed router gateway ping was faster than public DNS, which makes sense since it is closer.
+
+Testing DNS:
+- Pinging google.com and other websites succeeded, proving DNS resolution worked.
+- If numeric IPs worked but domain names failed, the issue would be DNS-related.
+
+## Mode Comparion (Shared vs Bridged): 
+- Shared Mode (NAT): VM hides behind the host Mac, easier for IT management and safer for classroom environments.
+- Bridged Mode: VM gets its own IP and acts like a standalone device, but has greater security risks in school networks.
+
+## Troubleshooting Flow (4 Steps):
+1. Check if device is connected.
+2. Verify if it has a valid IP address.
+3. Test if it can reach the internet (e.g., 8.8.8.8).
+4. Confirm if DNS can resolve website names.
+
+## Reflection:
+The most useful step was Testing DNS, as it allowed practice in checking whether connectivity problems were due to the internet connection itself or simply domain resolution. Exploring Shared vs. Bridged networking clarified how virtual machines interact with networks and highlighted the security trade-offs of each mode. Overall, this assignment strengthened problem-solving strategies for real-world connectivity issues.
+
+---
