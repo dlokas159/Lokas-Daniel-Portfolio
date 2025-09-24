@@ -8,7 +8,7 @@ layout: default
 Welcome — this is my Senior Engineering Portfolio. Below are the projects I’m documenting for the course.
 
 ## Projects (Senior Engineering)
-- []()
+- [Daily Journal](engineering-files/dailyjournal.md)
 
 
 
