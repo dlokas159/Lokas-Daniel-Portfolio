@@ -49,9 +49,9 @@ This aligns with the **CIA triad** by improving:
 
 #### **Outputs**
 [Netstat -tuln Output](networking-assignments/files/unnamed(3).png)
-[ufw enable](networking-assignments/files/unnamed.png)
-[ufw deny](networking-assignments/files/unnamed(1).png)
-[lsblk -f](networking-assignments/files/unnamed(2).png)
+[ufw enable](files/unnamed.png)
+[ufw deny](files/unnamed(1).png)
+[lsblk -f](files/unnamed(2).png)
 
 ---
 
@@ -110,8 +110,8 @@ The purpose of this assignment was to analyze installed software for outdated ve
 3. Updated **Java** and confirmed installation with `java -version`.
 
 #### **Outputs**
-[install apache2](networking-assignments/files/screenshot.jpg)
-[apache2](networking-assignments/files/screenshot(1).jpg)
+[install apache2](files/screenshot.jpg)
+[apache2](files/screenshot(1).jpg)
 
 ---
 
