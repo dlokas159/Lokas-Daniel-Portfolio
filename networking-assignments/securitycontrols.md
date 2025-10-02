@@ -48,7 +48,7 @@ This aligns with the **CIA triad** by improving:
     Output showed only ext4 and vfat, meaning **no LUKS encryption**.
 
 #### **Outputs**
-[Netstat -tuln Output](networking-assignments/files/unnamed(3).png)
+[Netstat -tuln Output](files/unnamed(3).png)
 [ufw enable](files/unnamed.png)
 [ufw deny](files/unnamed(1).png)
 [lsblk -f](files/unnamed(2).png)
