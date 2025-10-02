@@ -109,8 +109,9 @@ The purpose of this assignment was to analyze installed software for outdated ve
 2. **OpenSSL** was identified as the most dangerous if outdated, since it could allow attackers to break encryption.
 3. Updated **Java** and confirmed installation with `java -version`.
 
-[Screenshot Placeholder: Version check for OpenSSL or Apache]
-[Screenshot Placeholder: Updated Java version check]
+#### **Outputs**
+[install apache2](networking-assignments/files/screenshot.jpg)
+[apache2](networking-assignments/files/screenshot(1).jpg)
 
 ---
 
