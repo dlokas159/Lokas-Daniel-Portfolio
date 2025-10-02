@@ -48,10 +48,10 @@ This aligns with the **CIA triad** by improving:
     Output showed only ext4 and vfat, meaning **no LUKS encryption**.
 
 #### **Outputs**
-[Netstat -tuln Output](files/unnamed(3).png)
-[ufw enable](files/unnamed.png)
-[ufw deny](files/unnamed(1).png)
-[lsblk -f](files/unnamed(2).png)
+[Screenshot](files/unnamed(3).png)
+[Screenshot](files/unnamed.png)
+[Screenshot](files/unnamed(1).png)
+[Screenshot](files/unnamed(2).png)
 
 ---
 
@@ -110,8 +110,8 @@ The purpose of this assignment was to analyze installed software for outdated ve
 3. Updated **Java** and confirmed installation with `java -version`.
 
 #### **Outputs**
-[install apache2](files/screenshot.jpg)
-[apache2](files/screenshot(1).jpg)
+[Screenshot](files/screenshot.jpg)
+[Screenshot](files/screenshot(1).jpg)
 
 ---
 
