@@ -47,10 +47,10 @@ This aligns with the **CIA triad** by improving:
     ```
     Output showed only ext4 and vfat, meaning **no LUKS encryption**.
 
-[Screenshot Placeholder: Open ports output from netstat -tuln]
-[Screenshot Placeholder: UFW status enabled]
-[Screenshot Placeholder: Firewall rule blocking Telnet]
-[Screenshot Placeholder: Disk encryption output from lsblk -f]
+[Screenshot Placeholder: Open ports output from netstat -tuln]()
+[Screenshot Placeholder: UFW status enabled]()
+[Screenshot Placeholder: Firewall rule blocking Telnet]()
+[Screenshot Placeholder: Disk encryption output from lsblk -f]()
 
 ---
 
