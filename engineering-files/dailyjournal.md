@@ -37,3 +37,15 @@ Began soldering leds.
 9-30-25: 
 Finished soldering leds, usb port, and integrated circuits. Tested owl. 
 
+10-1-2025: 
+Research different cup holders and bases for the arm. 
+
+10-6-2025: 
+Research motors for the cup holder arm. 
+
+10-9-2025: 
+Worked with Aaron to figure out design specs and draw out the design for the mechanical arm. 
+
+10-10-2025: 
+Practiced 3D printing a car to make sure that I understand how to print. Practiced focusing all three lazer cutters and printing on each to make sure that I know how to use them. 
+
