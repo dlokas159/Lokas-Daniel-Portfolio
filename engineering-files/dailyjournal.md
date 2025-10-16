@@ -55,7 +55,7 @@ Dates: 9-28-2025 to 9-30-2025
 9-30-2025: Finished soldering all LEDs, the USB port, and ICs (integrated circuits). Final testing confirmed the board was functional.
 ![Screenshot](IMG_2270.jpg)
 ![Screenshot](IMG_2232.jpg)
-![Screenshot](IMG_2230.jpg)
+![Screenshot](IMG_2330.jpg)
 
 ### Successes:
 
@@ -77,7 +77,7 @@ I improved my soldering precision and learned how to identify component orientat
 
 # GitHub Repository
 
-Date Started: 9-9-2025
+Date Started: 9-15-2025
 Description: I created a GitHub repository to document all of my engineering projects. It includes logs, pictures, and reflections.
 
 
