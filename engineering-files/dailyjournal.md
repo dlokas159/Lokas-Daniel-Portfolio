@@ -1,6 +1,7 @@
 # Laser Cut Box Project
 
 Date: 8-28-2025
+
 Description: I laser cut and assembled a personal box designed to hold all of my engineering materials. This box was my first experience with the laser cutter since freshman year, and it helped me understand how to prepare a vector file and adjust settings on the laser cutter.
 
 ---
