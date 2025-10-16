@@ -90,7 +90,7 @@ Description: I created a GitHub repository to document all of my engineering pro
 In collaboration with Pearl Rehab Center, I began designing an assistive device to help users with limited mobility access drinks more easily. This robotic arm is meant to hold and move a cup to the user.
 
 ### Bill of Materials
-
+![Screenshot](Screenshot 2025-10-16 110651.png)
 
 ### Timeline:
 
