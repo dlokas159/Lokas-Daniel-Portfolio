@@ -1,13 +1,15 @@
-📦 Laser Cut Box Project
+# Laser Cut Box Project
 
 Date: 8-28-2025
 Description: I laser cut and assembled a personal box designed to hold all of my engineering materials. This box was my first hands-on experience with the laser cutter, and it helped me understand how to precisely prepare a vector file, adjust settings on the laser cutter, and assemble with wood glue. This foundational project helped prepare me for future projects that involve laser cutting.
 
-🖊️ Pen Turning Project
+---
+
+# Pen Turning Project
 
 Dates: 9-1-2025 to 9-12-2025
 
-Process Summary:
+### Process Summary:
 
 9-1-2025: Selected the wood type for my pen and cut it to size.
 
@@ -30,58 +32,58 @@ Process Summary:
 9-12-2025: Assembled the final pen with all components and tested its functionality.
 
 
-Reflection:
+### Reflection:
 
 This project taught me how to use the lathe safely and effectively. I learned the importance of patience and precision—especially when the first piece cracked. Restarting allowed me to practice better pressure control during turning. I also gained experience in drilling, gluing, and assembling components with tight tolerances.
 
-🔧 Soldering: The Owl Project
+---
+
+# Soldering: The Owl Project
 
 Dates: 9-28-2025 to 9-30-2025
 
-Process Summary:
+### Process Summary:
 
 9-28-2025: Practiced soldering on a test board with 3 resistors. Then began soldering the Owl Project PCB, starting with resistors, capacitors, and transistors.
 
-
-
-
 9-29-2025: Continued soldering LEDs onto the board.
-
 
 9-30-2025: Finished soldering all LEDs, the USB port, and ICs (integrated circuits). Final testing confirmed the board was functional.
 
 
-Successes:
+### Successes:
 
 Successfully soldered all components with clean joints.
 
 The Owl Project functioned correctly after first testing.
 
-Setbacks & Solutions:
+### Setbacks & Solutions:
 
 Some solder joints were initially cold or uneven. I identified and reworked these using flux and re-heating.
 
 One LED was initially installed backward, so I desoldered and reoriented it properly.
 
-What I Learned:
+### What I Learned:
 
 I improved my soldering precision and learned how to identify component orientation. This experience also taught me how to troubleshoot circuit boards and understand basic electronic components and their roles.
 
-🖥️ GitHub Repository
+---
+
+# GitHub Repository
 
 Date Started: 9-9-2025
 Description: I created a GitHub repository to document all of my engineering projects. It includes logs, pictures, and reflections.
 
 
-🏗️ Capstone Project: Robotic Arm Cup Holder for Pearl Rehab Center
+# Capstone Project: Robotic Arm Cup Holder for Pearl Rehab Center
 
-Project Name: "Adaptive Arm-Based Beverage Delivery System"
+### Project Name: "Adaptive Arm-Based Beverage Delivery System"
 
-Description:
+### Description:
 
 In collaboration with Pearl Rehab Center, I began designing an assistive device to help users with limited mobility access drinks more easily. This robotic arm is meant to hold and move a cup to the user.
 
-Timeline:
+### Timeline:
 
 9-18-2025: Committed to working with Pearl Rehab and started research on the types of assistive technologies already available.
 
@@ -93,11 +95,8 @@ Timeline:
 
 10-10-2025: Practiced using all three laser cutters to ensure proficiency. Also 3D printed a sample car model to test printer functionality.
 
-📎 Link to Capstone Design Specs
- (Insert actual design specs link)
-📎 Link to Capstone Project GitHub Folder
- (Insert actual GitHub capstone link)
+---
 
-❓Additional Work Not Listed
+# What I've Been Working On
 
-Aside from the listed projects, I have also been experimenting with CAD software to design parts for the robotic arm. I’ve spent time learning Fusion 360 and Tinkercad to create models that can be 3D printed. I’m also becoming more familiar with Arduino so that I can eventually control the robotic arm electronically. My next steps will involve writing simple control code for motor movement and testing the assembly of the cup holder prototype.
+Aside from the listed projects i’ve spent time learning Fusion 360 and Tinkercad to create models that can be 3D printed. I’m also becoming more familiar with Arduino so that I can eventually control the robotic arm electronically. Our next steps will involve writing simple control code for motor movement and testing the assembly of the cup holder.
