@@ -26,7 +26,7 @@ Turned and sanded new piece of wood until it was pen shaped.
 Assembled all the pieces of the pen and tested it. 
 
 9-18-25:
-Committed to working with Pearl and did research on what I wanted to help create for them. 
+Committed to working with Pearl Rehab Center and did research on what I wanted to help create for them. 
 
 9-28-25: 
 Start on Owl Project. Practiced soldering on test board with 3 resitors. Began soldering resistors, capacitors, and transistors. 
