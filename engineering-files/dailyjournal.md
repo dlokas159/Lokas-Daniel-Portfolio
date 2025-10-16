@@ -1,60 +1,103 @@
-8-28-25:
-Laser cut and assembled personal box to hold materials. 
+📦 Laser Cut Box Project
 
-9-1-25:
-Started wood pen project by selecting which wood we wanted to use and then cut it. 
-![Screenshot](IMG_2237.jpg)
+Date: 8-28-2025
+Description: I laser cut and assembled a personal box designed to hold all of my engineering materials. This box was my first hands-on experience with the laser cutter, and it helped me understand how to precisely prepare a vector file, adjust settings on the laser cutter, and assemble with wood glue. This foundational project helped prepare me for future projects that involve laser cutting.
 
-9-3-25: 
-Finish cutting wood pieces and glue wood pieces together. 
+🖊️ Pen Turning Project
 
-9-4-25: 
-Cut hole through wooden pieces and glue metal shaft to the inside. 
-![Screenshot](IMG_2208.jpg)
+Dates: 9-1-2025 to 9-12-2025
 
-9-5-25: 
-Start turning pen and shaving it down. One piece of wood cracked and so had to restart. 
-![Screenshot](IMG_2227.jpg)
+Process Summary:
 
-9-8-25: 
-Glued and drilled new piece of wood. 
+9-1-2025: Selected the wood type for my pen and cut it to size.
 
-9-9-25: 
-Glued metal shaft inside hole and setup github page. 
 
-9-10-25: 
-Turned and sanded new piece of wood until it was pen shaped. 
-![Screenshot](IMG_2232.jpg)
+9-3-2025: Finished cutting all wooden blanks and glued the pieces together using wood glue.
 
-9-12-25: 
-Assembled all the pieces of the pen and tested it. 
-![Screenshot](IMG_2237.jpg)
+9-4-2025: Drilled a hole through the glued wood blanks and inserted the metal shaft (pen insert).
 
-9-18-25:
-Committed to working with Pearl Rehab Center and did research on what I wanted to help create for them. 
 
-9-28-25: 
-Start on Owl Project. Practiced soldering on test board with 3 resitors. Began soldering resistors, capacitors, and transistors. 
-![Screenshot](IMG_2263.jpg)
-![Screenshot](IMG_2259.jpg)
+9-5-2025: Started turning the pen on the lathe and shaping it. Unfortunately, the wood cracked during turning, which meant I had to start over with a new blank.
 
-9-29-25: 
-Began soldering leds. 
-![Screenshot](IMG_2271.jpg)
 
-9-30-25: 
-Finished soldering leds, usb port, and integrated circuits. Tested owl. 
-![Screenshot](IMG_2270.jpg)
+9-8-2025: Prepared and glued the new wood blank, then re-drilled the hole.
 
-10-1-2025: 
-Research different cup holders and bases for the arm. 
+9-9-2025: Inserted the new metal shaft and began setting up a GitHub page to track my engineering work.
 
-10-6-2025: 
-Research motors for the cup holder arm. 
+9-10-2025: Successfully turned the pen to the desired shape and sanded it down to a smooth finish.
 
-10-9-2025: 
-Worked with Aaron to figure out design specs and draw out the design for the mechanical arm. 
 
-10-10-2025: 
-Practiced 3D printing a car to make sure that I understand how to print. Practiced focusing all three lazer cutters and printing on each to make sure that I know how to use them. 
+9-12-2025: Assembled the final pen with all components and tested its functionality.
 
+
+Reflection:
+
+This project taught me how to use the lathe safely and effectively. I learned the importance of patience and precision—especially when the first piece cracked. Restarting allowed me to practice better pressure control during turning. I also gained experience in drilling, gluing, and assembling components with tight tolerances.
+
+🔧 Soldering: The Owl Project
+
+Dates: 9-28-2025 to 9-30-2025
+
+Process Summary:
+
+9-28-2025: Practiced soldering on a test board with 3 resistors. Then began soldering the Owl Project PCB, starting with resistors, capacitors, and transistors.
+
+
+
+
+9-29-2025: Continued soldering LEDs onto the board.
+
+
+9-30-2025: Finished soldering all LEDs, the USB port, and ICs (integrated circuits). Final testing confirmed the board was functional.
+
+
+Successes:
+
+Successfully soldered all components with clean joints.
+
+The Owl Project functioned correctly after first testing.
+
+Setbacks & Solutions:
+
+Some solder joints were initially cold or uneven. I identified and reworked these using flux and re-heating.
+
+One LED was initially installed backward, so I desoldered and reoriented it properly.
+
+What I Learned:
+
+I improved my soldering precision and learned how to identify component orientation. This experience also taught me how to troubleshoot circuit boards and understand basic electronic components and their roles.
+
+🖥️ GitHub Repository
+
+Date Started: 9-9-2025
+Description: I created a GitHub repository to document all of my engineering projects. It includes logs, pictures, and reflections.
+
+
+🏗️ Capstone Project: Robotic Arm Cup Holder for Pearl Rehab Center
+
+Project Name: "Adaptive Arm-Based Beverage Delivery System"
+
+Description:
+
+In collaboration with Pearl Rehab Center, I began designing an assistive device to help users with limited mobility access drinks more easily. This robotic arm is meant to hold and move a cup to the user.
+
+Timeline:
+
+9-18-2025: Committed to working with Pearl Rehab and started research on the types of assistive technologies already available.
+
+10-1-2025: Researched various cup holder mechanisms and mounting systems.
+
+10-6-2025: Researched different motors (servo vs stepper) for the arm.
+
+10-9-2025: Worked with Aaron to finalize design specifications and created the initial sketch for the robotic arm system.
+
+10-10-2025: Practiced using all three laser cutters to ensure proficiency. Also 3D printed a sample car model to test printer functionality.
+
+📎 Link to Capstone Design Specs
+ (Insert actual design specs link)
+📎 Link to Capstone Project GitHub Folder
+ (Insert actual GitHub capstone link)
+
+❓Additional Work Not Listed
+
+Aside from the listed projects, I have also been experimenting with CAD software to design parts for the robotic arm. I’ve spent time learning Fusion 360 and Tinkercad to create models that can be 3D printed. I’m also becoming more familiar with Arduino so that I can eventually control the robotic arm electronically. My next steps will involve writing simple control code for motor movement and testing the assembly of the cup holder prototype.
