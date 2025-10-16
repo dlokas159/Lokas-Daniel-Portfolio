@@ -79,7 +79,9 @@ I improved my soldering precision and learned how to identify component orientat
 
 Date Started: 9-15-2025
 Description: I created a GitHub repository to document all of my engineering projects. It includes logs, pictures, and reflections.
+![Screenshot](Screenshot_2.png)
 
+---
 
 # Capstone Project: Robotic Arm Cup Holder for Pearl Rehab Center
 
