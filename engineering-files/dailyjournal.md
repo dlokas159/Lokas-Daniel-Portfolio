@@ -81,6 +81,9 @@ I improved my soldering precision and learned how to identify component orientat
 Date Started: 9-15-2025
 Description: I created a GitHub repository to document all of my engineering projects. It includes logs, pictures, and reflections.
 
+Date Started: 10-17-2025
+Description: Mr. Dubick showed us how to setup our Jekyll pages. 
+
 ### Screenshot of Shared Repository
 ![Screenshot](Screenshot_2.png)
 
