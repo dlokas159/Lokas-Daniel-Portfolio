@@ -1,5 +1,5 @@
 title: "Daniel Lokas – Portfolio"
-description: "AP Networking Projects: Component Cards, Command Line Interface <br> <br>Honors Senior Engineering Projects: "
+description: "AP Networking Projects: Component Cards, Command Line Interface <br> <br>Honors Senior Engineering Projects: Daily Journal"
 url: "https://dlokas159.github.io"  
 baseurl: "/Lokas-Daniel-Portfolio"   
 theme: jekyll-theme-architect
@@ -27,22 +27,10 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Daniel Lokas"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+  bio    : "AP Networking Projects: Component Cards, Command Line Interface <br> <br>Honors Senior Engineering Projects: Daily Journa"
+
 
 defaults:
   # _posts
