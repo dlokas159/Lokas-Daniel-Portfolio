@@ -84,7 +84,7 @@ In places like hospitals or businesses, poor authentication or missing updates c
 
 ## Evidence & Screenshots 
 - Password algorithm draft
-
+![algorithm](algorithm.png)
 - Successful `passwd` command screenshot
 
 - Sudo verification screenshot
