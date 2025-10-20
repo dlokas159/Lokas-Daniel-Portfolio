@@ -87,17 +87,23 @@ In places like hospitals or businesses, poor authentication or missing updates c
 
 ![algorithm](files/algorithm.png)
 - Successful `passwd` command screenshot
+
 ![algorithm](files/passwd.png)
 - Sudo verification screenshot
+
 ![algorithm](files/passwrd_confirmation.png)
 - MFA setup & SSH verification screenshot
+
 ![algorithm](files/qr_code.png)
 - `apt update`, `apt upgrade` outputs
+
 ![algorithm](files/downloads.png)
 - History log screenshots with annotations
+
 ![algorithm](files/grep_history_log.png)
 ![algorithm](files/grep_history_log2.png)
 - Package count & recent update screenshots
+
 ![algorithm](files/installs.png)
 
 ---
