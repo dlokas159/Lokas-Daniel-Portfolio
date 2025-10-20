@@ -11,7 +11,7 @@ Welcome — this is my AP Networking portfolio. Below are the projects I’m doc
 - [Component Cards](networking-assignments/component-cards.md)
 - [Command Line Interface](networking-assignments/command-line-interface.md)
 - [Determining Security Controls for Devices](networking-assignments/securitycontrols.md)
-- [Implementing_Securtiy_for_Devices](Implementing_Security_for_Devices.md)
+- [Implementing_Securtiy_for_Devices](networking-assignments/Implementing_Security_for_Devices.md)
 
 
 
