@@ -84,6 +84,7 @@ In places like hospitals or businesses, poor authentication or missing updates c
 
 ## Evidence & Screenshots 
 - Password algorithm draft
+
 ![algorithm](files/algorithm.png)
 - Successful `passwd` command screenshot
 ![algorithm](files/passwd.png)
