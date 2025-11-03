@@ -54,15 +54,15 @@ The final board turned out well. The traces looked clean, and everything matched
 
 ## Project Files
 
-- **CNC Design File (.mkc):** [Add your file here](path/to/your_file.mkc)  
-- **CNC Toolpath File (.nc):** [Add your file here](path/to/your_file.nc)
+- **CNC Design File (.mkc):** [Add your file here](DanielLokasTest.mkc)  
+- **CNC Toolpath File (.nc):** [Add your file here](DanielLokasgcode(1).nc)
 
 ---
 
 ## Workflows & Documentation
 
-- **Google Doc Workflow #1:** [Add link here](https://docs.google.com/)  
-- **Google Doc Workflow #2:** [Add link here](https://docs.google.com/)
+- **Google Doc Workflow #1:** [Add link here](https://docs.google.com/document/d/1SKvg_DTzKkXVsjcxNxB-ou9zOIFljDec56If0PjaD6E/edit?usp=sharing)  
+- **Google Doc Workflow #2:** [Add link here](https://docs.google.com/document/d/1tMpMIijNuEDbPG4J2HuDO3tpf7wVC5BP6VK4eXoooqs/edit?usp=sharing)
 
 ---
 
