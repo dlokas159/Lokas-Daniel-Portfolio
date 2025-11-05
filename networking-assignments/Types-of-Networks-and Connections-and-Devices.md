@@ -10,10 +10,12 @@ connecting to the internet?
 computer?
 
 ## The output of ip a in Shared (NAT) mode
-![shared](files/shared.png)
+<img width="719" height="356" alt="Image 11-5-25 at 10 25 AM" src="https://github.com/user-attachments/assets/e95ba587-029b-4fc6-b118-14ffdb21f01d" />
+
 
 ## The output of ip a in Bridged mode
-![bridged](files/bridged.png)
+<img width="719" height="356" alt="Image 11-5-25 at 10 25 AM" src="https://github.com/user-attachments/assets/a8a0db2d-da1f-4986-99f6-dde27b1e4f84" />
+
 
 ## The WhatIsMyIPAddress.com page results for both modes
 ### whatismyipdress.com IPv4 Shared Mode
