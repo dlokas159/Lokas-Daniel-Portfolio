@@ -9,7 +9,7 @@ connecting to the internet?
 5. How does Shared mode make it easier to connect multiple virtual machines on one
 computer?
 
-My internal and external IP addresses are different. The internal IP belongs to my local network and identifies my virtual machine inside my home or school network. The external IP belongs to the internet and is assigned by my internet provider. A virtual machine uses Network Address Translation (NAT) to share the host computer’s internet connection, which helps it go online without needing its own public IP. Shared mode makes it easier to connect multiple virtual machines on one computer because they can all use the same internet connection safely and easily.
+The internal and external IP addresses are different. The internal IP belongs to the local network and identifies the virtual machine inside a home or school network. The external IP belongs to the internet and is assigned by the internet provider. A virtual machine uses Network Address Translation (NAT) to share the host computer’s internet connection, which helps it go online without needing its own public IP. Shared mode makes it easier to connect multiple virtual machines on one computer because they can all use the same internet connection safely and easily.
 
 ## The output of ip a in Shared (NAT) mode
 <img width="719" height="356" alt="Image 11-5-25 at 10 25 AM" src="https://github.com/user-attachments/assets/e95ba587-029b-4fc6-b118-14ffdb21f01d" />
@@ -37,7 +37,7 @@ computer behind another device?
 4. Why might an organization choose Bridged mode instead of Shared (NAT) mode?
 5. What security or management challenges could come with using Bridged mode?
 
-When I switched to Bridged mode, my internal IP address changed from 192.168.64.2 to 10.32.1.32, showing that my VM joined a new part of the local network. My external IP stayed the same because both modes used the same internet provider. In Bridged mode, the VM acts more like a separate computer on the network instead of being hidden behind the host. An organization might use Bridged mode to let virtual machines communicate directly with other devices. However, it can be less secure because each VM is fully visible on the network.
+When it was switched to Bridged mode, the internal IP address changed from 192.168.64.2 to 10.32.1.32, showing that the VM joined a new part of the local network. The external IP stayed the same because both modes used the same internet provider. In Bridged mode, the VM acts more like a separate computer on the network instead of being hidden behind the host. An organization might use Bridged mode to let virtual machines communicate directly with other devices. However, it can be less secure because each VM is fully visible on the network.
 
 
 | Mode | Internal (Private) IP | External (Public) IP | Notes |
@@ -51,7 +51,7 @@ Write a short paragraph (5–7 sentences) beneath your table addressing the foll
 • How does NAT help manage limited IPv4 addresses and improve security?
 • What did you learn about how data travels from a device to the internet?
 
-Bridged mode made the VM appear as its own device on the network. Shared (NAT) mode provided a safer, more controlled setup because it hides the VM behind the host computer. NAT helps save IPv4 addresses by letting many devices share one public IP while keeping their private addresses separate. It also adds security by blocking outside access. I learned that data travels from a local device through the router (and sometimes NAT) before reaching the internet and coming back to the right device.
+Bridged mode made the VM appear as its own device on the network. Shared (NAT) mode provided a safer, more controlled setup because it hides the VM behind the host computer. NAT helps save IPv4 addresses by letting many devices share one public IP while keeping their private addresses separate. It also adds security by blocking outside access. Data travels from a local device through the router (and sometimes NAT) before reaching the internet and coming back to the right device.
 
 Write a short reflection (1 paragraph, 5–8 sentences) below your screenshots that answers these:
 • How did your IP addresses change between Shared and Bridged mode?
@@ -60,4 +60,4 @@ Write a short reflection (1 paragraph, 5–8 sentences) below your screenshots t
 lab environments?
 • Which mode do you think is best for classroom use, and why?
 
-When switching between Shared and Bridged mode, my internal IP changed, but my external IP stayed the same. This showed me how local and public networks work together through routers and IP translation. I learned that IT professionals use different network setups for safety, testing, or direct access. For classroom use, Shared (NAT) mode is better because it’s safer and easier to manage. This activity helped me understand how devices connect to each other and the internet.
+When switching between Shared and Bridged mode, the internal IP changed, but the external IP stayed the same. This showed how local and public networks work together through routers and IP translation. IT professionals use different network setups for safety, testing, or direct access. For classroom use, Shared (NAT) mode is better because it’s safer and easier to manage. This activity taught how devices connect to each other and the internet.
