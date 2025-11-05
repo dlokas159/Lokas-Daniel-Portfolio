@@ -13,8 +13,9 @@ computer?
 <img width="719" height="356" alt="Image 11-5-25 at 10 25 AM" src="https://github.com/user-attachments/assets/e95ba587-029b-4fc6-b118-14ffdb21f01d" />
 
 
+
 ## The output of ip a in Bridged mode
-<img width="719" height="356" alt="Image 11-5-25 at 10 25 AM" src="https://github.com/user-attachments/assets/a8a0db2d-da1f-4986-99f6-dde27b1e4f84" />
+<img width="725" height="293" alt="Screenshot 2025-11-05 at 10 31 28 AM" src="https://github.com/user-attachments/assets/05a75fb6-809d-4b1b-a3e5-92daf460d37e" />
 
 
 ## The WhatIsMyIPAddress.com page results for both modes
