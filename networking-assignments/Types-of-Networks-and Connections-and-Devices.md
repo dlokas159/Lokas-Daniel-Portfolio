@@ -41,3 +41,15 @@ computer behind another device?
 | **Shared(NAT)** | 192.168.64.2/24 | 173.95.44.210 | The Internal and Extrenal are different but the external for bridged and shared are the same |
 | **Bridged** | 10.32.1.32/23 | 173.95.44.210 | internal and external are very different |
 
+Write a short paragraph (5–7 sentences) beneath your table addressing the following:
+• Which mode made your VM appear as its own device on the local network?
+• Which mode provided a safer, more controlled environment?
+• How does NAT help manage limited IPv4 addresses and improve security?
+• What did you learn about how data travels from a device to the internet?
+
+Write a short reflection (1 paragraph, 5–8 sentences) below your screenshots that answers these:
+• How did your IP addresses change between Shared and Bridged mode?
+• What did this experiment teach you about how local and public networks communicate?
+• Why might IT professionals use different network configurations for home, business, or
+lab environments?
+• Which mode do you think is best for classroom use, and why?
