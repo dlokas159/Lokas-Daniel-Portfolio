@@ -28,11 +28,23 @@ The following images document class activities related to network planning, OSI 
 
 #### Base-10 and Base-25 Block Modeling Activities
 These images show the use of visual and physical representations to understand how data units and addressing scale in network systems.
+
+Decimal(Base 10): 
 ![IMG_2335](https://github.com/user-attachments/assets/7da27a73-2cfb-4a5d-9b7c-9cafb3533575)
+
+Decimal(Base 10) & Base 5: 
 ![IMG_2343](https://github.com/user-attachments/assets/a9741950-eb41-4e4f-8afc-790ed2048b92)
+
+Base 5): 
 ![IMG_2339](https://github.com/user-attachments/assets/c3b7a8ed-807b-4f9d-82f4-8f148e8964f3)
+
+Base 100: 
 ![IMG_2337](https://github.com/user-attachments/assets/9c2d7634-1871-4767-81e7-8bc2b8bb23c0)
+
+Decimal(Base 10) & Base 5: 
 ![IMG_2341](https://github.com/user-attachments/assets/5bbd9e76-57e0-49ea-b94e-e0e5c26d078e)
+
+Decimal(Base 10): 
 ![IMG_2333](https://github.com/user-attachments/assets/d59dc53a-0d70-479c-95d0-8f86e1db43a4)
 
 
