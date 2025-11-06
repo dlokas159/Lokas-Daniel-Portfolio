@@ -17,16 +17,24 @@ This preparation established a clear understanding of how virtual machines emula
 The following images document class activities related to network planning, OSI model understanding, and data movement demonstrations:
 
 #### OSI Layer Matching Activity
+##### First Attempt 
+![IMG_2356](https://github.com/user-attachments/assets/10c10749-0090-4f75-996b-a31a693eec4e)
+
+
+##### Correct organization
 <img width="710" height="858" alt="IMG_2357" src="https://github.com/user-attachments/assets/9d2cf691-fddb-44a5-8471-417b56b1d00c" />
-![IMG_2356](https://github.com/user-attachments/assets/fa7ea109-0a44-4cfb-87c1-d448391e4502)
+
 
 
 #### Base-10 and Base-25 Block Modeling Activities
 These images show the use of visual and physical representations to understand how data units and addressing scale in network systems.
-- ![Hundreds, Tens, Ones Activity](IMG_2333.jpeg)
-- ![Mixed Units Activity](IMG_2337.jpeg)
-- ![Hundreds and One Activity](IMG_2339.jpeg)
-- ![Blue Unit Blocks Activity](IMG_2341.jpeg)
+![IMG_2335](https://github.com/user-attachments/assets/7da27a73-2cfb-4a5d-9b7c-9cafb3533575)
+![IMG_2343](https://github.com/user-attachments/assets/a9741950-eb41-4e4f-8afc-790ed2048b92)
+![IMG_2339](https://github.com/user-attachments/assets/c3b7a8ed-807b-4f9d-82f4-8f148e8964f3)
+![IMG_2337](https://github.com/user-attachments/assets/9c2d7634-1871-4767-81e7-8bc2b8bb23c0)
+![IMG_2341](https://github.com/user-attachments/assets/5bbd9e76-57e0-49ea-b94e-e0e5c26d078e)
+![IMG_2333](https://github.com/user-attachments/assets/d59dc53a-0d70-479c-95d0-8f86e1db43a4)
+
 
 ---
 
