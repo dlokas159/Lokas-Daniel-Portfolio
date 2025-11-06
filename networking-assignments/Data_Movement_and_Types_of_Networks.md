@@ -56,13 +56,15 @@ Ubuntu Virtual Machines were used to perform network analysis, connection testin
 
 ### Networking Tools and Their Functions
 | Command/Tool | Purpose | OSI Layer |
-|---|---|---|
+|-----|-----|-----|
 | `ifconfig` / `ip a` | Displays IP address, network interface details, and broadcast address | Layer 3 |
 | `ping` | Tests network reachability and measures latency | Layer 3 (ICMP) |
 | `netstat -a` | Displays active connections and listening ports | Layer 4 |
 | `nc` (Netcat) | Sends text data over TCP for reliable communication | Layer 4 |
 | `ipcalc` | Converts IP addresses into binary and displays subnet mask structure | Layer 3 |
 | `printf` | Converts decimal IP octets into hexadecimal format | Data Representation Layer |
+
+
 
 ### Completed Lab Activities
 - IP address and subnet mask were identified on each VM using `ip a`
