@@ -1,3 +1,5 @@
+# Networking & Data Movement Digital Portfolio
+
 ## 1. Planning & Design
 
 Prior to completing the networking labs, foundational concepts of LAN communication and data movement through layered network models were reviewed. Notes and diagrams were used to understand how addressing, routing, and protocol operations occur in a local network environment.
@@ -10,6 +12,21 @@ Prior to completing the networking labs, foundational concepts of LAN communicat
 
 ### Simple LAN Diagram
 This preparation established a clear understanding of how virtual machines emulate real-world device communication.
+
+### Classwork Evidence
+The following images document class activities related to network planning, OSI model understanding, and data movement demonstrations:
+
+#### OSI Layer Matching Activity
+<img width="710" height="858" alt="IMG_2357" src="https://github.com/user-attachments/assets/9d2cf691-fddb-44a5-8471-417b56b1d00c" />
+![IMG_2356](https://github.com/user-attachments/assets/fa7ea109-0a44-4cfb-87c1-d448391e4502)
+
+
+#### Base-10 and Base-25 Block Modeling Activities
+These images show the use of visual and physical representations to understand how data units and addressing scale in network systems.
+- ![Hundreds, Tens, Ones Activity](IMG_2333.jpeg)
+- ![Mixed Units Activity](IMG_2337.jpeg)
+- ![Hundreds and One Activity](IMG_2339.jpeg)
+- ![Blue Unit Blocks Activity](IMG_2341.jpeg)
 
 ---
 
@@ -59,5 +76,3 @@ This evaluation confirmed how the same address can be represented differently de
 ## 4. Reflection & Professionalism
 
 This set of labs demonstrated how devices communicate within a local network and how different addressing systems interact during that process. The exercises showed the functional roles of IP addresses, MAC addresses, and transport protocols in maintaining reliable data exchange. Additionally, examining binary and hexadecimal forms of network data provided a deeper understanding of how network information is processed at the machine level. The portfolio is formatted clearly and presented in a professional and technical structure.
-
----
