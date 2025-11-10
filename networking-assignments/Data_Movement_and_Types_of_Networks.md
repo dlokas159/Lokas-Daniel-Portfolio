@@ -47,6 +47,19 @@ Decimal(Base 10) & Base 5:
 Decimal(Base 10): 
 ![IMG_2333](https://github.com/user-attachments/assets/d59dc53a-0d70-479c-95d0-8f86e1db43a4)
 
+#### Roadmap Mini Project
+![IMG_2390](https://github.com/user-attachments/assets/6d3b28fd-6869-4515-a3cc-cdd76eb934db)
+
+![IMG_2391](https://github.com/user-attachments/assets/56ef975c-00be-47c2-a2ca-dc8b6402464c)
+
+##### Roadmap Reflection: 
+My roadmap shows how data moves from one device to another, step by step through the OSI
+model. It starts at the Application Layer where the message is created and travels all the way down
+to the Physical Layer where it becomes bits on a wire or radio signal. Then it travels across the
+network and goes back up the layers on the receiver side until it reaches the application again. I
+think the Transport Layer is the most important because it makes sure the data is complete and
+error-free using TCP or UDP. This project helped me understand how the OSI model connects with
+the TCP/IP model, and how each layer depends on the others to make communication possible.
 
 ---
 
