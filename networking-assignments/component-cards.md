@@ -133,7 +133,7 @@ It saves my view
 Every part's got a job to do
 
 # 4. AI Generated Component Song 
-![Video](Digital Symphony.mp3)
+[Video](Digital Symphony.mp3)
 
 
 # 5. Reflection for Component Hardware and Software
