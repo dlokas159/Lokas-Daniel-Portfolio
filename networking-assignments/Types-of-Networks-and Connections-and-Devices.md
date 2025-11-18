@@ -2,6 +2,16 @@
 
 ---
 
+# OSI / TCP-IP Layer Diagram (Planning & Design Requirement)
+![IMG_2390](https://github.com/user-attachments/assets/4b1339cb-681f-4ec4-b65e-984c7f5825aa)
+![IMG_2391](https://github.com/user-attachments/assets/eb32a5b7-dea1-4deb-badb-6636dc0c2c70)
+
+
+### OSI/TCP-IP Diagram Explanation
+This diagram shows how the seven layers of the OSI Model and the four layers of the TCP/IP Model relate to each other. It also helps explain where each of the activities in this unit occurs. Cable construction and testing happen at Layer 1 (Physical), ARP and MAC addressing occur at Layer 2 (Data Link), IP addressing and routing operate at Layer 3 (Network), and traceroute and ping testing also rely on Layer 3. The web server activity operates at Layer 7 (Application). Understanding these layers made it easier to see how every part of the labs connects together into one working network system.
+
+---
+
 # Lesson 1 - Exploring IP Adresses
 
 ## Answer the following in complete sentences in a well-written paragraph on your digital porfolio:
@@ -326,3 +336,6 @@ The traceroute output shows the number of hops and routers my packets travel thr
 
 This lesson demonstrated how devices communicate on a network by allowing me to design a complete SOHO layout and then test real connectivity using Ubuntu virtual machines. OSI Layers 1 through 3 were actively involved throughout the lab: Layer 1 handled the physical and wireless connections, Layer 2 managed MAC addressing and local communication shown through commands like `arp -a`, and Layer 3 controlled IP routing, visible in the routing table and the path traced by `traceroute`. Enabling the firewall reinforced how security controls filter traffic and protect systems from unauthorized access. The traceroute results were especially surprising because they revealed how many routers and networks my data travels through before reaching something as simple as Google. The web server activity demonstrated how real websites operate, with one device hosting content and another accessing it through an HTTP request. If this were my own home network, I would add an additional access point for stronger coverage, set more static IPs for critical devices, and implement stronger firewall rules to improve reliability and security.
 
+# Final Reflection 
+
+This entire unit helped me understand how all parts of a network fit together, from the physical cable to the application layer. IP addressing labs showed me the difference between private and public networks and how NAT protects devices while sharing a single public IP. The topology drawings taught me how different network layouts affect cost, speed, reliability, and scalability. Building and testing my own Ethernet cable connected directly to OSI Layer 1 and helped me see how physical signals support everything above them. The OSI Layer 1–2 lab helped me analyze MAC addresses, frames, and packet flow, giving me a clearer picture of how devices talk on the local network. The SOHO network project brought everything together by requiring a full design, device addressing, security settings, routing analysis, and even an application-layer web server. Altogether, these lessons helped me understand how networks function from the cable all the way up to the applications people use every day.
