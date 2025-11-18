@@ -146,7 +146,7 @@ A combination of two or more topology types. An example is several star networks
 
 ## Reflection Paragraph
 
-The easiest topology to set up for a small business is the star topology because it requires only one central switch and simple point-to-point connections, making it straightforward to install and maintain. The most reliable topology when a single connection fails is the mesh topology since it provides multiple paths for data, allowing communication to continue even if one link goes down. The most expensive topology to implement is also the mesh topology due to the large number of cables and connections needed to link every device to multiple others. I believe my school most likely uses a hybrid topology because large organizations typically combine multiple star networks or other configurations to support different buildings, departments, and floors while maintaining speed and reliability. The physical layout of a topology affects network performance because shorter, more direct paths reduce congestion and improve speed, while redundant layouts improve reliability by ensuring that data can still travel even if a cable or device fails. Overall, the topology chosen has a major impact on cost, speed, scalability, and reliability in any network environment.
+The easiest topology to set up for a small business is the star topology because it requires only one central switch and simple point-to-point connections, making it straightforward to install and maintain. The most reliable topology when a single connection fails is the mesh topology since it provides multiple paths for data, allowing communication to continue even if one link goes down. The most expensive topology to implement is also the mesh topology due to the large number of cables and connections needed to link every device to multiple others. Charlotte Latin school most likely uses a hybrid topology because large organizations typically combine multiple star networks or other configurations to support different buildings, departments, and floors while maintaining speed and reliability. The physical layout of a topology affects network performance because shorter, more direct paths reduce congestion and improve speed, while redundant layouts improve reliability by ensuring that data can still travel even if a cable or device fails. Overall, the topology chosen has a major impact on cost, speed, scalability, and reliability in any network environment.
 
 # Lesson 3 - Cable Constructing and Testing 
 
@@ -204,7 +204,7 @@ The easiest topology to set up for a small business is the star topology because
 
 ## Part 2: Reflection Paragraph
 
-The most challenging step in creating my Ethernet cable was arranging the wires neatly in the correct T568B order, because keeping the pairs straight, flat, and aligned while preventing them from springing out of place required patience and precision. Maintaining the correct wire order is critical for network reliability because Ethernet communication depends on specific pins handling transmit and receive signals; even a single misordered wire can cause signal loss, failed connections, or reduced performance. This hands-on process directly connects to the Physical Layer (Layer 1) of the OSI Model, which is responsible for transmitting electrical signals through copper wires, and building the cable showed how the physical medium determines whether those signals can travel correctly. If a cable were built incorrectly but never tested, a real network could experience intermittent failures, slow speeds, or complete device disconnection, leading to troubleshooting delays and unnecessary equipment replacement. Labeling my cable and using professional tools mirrored real-world industry standards, where technicians must ensure accuracy, durability, and traceability of every cable before installation. This process demonstrated how careful construction, proper testing, and clear labeling form the foundation of reliable network infrastructure.
+The most challenging step in creating the Ethernet cable was arranging the wires neatly in the correct T568B order, because keeping the pairs straight, flat, and aligned while preventing them from springing out of place required patience and precision. Maintaining the correct wire order is critical for network reliability because Ethernet communication depends on specific pins handling transmit and receive signals; even a single misordered wire can cause signal loss, failed connections, or reduced performance. This hands-on process directly connects to the Physical Layer (Layer 1) of the OSI Model, which is responsible for transmitting electrical signals through copper wires, and building the cable showed how the physical medium determines whether those signals can travel correctly. If a cable were built incorrectly but never tested, a real network could experience intermittent failures, slow speeds, or complete device disconnection, leading to troubleshooting delays and unnecessary equipment replacement. Labeling the cable and using professional tools mirrored real-world industry standards, where technicians must ensure accuracy, durability, and traceability of every cable before installation. This process demonstrated how careful construction, proper testing, and clear labeling form the foundation of reliable network infrastructure.
 
 # Lesson 4 - Network Interface & OSI Layer Lab Report
 
@@ -219,7 +219,7 @@ The most challenging step in creating my Ethernet cable was arranging the wires 
 - **Broadcast address:** ff:ff:ff:ff:ff:ff  
 
 ### Explanation
-The `ip link show` command lists all network interfaces on my Ubuntu VM. The active interface, **enp0s1**, is my virtual network card. The MAC address uniquely identifies my VM’s network interface on the local network, while the broadcast address is used to send data to all devices on the same LAN.
+The `ip link show` command lists all network interfaces on the Ubuntu VM. The active interface, **enp0s1**, is the virtual network card. The MAC address uniquely identifies the VM’s network interface on the local network, while the broadcast address is used to send data to all devices on the same LAN.
 
 ---
 
@@ -228,7 +228,7 @@ The `ip link show` command lists all network interfaces on my Ubuntu VM. The act
 
 
 ### Explanation
-The `arp -n` command displays the ARP (Address Resolution Protocol) table, which maps IP addresses to MAC addresses. Each entry represents a device my VM has recently communicated with. ARP helps my computer determine which MAC address corresponds to which IP address so data can be correctly delivered on the local network.
+The `arp -n` command displays the ARP (Address Resolution Protocol) table, which maps IP addresses to MAC addresses. Each entry represents a device the VM has recently communicated with. ARP helps the computer determine which MAC address corresponds to which IP address so data can be correctly delivered on the local network.
 
 ---
 
@@ -238,7 +238,7 @@ The `arp -n` command displays the ARP (Address Resolution Protocol) table, which
 
 
 ### Explanation
-This command shows how many packets have been sent (TX) and received (RX) on my active interface. It may also include error counts, connection speed, and duplex mode. My results indicated a **1000Mb/s full-duplex** connection, meaning data can flow both directions simultaneously. The packet counts show how active my VM’s network connection has been.
+This command shows how many packets have been sent (TX) and received (RX) on the active interface. It may also include error counts, connection speed, and duplex mode. The results indicated a **1000Mb/s full-duplex** connection, meaning data can flow both directions simultaneously. The packet counts show how active the VM’s network connection has been.
 
 ---
 
@@ -247,14 +247,14 @@ This command shows how many packets have been sent (TX) and received (RX) on my 
 
 
 ### Explanation
-This command captured five packets of live network traffic. Each packet displays a **source MAC address** (sender) and a **destination MAC address** (receiver). The captured traffic included ARP and IP packets, showing that my VM was exchanging basic network information and possibly ping responses. This demonstrates how data physically moves between devices at OSI Layers 1 and 2.
+This command captured five packets of live network traffic. Each packet displays a **source MAC address** (sender) and a **destination MAC address** (receiver). The captured traffic included ARP and IP packets, showing that the VM was exchanging basic network information and possibly ping responses. This demonstrates how data physically moves between devices at OSI Layers 1 and 2.
 
 ---
 
 ## Reflection
-In this lab, I learned how my Ubuntu VM communicates on the network using its interface and MAC address. The MAC address acts as a permanent hardware identifier, while the IP address can change and is used at a higher layer for routing. ARP links these two systems by mapping IP addresses (Layer 3) to MAC addresses (Layer 2), allowing my VM to send frames to the correct device on the local network.
+This lab taught how the Ubuntu VM communicates on the network using its interface and MAC address. The MAC address acts as a permanent hardware identifier, while the IP address can change and is used at a higher layer for routing. ARP links these two systems by mapping IP addresses (Layer 3) to MAC addresses (Layer 2), allowing the VM to send frames to the correct device on the local network.
 
-Viewing live packets with `tcpdump` allowed me to see actual frames being transmitted, including source and destination addressing. This clarified how the **Physical Layer (Layer 1)** transmits raw bits while the **Data Link Layer (Layer 2)** frames those bits and ensures they reach the correct destination. Together, they form the foundation for all network communication.
+Viewing live packets with `tcpdump` allowed viewing of actual frames being transmitted, including source and destination addressing. This clarified how the **Physical Layer (Layer 1)** transmits raw bits while the **Data Link Layer (Layer 2)** frames those bits and ensures they reach the correct destination. Together, they form the foundation for all network communication.
 
 ---
 
@@ -275,7 +275,7 @@ Commands such as `ip link show`, `ethtool`, and `tcpdump` provided insight into 
 
 
 ## Network Explanation
-My SOHO network is designed to balance reliability, organization, and realistic device placement using the 192.168.50.0/24 addressing scheme. The router serves as the gateway for all devices and holds the static address 192.168.50.1, while the switch expands the number of wired ports for the Ubuntu computers, printer, and NAS. The access point provides wireless coverage for mobile devices like the smartphone, tablet, and IoT device. The printer and NAS use static IP addresses so they remain easy to locate on the network, while the computers and wireless devices receive their addresses automatically through DHCP. Each connection was chosen to reflect real-world setups: wired links for stationary and bandwidth-intensive devices, and wireless links for mobile or convenience-based devices. This design creates a stable, organized, and scalable SOHO network that mirrors those used in homes and small offices.
+This SOHO network is designed to balance reliability, organization, and realistic device placement using the 192.168.50.0/24 addressing scheme. The router serves as the gateway for all devices and holds the static address 192.168.50.1, while the switch expands the number of wired ports for the Ubuntu computers, printer, and NAS. The access point provides wireless coverage for mobile devices like the smartphone, tablet, and IoT device. The printer and NAS use static IP addresses so they remain easy to locate on the network, while the computers and wireless devices receive their addresses automatically through DHCP. Each connection was chosen to reflect real-world setups: wired links for stationary and bandwidth-intensive devices, and wireless links for mobile or convenience-based devices. This design creates a stable, organized, and scalable SOHO network that mirrors those used in homes and small offices.
 
 ---
 
@@ -318,7 +318,7 @@ Enabling the firewall protects the system by filtering incoming network traffic,
 
 
 ### Traceroute Summary
-The traceroute output shows the number of hops and routers my packets travel through before reaching the destination. This demonstrates how data moves across multiple networks, even for a simple request, and highlights how routing devices guide traffic through the internet.
+The traceroute output shows the number of hops and routers the packets travel through before reaching the destination. This demonstrates how data moves across multiple networks, even for a simple request, and highlights how routing devices guide traffic through the internet.
 
 ---
 
@@ -334,8 +334,8 @@ The traceroute output shows the number of hops and routers my packets travel thr
 
 ## Reflection Paragraph
 
-This lesson demonstrated how devices communicate on a network by allowing me to design a complete SOHO layout and then test real connectivity using Ubuntu virtual machines. OSI Layers 1 through 3 were actively involved throughout the lab: Layer 1 handled the physical and wireless connections, Layer 2 managed MAC addressing and local communication shown through commands like `arp -a`, and Layer 3 controlled IP routing, visible in the routing table and the path traced by `traceroute`. Enabling the firewall reinforced how security controls filter traffic and protect systems from unauthorized access. The traceroute results were especially surprising because they revealed how many routers and networks my data travels through before reaching something as simple as Google. The web server activity demonstrated how real websites operate, with one device hosting content and another accessing it through an HTTP request. If this were my own home network, I would add an additional access point for stronger coverage, set more static IPs for critical devices, and implement stronger firewall rules to improve reliability and security.
+This lesson demonstrated how devices communicate on a network by allowing guiding the design a complete SOHO layout and then test real connectivity using Ubuntu virtual machines. OSI Layers 1 through 3 were actively involved throughout the lab: Layer 1 handled the physical and wireless connections, Layer 2 managed MAC addressing and local communication shown through commands like `arp -a`, and Layer 3 controlled IP routing, visible in the routing table and the path traced by `traceroute`. Enabling the firewall reinforced how security controls filter traffic and protect systems from unauthorized access. The traceroute results were especially surprising because they revealed how many routers and networks the data travels through before reaching something as simple as Google. The web server activity demonstrated how real websites operate, with one device hosting content and another accessing it through an HTTP request. If this were a own home network, there should be an additional access point for stronger coverage, set more static IPs for critical devices, and implement stronger firewall rules to improve reliability and security.
 
 # Final Reflection 
 
-This entire unit helped me understand how all parts of a network fit together, from the physical cable to the application layer. IP addressing labs showed me the difference between private and public networks and how NAT protects devices while sharing a single public IP. The topology drawings taught me how different network layouts affect cost, speed, reliability, and scalability. Building and testing my own Ethernet cable connected directly to OSI Layer 1 and helped me see how physical signals support everything above them. The OSI Layer 1–2 lab helped me analyze MAC addresses, frames, and packet flow, giving me a clearer picture of how devices talk on the local network. The SOHO network project brought everything together by requiring a full design, device addressing, security settings, routing analysis, and even an application-layer web server. Altogether, these lessons helped me understand how networks function from the cable all the way up to the applications people use every day.
+This entire unit helped clarified understand how all parts of a network fit together, from the physical cable to the application layer. IP addressing labs showed the difference between private and public networks and how NAT protects devices while sharing a single public IP. The topology drawings taught how different network layouts affect cost, speed, reliability, and scalability. Building and testing the own Ethernet cable connected directly to OSI Layer 1 and helped see how physical signals support everything above them. The OSI Layer 1–2 lab helped analyze MAC addresses, frames, and packet flow, giving a clearer picture of how devices talk on the local network. The SOHO network project brought everything together by requiring a full design, device addressing, security settings, routing analysis, and even an application-layer web server. Altogether, these lessons helped understand how networks function from the cable all the way up to the applications people use every day.
