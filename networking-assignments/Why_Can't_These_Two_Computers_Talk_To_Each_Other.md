@@ -40,7 +40,7 @@ If the interface shows state DOWN, that means Layer 1 (physical) is not active.
 Digital Portfolio Evidence #1
 Take a screenshot of ip a from both VMs, showing the wired interface status.
 <img width="647" height="330" alt="Screenshot 2025-11-18 at 3 10 49 PM" src="https://github.com/user-attachments/assets/20324670-1f1d-4b3a-bf04-7b4c840d9189" />
-
+<img width="638" height="391" alt="Screenshot 2025-11-18 at 3 11 46 PM" src="https://github.com/user-attachments/assets/99b08360-8e42-4ca1-ba54-3216d90c6ec3" />
 
 ## PART 2 — Data Link Layer Check (Layer 2)
 To communicate directly, both VMs must be on the same Layer 2 network.
@@ -61,9 +61,7 @@ Digital Portfolio Evidence #2
 Screenshot your ping attempt AND write one sentence explaining what Layer 2 behavior you
 observed.
 <img width="638" height="235" alt="Screenshot 2025-11-18 at 3 12 40 PM" src="https://github.com/user-attachments/assets/1e9b43e5-49cc-4362-9a99-7ea6c97905f4" />
-<img width="638" height="391" alt="Screenshot 2025-11-18 at 3 11 46 PM" src="https://github.com/user-attachments/assets/99b08360-8e42-4ca1-ba54-3216d90c6ec3" />
-
-
+<img width="168" height="17" alt="unnamed" src="https://github.com/user-attachments/assets/3c277a77-2c7e-4b94-abf0-0b656ad3247f" />
 
 ## PART 3 — Network Layer Check (Layer 3: IP Addressing)
 Now you must determine whether the issue comes from IP configuration.
@@ -94,9 +92,6 @@ Digital Portfolio Evidence #3
 Insert both IP screenshots and write a paragraph explaining why Layer 3 addressing cannot
 work under this configuration.
 <img width="158" height="16" alt="Screenshot 2025-11-18 at 3 14 03 PM" src="https://github.com/user-attachments/assets/84762ef3-c0d0-4fde-b974-22970c2370e8" />
-<img width="168" height="17" alt="unnamed" src="https://github.com/user-attachments/assets/3c277a77-2c7e-4b94-abf0-0b656ad3247f" />
-
-
 
 ## PART 4 — Test Ping Again (Confirming Failure)
 Run:
