@@ -14,6 +14,7 @@ Welcome — this is my AP Networking portfolio. Below are the projects I’m doc
 - [Implementing_Securtiy_for_Devices](networking-assignments/Implementing_Security_for_Devices.md)
 - [Data_Movement_and_Types_of_Networks](networking-assignments/Data_Movement_and_Types_of_Networks.md)
 - [Types-of-Networks-and Connections-and-Devices](networking-assignments/Types-of-Networks-and Connections-and-Devices.md)
+- [Types-of-Networks-and Connections-and-Devices](networking-assignments/Why_Can't_These_Two_Computers_Talk_To_Each_Other?.md)
 
 
 
