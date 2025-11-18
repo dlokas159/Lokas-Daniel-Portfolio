@@ -171,7 +171,7 @@ The easiest topology to set up for a small business is the star topology because
 ---
 
 ## Video #1 — Stripping Demonstration
-![Stripping_Demonstration](https://drive.google.com/file/d/13eyTqemNfenZUgEKhKhKd6ohJ5_NpI1x/view?usp=drive_link)
+[Stripping_Demonstration](https://drive.google.com/file/d/13eyTqemNfenZUgEKhKhKd6ohJ5_NpI1x/view?usp=drive_link)
 
 ---
 
@@ -182,7 +182,7 @@ The easiest topology to set up for a small business is the star topology because
 ---
 
 ## Video #2 — Cable Testing Demonstration
-![Cable_Testing](https://drive.google.com/file/d/15e-iYiy3DJiNlp0rhjtD1BJAMc9Xz0yt/view?usp=drive_link)
+[Cable_Testing](https://drive.google.com/file/d/15e-iYiy3DJiNlp0rhjtD1BJAMc9Xz0yt/view?usp=drive_link)
 
 ---
 
