@@ -91,6 +91,7 @@ Digital Portfolio Evidence #3
 Insert both IP screenshots and write a paragraph explaining why Layer 3 addressing cannot
 work under this configuration.
 <img width="158" height="16" alt="Screenshot 2025-11-18 at 3 14 03 PM" src="https://github.com/user-attachments/assets/84762ef3-c0d0-4fde-b974-22970c2370e8" />
+<img width="168" height="17" alt="unnamed" src="https://github.com/user-attachments/assets/3c277a77-2c7e-4b94-abf0-0b656ad3247f" />
 
 ## PART 4 — Test Ping Again (Confirming Failure)
 Run:
@@ -104,7 +105,6 @@ Screenshot your ping failure
 AND
 Write 2–3 sentences describing which OSI layer is responsible.
 <img width="520" height="199" alt="Screenshot 2025-11-18 at 3 17 49 PM" src="https://github.com/user-attachments/assets/6260e93c-87d3-46ca-8b84-a93ee8a825e8" />
-<img width="168" height="17" alt="unnamed" src="https://github.com/user-attachments/assets/3c277a77-2c7e-4b94-abf0-0b656ad3247f" />
 
 
 ## HOMEWORK PART 5 — Final Reflection Paragraph
