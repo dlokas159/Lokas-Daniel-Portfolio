@@ -38,13 +38,16 @@ Usually located on the metal bracket or near the port.
 - Draw an arrow to the Ethernet port and label it.  
 - Draw an arrow to the PCIe connector and label it.  
 - Draw an arrow to the main controller chip and label it.
-https://mail.google.com/mail/u/0?ui=2&ik=5f8a137b04&attid=0.1&permmsgid=msg-a:r5267786008811769903&th=19a9d4184703f848&view=att&disp=safe&realattid=19a9d417d9c5b7c0e72&zw
+![IMG_2413](https://github.com/user-attachments/assets/c910c166-67e9-455a-80b7-5a2a3b6b7284)
+
 
 #### Task for Image B
 - Draw an arrow to the MAC address label and label it.  
 - Record the MAC address exactly as printed:  
   `04:92:22:64:IA:80:4C`  
 - Write one sentence explaining what a MAC address does on a local network.
+![IMG_2414](https://github.com/user-attachments/assets/97755f43-13d7-40ad-999d-3764e9b88d25)
+
 
 ---
 
@@ -76,7 +79,7 @@ Example:
 
 
 Record your own MAC address.
-
+92:e1:0d:6f:d4:91 
 ---
 
 ## 2. Identify the OUI
@@ -89,8 +92,8 @@ Example:
 
 Write down:
 
-- Your full MAC address  
-- Your OUI  
+- Your full MAC address: 92:e1:0d:6f:d4:91 
+- Your OUI: 92:e1:0d
 
 ---
 
