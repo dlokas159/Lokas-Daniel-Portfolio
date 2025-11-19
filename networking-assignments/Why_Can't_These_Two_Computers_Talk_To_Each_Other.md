@@ -116,6 +116,7 @@ Screenshot your ping failure
 AND
 Write 2–3 sentences describing which OSI layer is responsible.
 <img width="520" height="199" alt="Screenshot 2025-11-18 at 3 17 49 PM" src="https://github.com/user-attachments/assets/6260e93c-87d3-46ca-8b84-a93ee8a825e8" />
+<img width="638" height="235" alt="Screenshot 2025-11-18 at 3 12 40 PM" src="https://github.com/user-attachments/assets/1e9b43e5-49cc-4362-9a99-7ea6c97905f4" />
 
 Written Explanation 
 
