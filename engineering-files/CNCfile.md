@@ -5,7 +5,7 @@ This repository documents my progress learning CNC PCB design and milling — fr
 ---
 ## Daily Log
 
-## 2025-10-27
+### 2025-10-27
 **Activity:**  
 Created the CNC file in MakerCAD following the provided tutorial.
 
@@ -17,7 +17,7 @@ This was a solid introduction to the workflow. The tutorial helped clarify the c
 
 ---
 
-## 2025-10-28
+### 2025-10-28
 **Activity:**  
 Created the CNC file independently for practice.
 
@@ -29,7 +29,7 @@ Working independently helped build confidence with the CNC design process. Some 
 
 ---
 
-## 2025-10-30
+### 2025-10-30
 **Activity:**  
 Printed the CNC file and learned how to use the milling machine.
 
@@ -41,7 +41,7 @@ It was exciting to see the digital design turn into a physical board. The bigges
 
 ---
 
-## 2025-10-31
+### 2025-10-31
 **Activity:**  
 Received the final PCB and inspected the board.
 
