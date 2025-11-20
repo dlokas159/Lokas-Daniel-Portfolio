@@ -79,7 +79,7 @@ To document the important decisions made throughout the process:
 - File → Import PCB → select F.Cu layer to add top layer copper file
 - File → Import PCB → select Resistance1-PTH.drl (drill file) to mark where the CNC should drill holes into the board
 - Select board and press M, set the anchor to the bottom left corner and move board to (6, 6)
-*Note: If the object is dotted, it is selected. If it is solid, then it is not selected*
+Note: If the object is dotted, it is selected. If it is solid, then it is not selected
 - Go to top line, hit shift key and deselect the top line
 - Block the bottom three files
 - Select 2D Pocket to add a toolhead to the CNC
@@ -99,7 +99,7 @@ To document the important decisions made throughout the process:
 - Tool 0.8mm Corn
 - Strategy: position is outside
 - Go to tabs → Custom → tabs → add → click on selected box (you want 3 tabs)
-*Note: Don’t put tabs across each other! It will break the board. Make sure to offset them slightly*
+Note: Don’t put tabs across each other! It will break the board. Make sure to offset them slightly
 - Click preview at the top
 
 **CNC Machine Workflow:**
