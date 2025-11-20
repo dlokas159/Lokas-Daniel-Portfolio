@@ -52,6 +52,15 @@ The final board turned out well. The traces looked clean, and everything matched
 
 ---
 
+## Key Decisions During the Project
+To document the important decisions made throughout the process:
+- Trace Width Selection: Chose a width that balanced manufacturability and spacing, ensuring the milling bit could isolate each trace cleanly.
+- Tool Diameter Choice: Selected a bit size that matched the smallest trace clearance to avoid overcutting.
+- Board Outline Size: Adjusted the outline to match the actual copper-clad board to avoid cutting off the edge.
+- Cutting Depth: Increased depth slightly after early cuts were too shallow, ensuring copper was fully removed without damaging material.
+- Alignment Corrections: Reworked several traces during the independent practice session to achieve proper spacing and avoid shorts.
+
+
 ## Project Files
 
 - **CNC Design File (.mkc):** [link](DanielLokasTest.mkc)  
@@ -67,19 +76,32 @@ The final board turned out well. The traces looked clean, and everything matched
 
 ---
 
-## Final PCB
+## Photo Documentation
+MakerCAD Design Screenshot
+![Design Screenshot](designscreenshot.png)  
 
+Screenshot of the PCB layout created in MakerCAD showing traces, pads, and the board outline before generating toolpaths.
+
+Toolpath Preview Screenshot
+![Toolpath Preview](toothpathpreview.png)  
+
+Generated CNC toolpaths for isolation routing and cutting, used to verify that trace spacing and cut depths were correct before milling.
+
+Board After Milling (Before Cleaning)
 ![CNC PCB](CNC.jpg)  
-*Final CNC PCB after milling.*
+
+The freshly milled PCB immediately after the machine finished cutting, showing isolated traces and copper debris prior to cleaning.
 
 ---
 
 ## Final Reflection
 
-Throughout this project, one of the main challenges was ensuring that the **digital measurements in MakerCAD matched the physical dimensions** of the board material used for milling. The first few attempts revealed slight mismatches in trace spacing and board size, which required recalibrating the CNC machine and double-checking the scaling within the software. This experience emphasized the importance of verifying units, toolpath precision, and material thickness before printing.  
+Throughout this project, one of the main challenges was ensuring that the digital measurements in MakerCAD matched the physical dimensions of the board material used for milling. The first few attempts revealed slight mismatches in trace spacing and board size, which required recalibrating the CNC machine and double-checking the scaling within the software. This experience emphasized the importance of verifying units, toolpath precision, and material thickness before printing.
 
-Another learning point was understanding how **tool zeroing and cutting depth** directly affect the trace quality. Initially, the cuts were too shallow, leaving excess copper, but careful re-zeroing and testing resolved the issue.  
+Another learning point was understanding how tool zeroing and cutting depth directly affect the trace quality. Initially, the cuts were too shallow, leaving excess copper, but careful re-zeroing and testing resolved the issue. Seeing the effect of just fractions of a millimeter on final trace quality taught me how precise CNC milling truly is.
 
-In the end, successfully producing a clean and accurate PCB was a rewarding milestone. This project helped strengthen my understanding of the **entire CNC workflow**—from CAD design to fabrication—and built confidence in troubleshooting, precision measurement, and digital manufacturing techniques.
+Additionally, choosing the correct tool diameter mattered more than expected. A larger bit could have destroyed fine traces, while a smaller one increased milling time. Balancing these trade-offs helped reinforce the engineering behind fabrication.
+
+Overall, successfully producing a clean and accurate PCB was a rewarding milestone. This project helped strengthen my understanding of the entire CNC workflow—from CAD design to fabrication—and built confidence in troubleshooting, precision measurement, and digital manufacturing techniques.
 
 ---
