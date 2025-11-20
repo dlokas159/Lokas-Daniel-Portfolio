@@ -56,6 +56,7 @@ The final board turned out well. The traces looked clean, and everything matched
 
 - **CNC Design File (.mkc):** [link](DanielLokasTest.mkc)  
 - **CNC Toolpath File (.nc):** [link](DanielLokasgcode(1).nc)
+- **KiCad Files** [link](pcb_milling_files.zip)
 
 ---
 
