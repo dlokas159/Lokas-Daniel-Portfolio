@@ -71,8 +71,50 @@ To document the important decisions made throughout the process:
 
 ## Workflows & Documentation
 
-- **Google Doc Workflow #1:** [link](https://docs.google.com/document/d/1SKvg_DTzKkXVsjcxNxB-ou9zOIFljDec56If0PjaD6E/edit?usp=sharing)  
-- **Google Doc Workflow #2:** [link](https://docs.google.com/document/d/1tMpMIijNuEDbPG4J2HuDO3tpf7wVC5BP6VK4eXoooqs/edit?usp=sharing)
+**CNC Workflow:**
+- Open MakeraCam
+- Open project 3-axis
+- File → Import PCB → select Edge Cuts.gbr file
+- File → Import PCB → select F.Cu layer to add top layer copper file
+- File → Import PCB → select Resistance1-PTH.drl (drill file) to mark where the CNC should drill holes into the board
+- Select board and press M, set the anchor to the bottom left corner and move board to (6, 6)
+*Note: If the object is dotted, it is selected. If it is solid, then it is not selected*
+- Go to top line, hit shift key and deselect the top line
+- Block the bottom three files
+- Select 2D Pocket to add a toolhead to the CNC
+- Set end depth to 0.05mm
+- Go to add tool → 0.8mm Corn
+- Go to add tool → 0.2mm*30 Engraving(Metal)
+- Select choose
+- Click calculate
+- Block everything but the drl files
+- Select everything and select 2D drilling
+- Set drill tip end depth to 1.7mm
+- Just add the 0.8mm Corn tool
+- calculate
+- Block everything but resistance edge cuts (Deselect top line and select bottom line)
+- 2D contour
+- End depth 1.7mm
+- Tool 0.8mm Corn
+- Strategy: position is outside
+- Go to tabs → Custom → tabs → add → click on selected box (you want 3 tabs)
+*Note: Don’t put tabs across each other! It will break the board. Make sure to offset them slightly*
+- Click preview at the top
+
+**CNC Machine Workflow:**
+- First put the copper in the corner
+- Tighten the bolts near the inside of the copper to hold it in place
+- Tighten the bracket to help hold the copper in place(make sure the small side is the one holding the copper down)
+- Then go to carver controller software
+- Download your gcode file
+- Press open gcode in the bottom left and select and upload the gcode file you are using
+- After file uploaded hit run gcode in bottom left(to the right of open gcode)
+- Once you are in config and run
+- Auto vacuum: on
+- Select scan margin
+- Select auto leveling
+- Click run (ensure the voltage is above 3.6 before running)
+
 
 ---
 
