@@ -1,8 +1,9 @@
-# CNC PCB Milling Log
+# CNC PCB Milling Portfolio
 
 This repository documents my progress learning CNC PCB design and milling — from creating the design file to producing a final physical board.
 
 ---
+## Daily Log
 
 ## 2025-10-27
 **Activity:**  
