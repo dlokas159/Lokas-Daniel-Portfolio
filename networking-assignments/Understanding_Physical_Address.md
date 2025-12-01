@@ -473,7 +473,7 @@ Write a 5–7 sentence paragraph explaining:
 - How routers use IP addresses  
 - An example from your own experience (web browsing, gaming, email, etc.)  
 
+IP addresses are needed in addition to MAC addresses because MAC addresses only function within a local network and cannot direct data across the internet. IP addresses provide a logical system to identify devices on a global scale, enabling communication between networks anywhere in the world. Routers use the network portion of an IP address to determine the path data should take from the source to the destination. Without IP addresses, information could not be sent between different networks or across long distances. Logical addressing allows millions of devices and networks to connect and communicate efficiently, forming the foundation of the internet.
+
 ---
-
-
 
