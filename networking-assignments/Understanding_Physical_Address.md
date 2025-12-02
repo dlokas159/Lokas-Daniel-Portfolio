@@ -1,4 +1,4 @@
-# Part A — Exploring a Network Interface Card (NIC)
+# 1. Exploring a Network Interface Card (NIC)
 
 Every MAC address belongs to a piece of physical hardware called a **Network Interface Card (NIC)**. Even virtual machines use *virtual NICs* that operate the same way.  
 In this activity, you will examine a NIC, label its features, and identify where the MAC address is located.
@@ -254,7 +254,7 @@ Include:
   **“Why must every NIC — physical or virtual — have a globally unique MAC address?”**
 
 
-# Understanding Logical Addressing (IPv4 and IPv6)
+# 2. Understanding Logical Addressing (IPv4 and IPv6)
 
 ## Addressing: Physical and Logical
 
@@ -477,3 +477,230 @@ IP addresses are needed in addition to MAC addresses because MAC addresses only 
 
 ---
 
+# 3. Dynamic vs. Static Addressing & When to Use Each
+
+## Addressing: Physical and Logical
+Yesterday, you explored logical addressing and learned how IPv4 and IPv6 give devices a location on the network. Today, you will learn how devices actually receive those IP addresses—and why networks don’t assign every device an address the same way.
+
+On any network, devices can receive an IP address in two main ways:
+
+1. **Dynamically (automatically assigned)**
+2. **Statically (manually assigned)**
+
+Understanding the difference is essential for designing, maintaining, and troubleshooting networks.
+
+---
+
+## Dynamic Addressing (DHCP)
+
+Dynamic addressing means that a device’s IP address is assigned automatically by a server using the **Dynamic Host Configuration Protocol (DHCP)**.
+
+### How Dynamic Addressing Works
+- When a device connects to a network, it does not choose an IP address on its own.  
+- Instead, it sends out a request asking the network for one.  
+- The DHCP server then assigns an available IP address from a pool.
+
+### Key Characteristics of Dynamic IP Addressing
+- **Automatically assigned by a DHCP server:** No manual configuration required.  
+- **Lease-based:** Addresses are temporary and must be renewed.  
+- **Ideal for end-user devices:** Smartphones, laptops, guest devices, and personal computers.  
+- **Highly scalable:** Useful for large networks such as schools, corporations, hospitals, and universities.
+
+### Why Dynamic Addressing Works Well
+Dynamic addressing is efficient, flexible, and requires almost no user involvement. For most everyday devices, it is the best choice.
+
+---
+
+## Static Addressing
+
+Static addressing means that an IP address is manually assigned and remains fixed unless someone changes it.
+
+### Key Characteristics of Static IP Addressing
+- **Manually configured:** The administrator sets the IP address, subnet mask, gateway, and DNS.  
+- **Permanent:** The address stays the same until reconfigured.
+
+### Common Uses for Static Addresses
+Devices that must always be reachable at the same address:
+- Servers (web, file, authentication)
+- Printers
+- Routers and firewalls
+- Security cameras and access control devices
+- Network appliances that require consistent remote management
+
+### Why Static Addressing Is Important
+Devices providing critical network services must be consistently reachable. Changing their IP addresses would break communication.
+
+---
+
+## How DHCP Works (The Four-Step Process)
+
+Dynamic IP assignment follows a sequence commonly called **DORA**:
+
+1. **DHCPDISCOVER** – The device broadcasts: “Is there a DHCP server? I need an IP!”  
+2. **DHCPOFFER** – A DHCP server responds with an offered address and settings.  
+3. **DHCPREQUEST** – The device requests to use that specific address.  
+4. **DHCPACK** – The server confirms, and the device receives its IP address.
+
+This all happens automatically in under a second.
+
+---
+
+## Advantages and Disadvantages of Dynamic vs. Static Addressing
+
+| Address Type | Advantages | Disadvantages |
+|--------------|------------|---------------|
+| **Dynamic (DHCP)** | Easy to manage; automatic; scalable for large networks | Devices may receive different addresses over time; requires a DHCP server |
+| **Static** | Predictable and permanent; ideal for critical devices | Time-consuming to configure; mismanagement may cause IP conflicts |
+
+---
+
+## Deciding When to Use Each Address Type
+
+A well-designed network uses both static and dynamic addressing appropriately.
+
+### Use **Dynamic Addressing** When:
+- Devices frequently join or leave the network  
+- Users move between locations  
+- Minimal setup is preferred  
+- The network supports large numbers of devices  
+
+### Use **Static Addressing** When:
+- The device must always be reachable  
+- Other systems rely on it  
+- It provides essential security or network services  
+- Remote access or port forwarding is needed  
+
+---
+
+# Activity: Dynamic vs. Static Addressing (Across Two VMs)
+
+You will investigate how your two virtual machines receive their IP addresses and whether each uses DHCP or static addressing.
+
+All work must be documented in your digital portfolio.
+
+---
+
+## Task 1 – Determine Whether Each VM Uses DHCP
+
+You will perform the steps below on both:
+
+- **VM #1:** Original Ubuntu VM
+<img width="722" height="362" alt="image" src="https://github.com/user-attachments/assets/e30aeadb-ae5e-474f-b3d7-d2e161bc3808" />
+- **VM #2:** New Linux VM
+<img width="809" height="252" alt="image" src="https://github.com/user-attachments/assets/9d4b1e62-2241-49b8-8926-d36b2b2d8d2f" />
+
+
+### Step 1 – Open the Terminal in Each VM
+
+---
+
+## Part A – View Current IP Information
+
+Run in both VMs:
+ip addr show
+
+Record or screenshot:
+- IPv4 address  
+- IPv6 link-local address (fe80::)
+
+
+---
+
+## Part B – View Network Configuration Files for Both VMs
+
+### **Ubuntu VM #1**
+
+Also document:
+
+1. **Which Netplan file loaded**
+<img width="317" height="42" alt="image" src="https://github.com/user-attachments/assets/05cb6162-ab28-46df-bf2c-104ccb8aa6ac" />
+2. **Whether the file contains `dhcp4:` or `dhcp6:`**
+<img width="511" height="131" alt="image" src="https://github.com/user-attachments/assets/ff8b33a5-838b-40e9-ac05-80c1ba2bc52a" />
+3. **Exact lines indicating DHCP or static addressing**
+<img width="114" height="25" alt="image" src="https://github.com/user-attachments/assets/518de907-1c37-438d-ba17-2afc6bb8e179" />
+
+
+---
+
+### **Linux VM #2**
+
+Your Linux VM may use Netplan, NetworkManager, or other systems.
+
+Documentation:
+
+1. **Which configuration system the VM uses**
+<img width="533" height="254" alt="Screenshot 2025-12-02 at 2 35 45 PM" src="https://github.com/user-attachments/assets/bbcf1916-993e-4f3e-afd5-8212d5226a5e" />
+
+3. **Lines showing DHCP is enabled**  
+<img width="514" height="183" alt="Screenshot 2025-12-02 at 2 36 16 PM" src="https://github.com/user-attachments/assets/bd10cca9-0721-48b2-bc77-899fdbed7234" />
+
+---
+
+## Compare the Two VMs
+
+Write 3–4 sentences comparing:
+- Configuration tools used  
+- Whether DHCP is used for IPv4 or IPv6  
+- Differences in syntax  
+- Why two Linux systems may configure networking differently  
+
+---
+
+## Part C – Analyze DHCP Settings
+
+For each VM, answer:
+
+1. Does it use DHCP for IPv4?  
+2. Does it use DHCP for IPv6?  
+3. Which configuration method does it use?  
+4. Are both VMs configured the same way?
+
+Include screenshots of configuration files.
+
+---
+
+# Task 2 – Scenario Analysis (Static vs. Dynamic Addressing)
+
+Decide static vs. dynamic addressing for each device:
+
+1. School web server  
+2. Classroom printer  
+3. Student laptops  
+4. Security cameras  
+5. Teacher workstation  
+
+For each device:
+- Write **STATIC** or **DYNAMIC**
+- Provide a **two-sentence justification**
+
+---
+
+# Digital Portfolio Requirements
+
+Your portfolio must include:
+
+### **1. Two Screenshots of IP Information**
+- One from VM #1  
+- One from VM #2  
+
+### **2. Two Screenshots of Network Configuration Files**
+Showing DHCP lines for each VM.
+
+### **3. Explanation of Static vs. Dynamic Addressing**
+A paragraph (4–6 sentences) explaining:
+- Dynamic addressing  
+- Static addressing  
+- Why networks need both  
+- When each is used  
+
+### **4. Scenario Analysis Table**
+
+| Device | Static or Dynamic? | Justification (2 sentences) |
+|--------|---------------------|-----------------------------|
+| School web server |  |  |
+| Classroom printer |  |  |
+| Student laptops |  |  |
+| Security cameras |  |  |
+| Teacher workstation |  |  |
+
+---
