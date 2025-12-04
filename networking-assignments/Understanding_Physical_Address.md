@@ -704,3 +704,131 @@ A paragraph (4–6 sentences) explaining:
 | Teacher workstation |  |  |
 
 ---
+
+# 4. Configuring and Verifying IP Addresses on a Linux VM
+
+## Part A — Understanding Netplan (Reading + Conceptual Prep)
+### 1. Netplan Overview
+Netplan is the default network configuration system for many Ubuntu Server–based distros.
+It uses simple YAML configuration files to define:
+• Static or dynamic (DHCP) addressing
+• Gateway
+• DNS servers
+• Interface naming
+• Routing behavior
+These files live inside:
+/etc/netplan/
+During boot or when you run netplan apply, the YAML is converted into system network
+configuration.
+
+### 2. YAML Is Indentation-Sensitive
+For Netplan to work:
+• Use spaces ONLY, no tabs
+• Keep indentation consistent (usually 2 spaces per level)
+• Keep list items properly aligned
+• Ensure the structure matches Netplan’s expectations exactly
+One misplaced space = a non-working network.
+Part B — Static IP Configuration Lab (VM #2 Only)
+#### Step 1 — Find Your Network Interface Name
+Open the Terminal in VM #2 and run:
+ip link show
+Identify your active network interface.
+Common names: enp0s1, enp0s3, ens160, eth0.
+Write down the exact name.
+#### Step 2 — Locate and Open the Netplan YAML File
+List the Netplan directory:
+ls /etc/netplan
+You may see a file such as:
+• 00-installer-config.yaml
+• 01-netcfg.yaml
+• 50-cloud-init.yaml
+Open the file using:
+sudo nano /etc/netplan/<filename>.yaml
+Example:
+sudo nano /etc/netplan/50-cloud-init.yaml
+
+#### Step 3 — Convert DHCP to Static IP
+Inside the YAML file, you will see something like:
+network:
+version: 2
+ethernets:
+enp0s1:
+dhcp4: true
+You will replace it with static addressing:
+network:
+version: 2
+ethernets:
+enp0s1:
+dhcp4: no
+addresses:
+- 192.168.1.<your unique number>/24
+gateway4: 192.168.1.1
+nameservers:
+addresses:
+- 8.8.8.8
+- 1.1.1.1
+Choosing a Non-Conflicting Address
+Your teacher will assign a scheme. Example:
+If your seat number is 12, use:
+192.168.1.62/24
+(= .50 + seat number)
+Save the File
+Press:
+• Ctrl + O → Enter
+• Ctrl + X
+
+#### Step 4 — Apply Your Static IP Settings
+Run:
+sudo netplan apply
+If errors occur, your YAML indentation is wrong.
+
+You may also run:
+sudo netplan try
+This checks for errors before applying.
+Step 5 — Verify the Static IP Configuration
+Run the following commands and record their results:
+1. IP Address
+ip addr show
+Confirm your interface now shows your static address.
+2. Routing Table
+ip route show
+You should see a line like:
+default via 192.168.1.1 dev enp0s1
+3. Connectivity Test
+ping -c 4 8.8.8.8
+Document:
+• Did your static IP appear correctly?
+• Does the routing table show a default route?
+• Does ping work?
+• If something failed, what troubleshooting steps did you attempt?
+Troubleshooting examples include:
+• Fixing typos
+• Adjusting indentation
+• Correcting the gateway address
+• Verifying your VM’s virtual network mode
+
+## Digital Portfolio Requirements
+Your post must include:
+### 1. Screenshot of Your Edited YAML File
+• Must clearly show dhcp4: no, the static address, the gateway, and DNS servers.
+![07B99C9D-A521-4677-8C41-42F53F248867_4_5005_c](https://github.com/user-attachments/assets/efc2ad41-3376-4542-9325-8ec629a77ea8)
+
+### 2. Screenshot of All Three Verification Commands
+• ip addr show
+<img width="641" height="383" alt="Screenshot 2025-12-04 at 8 30 27 AM" src="https://github.com/user-attachments/assets/7f4c5ecb-04b9-4a08-a65c-ebfa13a2b242" />
+
+• ip route show
+<img width="636" height="76" alt="Screenshot 2025-12-04 at 8 30 39 AM" src="https://github.com/user-attachments/assets/a92581a0-889e-4eca-9fd2-ac1da2433a99" />
+
+• ping -c 4 8.8.8.8
+<img width="553" height="196" alt="Screenshot 2025-12-04 at 8 31 05 AM" src="https://github.com/user-attachments/assets/2585b8bd-f192-4d0d-ba2b-1d49d0f14e99" />
+
+### 3. Written Explanation
+Write a paragraph explaining the difference between:
+• Physical addressing (MAC)
+• Logical addressing (IP)
+• Static vs. Dynamic IP assignment
+### 4. Reflection (3–4 sentences)
+Answer:
+• What part of IP configuration was most challenging today, and why?
+• What did you learn about how sensitive YAML and networking settings are?
