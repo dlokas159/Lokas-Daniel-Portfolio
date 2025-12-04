@@ -815,12 +815,15 @@ Your post must include:
 
 ### 2. Screenshot of All Three Verification Commands
 • ip addr show
+
 <img width="641" height="383" alt="Screenshot 2025-12-04 at 8 30 27 AM" src="https://github.com/user-attachments/assets/7f4c5ecb-04b9-4a08-a65c-ebfa13a2b242" />
 
 • ip route show
+
 <img width="636" height="76" alt="Screenshot 2025-12-04 at 8 30 39 AM" src="https://github.com/user-attachments/assets/a92581a0-889e-4eca-9fd2-ac1da2433a99" />
 
 • ping -c 4 8.8.8.8
+
 <img width="553" height="196" alt="Screenshot 2025-12-04 at 8 31 05 AM" src="https://github.com/user-attachments/assets/2585b8bd-f192-4d0d-ba2b-1d49d0f14e99" />
 
 ### 3. Written Explanation
