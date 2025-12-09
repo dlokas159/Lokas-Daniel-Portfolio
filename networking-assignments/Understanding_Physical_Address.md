@@ -46,6 +46,7 @@ Usually located on the metal bracket or near the port.
 - Record the MAC address exactly as printed:  
   `04:92:22:64:IA:80:4C`  
 - Write one sentence explaining what a MAC address does on a local network.
+A MAC address uniquely identifies a network interface on a local network so that Ethernet frames can be delivered to the correct device at Layer 2.
 ![IMG_2414](https://github.com/user-attachments/assets/97755f43-13d7-40ad-999d-3764e9b88d25)
 
 
@@ -55,14 +56,19 @@ Usually located on the metal bracket or near the port.
 
 Write **one sentence each** explaining:
 
-- What the Ethernet port is used for  
-- What the PCIe connector is used for  
-- Why the NIC needs a main chip  
-- Why the MAC address belongs to the NIC  
+- What the Ethernet port is used for
+The Ethernet port is the metal rectangular connector on the bracket where an RJ-45 cable plugs in.
+- What the PCIe connector is used for
+The PCIe connector is the long gold edge at the bottom of the NIC that fits into the motherboard slot.
+- Why the NIC needs a main chip
+The main controller chip is the largest black IC (integrated circuit) on the green board—normally near the center.
+- Why the MAC address belongs to the NIC
+The MAC address belongs to the NIC because it is permanently assigned to that physical hardware interface for identification on a LAN.
 
 ### Reflection Prompt
 **“Why is a MAC address considered a physical address, and how does seeing a real NIC help you understand this?”**  
 Write 2–3 sentences.
+A MAC address is considered a physical address because it is permanently tied to the hardware that sends and receives Ethernet frames. Seeing a real NIC makes it clear that addressing starts at the physical layer where actual components must be uniquely identified. This reinforces how network communication depends on hardware identity before any higher-level protocols can function.
 
 ---
 
@@ -128,7 +134,9 @@ Write **4–5 sentences** explaining:
 2. Where your VM’s MAC address came from  
 3. What physical and virtual MACs have in common  
 4. What is different  
-5. Why a virtual NIC still requires a MAC address  
+5. Why a virtual NIC still requires a MAC address
+
+On a physical NIC, the MAC address is typically stored in firmware and printed on a sticker or label on the card. In a virtual machine, the MAC address is usually assigned by the hypervisor or virtualization software from a defined pool of addresses. Both physical and virtual MAC addresses follow the same 48-bit format and serve the same role at the data-link layer: identifying network interfaces and enabling frame delivery. The main difference is that physical MACs are tied to a hardware manufacturer’s registered OUI, while virtual MACs may use reserved or software-generated ranges. A virtual NIC still requires a MAC address so that switching, ARP resolution, and frame forwarding function correctly within the virtual network.
 
 ---
 
@@ -152,15 +160,15 @@ For each MAC address, record:
 
 ## Digital Portfolio Table
 
-| Full MAC Address        | OUI (first 3 pairs) | Vendor / Company Name | Vendor Type (physical, virtual, both) | Notes |
-|-------------------------|----------------------|------------------------|----------------------------------------|-------|
-| F0:18:98:AA:BB:CC       |                      |                        |                                        |       |
-| 3C:5A:B4:11:22:33       |                      |                        |                                        |       |
-| 60:45:BD:12:34:56       |                      |                        |                                        |       |
-| A4:BA:DB:22:33:44       |                      |                        |                                        |       |
-| 04:1A:04:55:66:77       |                      |                        |                                        |       |
-| 00:50:56:AA:BB:CC       |                      |                        |                                        |       |
-| 52:54:00:12:34:56       |                      |                        |                                        |       |
+| Full MAC Address  | OUI (first 3 pairs) | Vendor / Company Name      | Vendor Type (physical, virtual, both) | Notes                                                 |
+| ----------------- | ------------------- | -------------------------- | ------------------------------------- | ----------------------------------------------------- |
+| F0:18:98:AA:BB:CC | F0:18:98            | Hewlett Packard Enterprise | Physical                              | Commonly found in enterprise servers and switches.    |
+| 3C:5A:B4:11:22:33 | 3C:5A:B4            | Apple, Inc.                | Physical                              | Seen in Mac computers and mobile devices.             |
+| 60:45:BD:12:34:56 | 60:45:BD            | Samsung Electronics        | Physical                              | Used in smartphones, TVs, and other consumer devices. |
+| A4:BA:DB:22:33:44 | A4:BA:DB            | Amazon Technologies        | Virtual/Cloud                         | Often associated with cloud instances in AWS.         |
+| 04:1A:04:55:66:77 | 04:1A:04            | Cisco Systems              | Physical                              | Found in enterprise routers and switches.             |
+| 00:50:56:AA:BB:CC | 00:50:56            | VMware, Inc.               | Virtual                               | Standard prefix for VMware virtual NICs.              |
+| 52:54:00:12:34:56 | 52:54:00            | QEMU / KVM                 | Virtual                               | Reserved OUI commonly used for KVM/QEMU guests.       |
 
 ---
 
@@ -170,7 +178,8 @@ Address:
 
 - Patterns noticed in vendors  
 - Why virtualization vendors need registered OUIs  
-- How this activity improved your understanding of Layer 2 addressing  
+- How this activity improved your understanding of Layer 2 addressing
+The table reveals that physical devices typically map to well-known hardware vendors, while virtual MAC addresses belong to companies that provide hypervisors or cloud platforms. Virtualization vendors need registered OUIs to ensure that even software-defined NICs follow global MAC uniqueness rules and do not conflict with physical hardware. This reinforces the idea that Layer 2 addressing must remain globally coordinated, regardless of whether the endpoint is physical or virtual. The activity clarifies how MAC lookup can immediately suggest whether a device is a physical host, a cloud instance, or a virtual machine.
 
 ---
 
@@ -183,7 +192,7 @@ Include:
 - Your 4–5 sentence comparison from Part B  
 - A 2-sentence summary answering:  
   **“What does my MAC address reveal about the hardware my VM is using?”**
-
+The structure and OUI behavior of this MAC address indicate that the VM is using a virtual NIC whose address is assigned by virtualization software rather than a physical NIC manufacturer. This shows that the underlying hardware for the VM is abstracted and managed by a hypervisor, even though the MAC address looks and behaves like that of a physical device.
 ---
 
 # Part C — Understanding MAC Address Structure
@@ -210,6 +219,7 @@ Write 2–3 sentences explaining:
 - How it connects the NIC to a manufacturer  
 - Why OUIs must be globally unique  
 - If yours is virtual, why a VM still needs a vendor prefix  
+The OUI (Organizationally Unique Identifier) represents the vendor or organization responsible for assigning the remaining bits of the MAC address. It ties the NIC or virtual NIC to a particular manufacturer or address authority. Global uniqueness of OUIs is required to ensure that different vendors do not accidentally issue overlapping MAC address ranges.
 
 ---
 
@@ -220,6 +230,7 @@ Write 2–3 sentences explaining:
 - Why each NIC needs a unique device identifier  
 - Why no two devices on a LAN can share a MAC address  
 - How uniqueness ensures correct frame delivery  
+The device identifier portion of the MAC address distinguishes each individual NIC within a given OUI block. No two devices on the same LAN should share the same full MAC address, or frames could be misdelivered. This uniqueness at Layer 2 is critical for reliable Ethernet switching and ARP resolution.
 
 ---
 
@@ -231,6 +242,7 @@ Write **4–6 sentences** explaining:
 - How virtual machines generate or assign MAC addresses  
 - Similarities and differences  
 - Why Layer 2 functions identically for physical and virtual hardware  
+Physical NICs store MAC addresses in non-volatile memory on the card and often display them on an external label. Virtual machines rely on the hypervisor to generate or assign MAC addresses, usually from OUIs that are reserved by the virtualization vendor. Both physical and virtual interfaces use the same 48-bit address structure and participate in Ethernet in exactly the same way at Layer 2. The primary difference lies in how the address is created and where it is stored. From the perspective of switches and routers on the LAN, there is no functional distinction between a MAC belonging to a physical NIC and one assigned to a virtual NIC. As a result, Layer 2 protocols treat both categories identically.
 
 ---
 
@@ -240,7 +252,8 @@ Write 2–3 sentences explaining:
 
 - Which OSI layer uses MAC addresses  
 - Why MAC addresses never leave the local network  
-- How routers replace MAC addresses when forwarding frames  
+- How routers replace MAC addresses when forwarding frames
+MAC addresses operate at the Data Link Layer (Layer 2) of the OSI model. These addresses remain within the local network segment because routers replace source and destination MAC addresses at each hop while preserving IP addresses end to end. This design allows Ethernet to handle local frame delivery while IP handles global packet routing.
 
 ---
 
@@ -252,7 +265,7 @@ Include:
 - Screenshot of your MAC address (optional if already uploaded)  
 - One-sentence summary:  
   **“Why must every NIC — physical or virtual — have a globally unique MAC address?”**
-
+Every NIC, physical or virtual, must have a globally unique MAC address so that Ethernet switches and devices can deliver frames accurately without address collisions on any LAN segment.
 
 # 2. Understanding Logical Addressing (IPv4 and IPv6)
 
@@ -643,6 +656,7 @@ Write 3–4 sentences comparing:
 - Whether DHCP is used for IPv4 or IPv6  
 - Differences in syntax  
 - Why two Linux systems may configure networking differently  
+The first VM uses Netplan, where DHCP is indicated by YAML lines such as dhcp4: true (and possibly dhcp6: true). The second VM is managed by NetworkManager, which shows DHCP enablement through key-value settings that specify automatic configuration methods for IPv4 and IPv6. Netplan configurations are declarative YAML files, while NetworkManager uses its own configuration formats and tools. Different Linux distributions and editions often adopt different network management frameworks, which explains the variations in syntax and configuration tools.
 
 ---
 
@@ -656,6 +670,20 @@ For each VM, answer:
 4. Are both VMs configured the same way?
 
 Include screenshots of configuration files.
+
+VM #1 – Ubuntu (Netplan-Based)
+
+1. DHCP for IPv4? Yes, indicated by dhcp4: true.
+2. DHCP for IPv6? Yes, if dhcp6: true is present.
+3. Configuration method: Netplan YAML configuration under /etc/netplan/.
+4. Same as VM #2? No, a different configuration system is used.
+
+VM #2 – Linux with NetworkManager
+
+1. DHCP for IPv4? Yes, indicated by automatic method settings (e.g., method set to auto).
+2. DHCP for IPv6? Yes, also enabled via NetworkManager configuration.
+3. Configuration method: NetworkManager configuration files and tools.
+4. Same as VM #1? No, the configuration syntax and management stack are different.
 
 ---
 
@@ -695,13 +723,14 @@ A paragraph (4–6 sentences) explaining:
 
 ### **4. Scenario Analysis Table**
 
-| Device | Static or Dynamic? | Justification (2 sentences) |
-|--------|---------------------|-----------------------------|
-| School web server |  |  |
-| Classroom printer |  |  |
-| Student laptops |  |  |
-| Security cameras |  |  |
-| Teacher workstation |  |  |
+| Device              | Static or Dynamic? | Justification (2 sentences)                                                                                                                                                                                     |
+| ------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| School web server   | Static             | A school web server must keep the same IP address so DNS records and user bookmarks remain valid. Changing the address would disrupt access to web services and applications.                                   |
+| Classroom printer   | Static             | A classroom printer benefits from a fixed IP address so that print queues and drivers can reliably reach it. If the address changed dynamically, existing printer mappings would stop working.                  |
+| Student laptops     | Dynamic            | Student laptops frequently join and leave the network, so dynamic addressing via DHCP simplifies management. Automatic assignment reduces configuration errors and prevents IP conflicts in large environments. |
+| Security cameras    | Static             | Security cameras require consistent IP addresses so monitoring systems, NVRs, and alerting tools can always connect. Address changes would break recording schedules and remote viewing.                        |
+| Teacher workstation | Dynamic            | A teacher workstation typically does not host critical services and can function well with an automatically assigned address. DHCP makes deployment easier and reduces manual configuration work.               |
+
 
 ---
 
@@ -831,7 +860,11 @@ Write a paragraph explaining the difference between:
 • Physical addressing (MAC)
 • Logical addressing (IP)
 • Static vs. Dynamic IP assignment
+Physical addressing relies on MAC addresses to identify network interfaces at the Data Link Layer within a local network. Logical addressing uses IP addresses to identify devices and their locations across different networks at the Network Layer. Static IP assignment provides a fixed, manually configured address suitable for servers and infrastructure devices that must always be reachable. Dynamic IP assignment uses DHCP to allocate addresses automatically on a temporary lease, which is ideal for client devices that frequently connect and disconnect. Networks rely on both approaches to balance stability for critical systems with flexibility and scalability for end-user devices.
+
 ### 4. Reflection (3–4 sentences)
 Answer:
 • What part of IP configuration was most challenging today, and why?
 • What did you learn about how sensitive YAML and networking settings are?
+
+The most challenging aspect of IP configuration is maintaining perfectly correct YAML syntax, because even minor indentation errors can prevent Netplan from applying settings successfully. This lab demonstrates how tightly network behavior is coupled to configuration files and how unforgiving YAML can be. The exercises also highlight the importance of validating changes with commands such as ip addr show, ip route show, and ping to confirm that configuration matches expectations. Overall, the work underscores how precise and detail-oriented network configuration must be to keep connectivity reliable.
