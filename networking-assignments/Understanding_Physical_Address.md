@@ -59,9 +59,9 @@ Write **one sentence each** explaining:
 - What the Ethernet port is used for
 The Ethernet port is the metal rectangular connector on the bracket where an RJ-45 cable plugs in.
 - What the PCIe connector is used for
-The PCIe connector is the long gold edge at the bottom of the NIC that fits into the motherboard slot.
+The PCIe connector is used to attach the NIC to the motherboard so it can receive power and exchange data with the system bus.
 - Why the NIC needs a main chip
-The main controller chip is the largest black IC (integrated circuit) on the green board—normally near the center.
+The NIC’s main controller chip is required to process frames, manage signaling, and control how data is transmitted and received on the network.
 - Why the MAC address belongs to the NIC
 The MAC address belongs to the NIC because it is permanently assigned to that physical hardware interface for identification on a LAN.
 
@@ -268,6 +268,10 @@ Include:
 Every NIC, physical or virtual, must have a globally unique MAC address so that Ethernet switches and devices can deliver frames accurately without address collisions on any LAN segment.
 
 # 2. Understanding Logical Addressing (IPv4 and IPv6)
+
+## IPv4 vs IPv6
+- IPv4 is a 32-bit addressing system that gives each device a unique numeric address made of four decimal numbers separated by dots.
+- IPv6 is a newer 128-bit addressing system that uses hexadecimal numbers and colons to provide vastly more addresses and support modern internet features.
 
 ## Addressing: Physical and Logical
 
@@ -846,14 +850,17 @@ Your post must include:
 • ip addr show
 
 <img width="641" height="383" alt="Screenshot 2025-12-04 at 8 30 27 AM" src="https://github.com/user-attachments/assets/7f4c5ecb-04b9-4a08-a65c-ebfa13a2b242" />
+The static IP address appears correctly on the interface in the ip addr show output.
 
 • ip route show
 
 <img width="636" height="76" alt="Screenshot 2025-12-04 at 8 30 39 AM" src="https://github.com/user-attachments/assets/a92581a0-889e-4eca-9fd2-ac1da2433a99" />
+The routing table includes a valid default route
 
 • ping -c 4 8.8.8.8
 
 <img width="553" height="196" alt="Screenshot 2025-12-04 at 8 31 05 AM" src="https://github.com/user-attachments/assets/2585b8bd-f192-4d0d-ba2b-1d49d0f14e99" />
+ping -c 4 8.8.8.8 succeeds, confirming external connectivity.
 
 ### 3. Written Explanation
 Write a paragraph explaining the difference between:
@@ -868,3 +875,6 @@ Answer:
 • What did you learn about how sensitive YAML and networking settings are?
 
 The most challenging aspect of IP configuration is maintaining perfectly correct YAML syntax, because even minor indentation errors can prevent Netplan from applying settings successfully. This lab demonstrates how tightly network behavior is coupled to configuration files and how unforgiving YAML can be. The exercises also highlight the importance of validating changes with commands such as ip addr show, ip route show, and ping to confirm that configuration matches expectations. Overall, the work underscores how precise and detail-oriented network configuration must be to keep connectivity reliable.
+
+# Final Reflection Paragraph: 
+This series of labs showed how physical addressing with MAC addresses and logical addressing with IP addresses work together to move traffic from local links to remote networks. The comparison of DHCP and static addressing demonstrated why client devices such as student laptops benefit from dynamic leases, while servers, printers, and security cameras require fixed addresses to remain reachable. The differences between VM #1 using Netplan and VM #2 using NetworkManager illustrated that Linux systems can use different tools to reach the same networking goals, as long as configuration is correct. YAML sensitivity in the Netplan configuration emphasized how small formatting mistakes can completely break connectivity. The Layer 2 and OUI activities highlighted how MAC address structure reveals whether a device is physical or virtual. Seeing these concepts applied to real-world school devices made clear how addressing choices impact reliability and manageability in actual networks.
