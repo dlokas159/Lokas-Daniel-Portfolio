@@ -59,6 +59,12 @@ Add a table with these columns:
 
 | Scenario Letter | Symptoms (Summary) | Your Hypothesis | Your Justification |
 |----------------|--------------------|-----------------|--------------------|
+|A| Default gateway does not match the actual router |  |
+|B| Switch CPU spikes, thousands of MACs appear on one port |  |
+|C| Clients recieve network settings from an unknown DHCP source |  |
+|D| New device appears inside the broadcast domain and communicates broadly |  |
+|E|  |  |
+
 
 Fill in all columns for each scenario.
 
