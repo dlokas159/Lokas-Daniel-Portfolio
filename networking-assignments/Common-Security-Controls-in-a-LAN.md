@@ -59,11 +59,11 @@ Add a table with these columns:
 
 | Scenario Letter | Symptoms (Summary) | Your Hypothesis | Your Justification |
 |----------------|--------------------|-----------------|--------------------|
-|A| Default gateway does not match the actual router | DHCP misconfiguration | connectivity issues and network behavior changes |
-|B| Switch CPU spikes, thousands of MACs appear on one port | MAC flooding attack | multiple MACs show up on one port even though there should be one |
-|C| Clients recieve network settings from an unknown DHCP source | Misconfigured Router | unknown DHCP sources and connectivity issues |
-|D| New device appears inside the broadcast domain and communicates broadly | Admin Issue | communicates broadly |
-|E| A host reaches internal systems it should not access | Security Policy Bypass | Firewalls and other encryptions are not working |
+| A | Default gateway does not match the actual router | DHCP misconfiguration | connectivity issues and network behavior changes |
+| B | Switch CPU spikes, thousands of MACs appear on one port | MAC flooding attack | multiple MACs show up on one port even though there should be one |
+| C | Clients recieve network settings from an unknown DHCP source | Misconfigured Router | unknown DHCP sources and connectivity issues |
+| D | New device appears inside the broadcast domain and communicates broadly | Admin Issue | communicates broadly |
+| E | A host reaches internal systems it should not access | Security Policy Bypass | Firewalls and other encryptions are not working |
 
 
 Fill in all columns for each scenario.
