@@ -16,29 +16,23 @@ This electronic portfolio presents the work completed over the course of the sem
 ## HOME PAGE
 
 ### WRITER’S BIO  
-*(New writing required)*
 
-**[PLACEHOLDER – WRITE YOUR WRITER’S BIO HERE]**
+I am a senior with a strong interest in building things—whether that means businesses, systems, or ideas. From a young age, I have been drawn to creating from the ground up. At twelve years old, I launched my first small business, and while it began as a simple idea, it quickly became a hands-on experiment in problem-solving, design, and execution. That experience sparked a lasting passion for entrepreneurship and engineering that has continued to shape my academic and personal pursuits.
 
-> Minimum length: approximately 400 words.  
->  
-> This bio should focus on you as a person. You may include:
-> - Personal interests and hobbies: I love owning businesses and have owned a few in the past and am now working on two; Trading card selling business and house rental business(I own 1 house as of now)  
-> - Interests in film, writing, or storytelling  I love watching movies and analyzing and then writing about them in comparison to a book, as we do in this class
-> - Activities outside of class  
-> - College plans or future goals (optional)  I want to do industrial engineering and have applied to Georgia Tech, Virginia Tech, NC State, Clemson, and Purdue (in the order of importance) and so far have only gotten one response back which is clemson and have goten in
->  
-> The tone should be professional, polished, and authentic.
+Over the past several years, I have launched and managed multiple ventures, including purchasing and leasing my first single-family home with the goal of making it available for Section 8 housing, as well as running a shoe resale business and a trading card business. Through these experiences, I learned not only how to source products and manage inventory, but also how to prioritize customer experience, reputation, and ethical decision-making. In my card business, I intentionally focused on creating positive experiences for customers rather than maximizing short-term profit. This approach led to organic growth, a strong referral base, and the opportunity to build a small team. Balancing these responsibilities alongside academics, volunteer teaching, and church technology work taught me the importance of time management and intentional priorities.
+
+Alongside business and engineering, I have developed a growing interest in film and storytelling, particularly through analytical comparison. I enjoy watching films with a critical eye and examining how directors adapt written texts for the screen. This class strengthened my appreciation for how narrative, tone, and character are shaped differently in books and films, and how those changes influence meaning. Writing about these adaptations challenged me to articulate not just what changed, but why those changes mattered.
+
+Looking ahead, I plan to pursue Industrial Engineering in college, a field that aligns closely with my analytical mindset and interest in optimization and systems thinking. I have applied to Georgia Tech, Virginia Tech, NC State, Clemson, and Purdue, and I am grateful to have already been accepted to Clemson. Ultimately, I hope to combine engineering, entrepreneurship, and ethical leadership to create solutions that positively impact people and communities.
+
 
 ---
 
 ### AUTHOR OR FILM QUOTE
 
-**[PLACEHOLDER – INSERT QUOTE HERE]**  
-— *[Author or Filmmaker Name]*
+**"The best stories are the ones that tell us the most truth about ourselves."**  
+— *William Goldman*
 
-> Choose a quote that reflects your philosophy on writing, storytelling, film, or life.  
-> Preferably select an author or filmmaker studied this semester.
 
 ---
 
@@ -49,25 +43,18 @@ This electronic portfolio presents the work completed over the course of the sem
 ---
 
 ## TAB 1: WRITER’S STATEMENT  
-*(New writing required)*
 
-**[PLACEHOLDER – WRITE YOUR WRITER’S STATEMENT HERE]**
+At the beginning of this semester, I saw writing mostly as something I had to do for an assignment. Over time, I began to see it as a way to organize my thoughts and explain ideas more clearly, especially when comparing books and films.
 
-> Minimum length: approximately 500 words.  
-> Written in first person.  
->  
-> Your writer’s statement must address:
-> - Your writing process  
-> - How you evolved as a writer over the semester  
-> - What you learned about writing and about yourself  
-> - What most influenced your growth  
->  
-> You must also reflect on your growth as a student of film, including:
-> - How studying film has changed the way you watch or analyze movies  
-> - How learning film terminology revealed the intentional choices of filmmakers  
-> - How historical context and themes shape meaning in film  
->  
-> Be specific. Refer to your own writing and films studied in class.
+As the semester went on, my writing  improved. I learned to start with a clear point, use specific examples, and explain why those examples mattered. Earlier in the course, I focused too much on summarizing the story instead of analyzing it. Writing essays like the Wiseguy/Goodfellas paper helped me understand how choices like voiceover, pacing, and point of view affect how the audience sees a character and the story.
+
+Revision also became more important to me. Instead of only fixing grammar mistakes, I started changing sentences, reorganizing paragraphs, and clarifying my ideas. This helped me feel more confident in my writing and more willing to improve my work instead of turning in a first draft.
+
+This class also changed the way I watch movies. I now notice details like camera angles, editing, tone, and acting choices. Learning film terms helped me understand that directors make intentional decisions to shape how viewers react. Studying Goodfellas showed me how film techniques can make the audience feel connected to a character while still showing their flaws.
+
+Comparing The Princess Bride book and movie helped me see how stories change when they move from page to screen. I learned that some things work better in a book, while others work better in a movie, and that filmmakers have to make creative changes to keep the story effective.
+
+Overall, this course helped me grow as a writer and a more thoughtful viewer of film. I am now more confident in my ability to analyze stories and explain my ideas clearly, skills that will be useful in future classes and beyond.
 
 ---
 
@@ -80,64 +67,63 @@ This electronic portfolio presents the work completed over the course of the sem
 - **Original Final Draft**  
   **https://docs.google.com/document/d/1C0oWQg6EgrULKxBoGghkEowJF_kA3Li-3doMYLbYUAg/edit?usp=sharing**
 
-- **Edited Final Draft(Edits have been bolded)**  
-  **[PLACEHOLDER – UPLOAD EDITED FINAL DRAFT HERE]**
+- **Edited Final Draft(Edits have been bolded)**
+  **https://docs.google.com/document/d/1LK5LocTQNhWLY7A6ZqaKVXdnOkwXYyF8zAqw_wkrbnE/edit?usp=sharing**
 
 ---
 
 #### 2. *The Princess Bride*
 
 - **Final Draft**  
-  **[PLACEHOLDER – UPLOAD ORIGINAL FINAL DRAFT HERE]**
+  **https://docs.google.com/document/d/1mD5chi8-_r93JE1S32DFSUUznNEtkhPpbj7yOclLL6A/edit?usp=sharing**
 
 ---
 
 #### 3. *The Princess Bride* Outline
 
-**[PLACEHOLDER – UPLOAD OUTLINE HERE]**
+**https://docs.google.com/document/d/1QDgOrfsL2P1J5ZirGm5h6skHxsjscc-2sNUvzKZ4aw8/edit?usp=sharing**
 
 ---
 
 ### JOURNALS  
-*(Include the prompt text with each journal)*
 
 #### 1. *The Princess Bride* Journal #1
 
 **Prompt:**  
-**[PLACEHOLDER – INSERT PROMPT TEXT HERE]**
+**Now that you have completed reading Goldman’s text and have a basic understanding of metafiction, consider how this device has influenced your reading of the story. Do you feel it drew you in, or did you find it distracting? Support your position with evidence from the text (provide at least three direct quotations with citations from different parts of the text, e.g., do not simply offer support from the first fifty pages of the novel). This is not an essay, so do not waste time on introductions, conclusions, etc. Feel free to jump into your discussion of the topic.**
 
 **Response:**  
-**[PLACEHOLDER – INSERT JOURNAL RESPONSE HERE]**
+**https://docs.google.com/document/d/1aezVdufjuzrtyObJKEvsXTOrybF_fONzk-haV5pHako/edit?usp=sharing**
 
 ---
 
 #### 2. *The Princess Bride* Journal #2
 
 **Prompt:**  
-**[PLACEHOLDER – INSERT PROMPT TEXT HERE]**
+**Before watching Rob Reiner’s The Princess Bride, imagine how a filmmaker might bring William Goldman’s layered story to the screen. You already know how the novel blurs fantasy and reality through the “book within a book” structure, the interruptions from Goldman, and the exaggerated fairy-tale tone.
+For this journal, predict how the movie might handle those metafictional elements.How might a director visually or narratively show the story-within-a-story structure?
+What might the mise-en-scène (the look and feel of the setting, costumes, and lighting) communicate about tone and genre?
+How do you imagine the performance style of characters like Westley, Buttercup, or Inigo will shape your understanding of them compared to how you imagined them while reading?
+What might be challenging or impossible to show on screen?
+Conclude with a prediction: what will the overall mood of the film be—more like an epic adventure, a parody, or a fairy-tale romance?**
 
 **Response:**  
-**[PLACEHOLDER – INSERT JOURNAL RESPONSE HERE]**
+**https://docs.google.com/document/d/1im-iHXo9a6Yzm6cOc6juAxnMlfSYVne3xVGGYTOa8EM/edit?usp=sharing**
 
 ---
 
-#### 3. Wiseguy / *Goodfellas* Journal #1
+#### 3. Wiseguy / *Goodfellas* Creative Writing
 
 **Prompt:**  
-**[PLACEHOLDER – INSERT PROMPT TEXT HERE]**
+**2. Screenplay or One-Act Scene (600-650 words)
+Write a short script that uses dialogue, conflict, and visual storytelling.
+ Prompts:
+The Deal: Present a modern moral dilemma (in business, social media, school, etc.) echoing Henry Hill’s compromises.
+The Dinner Table: Illustrate a scene where truth simmers beneath polite conversation. Be descriptive in whatever creative way you like.
+ Challenge: Include a “voiceover” moment revealing a character’s hidden thoughts.**
 
 **Response:**  
-**[PLACEHOLDER – INSERT JOURNAL RESPONSE HERE]**
-
----
-
-#### 4. Wiseguy / *Goodfellas* Journal #2
-
-**Prompt:**  
-**[PLACEHOLDER – INSERT PROMPT TEXT HERE]**
-
-**Response:**  
-**[PLACEHOLDER – INSERT JOURNAL RESPONSE HERE]**
+**https://docs.google.com/document/d/1mlXqjirBYOKA0yUe209Vr0YzOjYrGCRh8Q3RJF77KYI/edit?usp=sharing**
 
 ---
 
@@ -145,42 +131,13 @@ This electronic portfolio presents the work completed over the course of the sem
 
 ### FINAL PROJECT OVERVIEW
 
-**[PLACEHOLDER – DESCRIBE YOUR FINAL PROJECT HERE]**
+**https://drive.google.com/file/d/1bRonzGhe8ieAzbs8UMAxTTwiA4To4suR/view**
 
 ---
 
-### PROJECT OF CHOICE  
-*(Supporting paragraph required)*
+### PROJECT OF CHOICE SUPPORTING PARAGRAPH
 
-**[PLACEHOLDER – WRITE SUPPORTING PARAGRAPH HERE]**
-
-> This paragraph should explain:
-> - Your creative or analytical choices  
-> - Why you selected specific visuals or formats  
-> - How the project connects to course concepts  
->  
-> If the project is electronic (e.g., podcast), include a link and a representative graphic.  
-> If it includes a physical component, include a scanned or photographed image.
+For my final project, I worked with Raaj and Hudson to create a podcast that analyzed the differences between a book and its film adaptation. Our goal was to compare how the movie interpreted the source material and identify what the film did better than the book, as well as how those changes affected the story overall.
 
 ---
 
-### PROJECT MEDIA
-
-**[PLACEHOLDER – UPLOAD OR LINK PROJECT FILES HERE]**
-
-> Ensure viewing permissions are enabled.
-
----
-
-## SUBMISSION CHECKLIST
-
-- [ ] Writer’s Bio (new writing)  
-- [ ] Author or Film Quote  
-- [ ] Writer’s Statement (new writing)  
-- [ ] Final Draft Essays (original and edited versions)  
-- [ ] Outline  
-- [ ] Four Journals with prompts included  
-- [ ] Final Project uploaded  
-- [ ] Supporting paragraph for Project of Choice  
-- [ ] Site published and permissions enabled  
-- [ ] Printed checklist submitted in class  
