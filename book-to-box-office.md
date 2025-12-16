@@ -39,7 +39,7 @@ Looking ahead, I plan to pursue Industrial Engineering in college, a field that 
 
 ---
 
-### IMAGES
+### Personal Photo
 
 **<img width="1080" height="1080" alt="image" src="https://github.com/user-attachments/assets/9cbc4592-eff1-4c02-8807-4b757d76232d" />**
 
