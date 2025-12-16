@@ -1,8 +1,11 @@
 # BOOK TO BOX OFFICE: FINAL PORTFOLIO
 
 **Name:** Daniel Lokas
+
 **Course:** Book to Box Office  
+
 **Platform:** Github
+
 **Due Date:** Thursday, December 18  
 
 ---
