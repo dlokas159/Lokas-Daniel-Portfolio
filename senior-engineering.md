@@ -11,6 +11,7 @@ Welcome — this is my Senior Engineering Portfolio. Below are the projects I’
 - [Daily Journal](engineering-files/dailyjournal.md)
 - [CNC](engineering-files/CNCfile.md)
 - [Topo](engineering-files/Topo.md)
+- [Final Project](engineering-files/Final-Project.md)
 
 
 
