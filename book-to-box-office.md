@@ -68,23 +68,23 @@ Overall, this course helped me grow as a writer and a more thoughtful viewer of 
 #### 1. Wiseguy / *Goodfellas*
 
 - **Original Final Draft**  
-  **https://docs.google.com/document/d/1C0oWQg6EgrULKxBoGghkEowJF_kA3Li-3doMYLbYUAg/edit?usp=sharing**
+  **[Original Final Draft](https://docs.google.com/document/d/1C0oWQg6EgrULKxBoGghkEowJF_kA3Li-3doMYLbYUAg/edit?usp=sharing)**
 
 - **Edited Final Draft(Edits have been bolded)**
-  **https://docs.google.com/document/d/1LK5LocTQNhWLY7A6ZqaKVXdnOkwXYyF8zAqw_wkrbnE/edit?usp=sharing**
+  **[Edited Final Draft](https://docs.google.com/document/d/1LK5LocTQNhWLY7A6ZqaKVXdnOkwXYyF8zAqw_wkrbnE/edit?usp=sharing)**
 
 ---
 
 #### 2. *The Princess Bride*
 
 - **Final Draft**  
-  **https://docs.google.com/document/d/1mD5chi8-_r93JE1S32DFSUUznNEtkhPpbj7yOclLL6A/edit?usp=sharing**
+  **[Final Draft](https://docs.google.com/document/d/1mD5chi8-_r93JE1S32DFSUUznNEtkhPpbj7yOclLL6A/edit?usp=sharing)**
 
 ---
 
 #### 3. *The Princess Bride* Outline
 
-**https://docs.google.com/document/d/1QDgOrfsL2P1J5ZirGm5h6skHxsjscc-2sNUvzKZ4aw8/edit?usp=sharing**
+**[Outline](https://docs.google.com/document/d/1QDgOrfsL2P1J5ZirGm5h6skHxsjscc-2sNUvzKZ4aw8/edit?usp=sharing)**
 
 ---
 
@@ -96,7 +96,7 @@ Overall, this course helped me grow as a writer and a more thoughtful viewer of 
 **Now that you have completed reading Goldman’s text and have a basic understanding of metafiction, consider how this device has influenced your reading of the story. Do you feel it drew you in, or did you find it distracting? Support your position with evidence from the text (provide at least three direct quotations with citations from different parts of the text, e.g., do not simply offer support from the first fifty pages of the novel). This is not an essay, so do not waste time on introductions, conclusions, etc. Feel free to jump into your discussion of the topic.**
 
 **Response:**  
-**https://docs.google.com/document/d/1aezVdufjuzrtyObJKEvsXTOrybF_fONzk-haV5pHako/edit?usp=sharing**
+**[Journal 1](https://docs.google.com/document/d/1aezVdufjuzrtyObJKEvsXTOrybF_fONzk-haV5pHako/edit?usp=sharing)**
 
 ---
 
@@ -111,7 +111,7 @@ What might be challenging or impossible to show on screen?
 Conclude with a prediction: what will the overall mood of the film be—more like an epic adventure, a parody, or a fairy-tale romance?**
 
 **Response:**  
-**https://docs.google.com/document/d/1im-iHXo9a6Yzm6cOc6juAxnMlfSYVne3xVGGYTOa8EM/edit?usp=sharing**
+**[Journal 2](https://docs.google.com/document/d/1im-iHXo9a6Yzm6cOc6juAxnMlfSYVne3xVGGYTOa8EM/edit?usp=sharing)**
 
 ---
 
@@ -126,7 +126,7 @@ The Dinner Table: Illustrate a scene where truth simmers beneath polite conversa
  Challenge: Include a “voiceover” moment revealing a character’s hidden thoughts.**
 
 **Response:**  
-**https://docs.google.com/document/d/1mlXqjirBYOKA0yUe209Vr0YzOjYrGCRh8Q3RJF77KYI/edit?usp=sharing**
+**[Creative Writing](https://docs.google.com/document/d/1mlXqjirBYOKA0yUe209Vr0YzOjYrGCRh8Q3RJF77KYI/edit?usp=sharing)**
 
 ---
 
@@ -134,7 +134,7 @@ The Dinner Table: Illustrate a scene where truth simmers beneath polite conversa
 
 ### FINAL PROJECT OVERVIEW
 
-**https://drive.google.com/file/d/1bRonzGhe8ieAzbs8UMAxTTwiA4To4suR/view**
+**[Final Project Link](https://drive.google.com/file/d/1bRonzGhe8ieAzbs8UMAxTTwiA4To4suR/view)**
 
 ---
 
