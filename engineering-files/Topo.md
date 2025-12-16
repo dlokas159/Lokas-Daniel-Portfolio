@@ -10,8 +10,10 @@ The final piece was machined from wood and highlights the elevation contours and
 
 ## Photos / Videos
 
-https://mail.google.com/mail/u/0?ui=2&ik=5f8a137b04&attid=0.1&permmsgid=msg-a:r-1741134537228181293&th=19b2990aa63b4651&view=att&disp=safe&realattid=AC79B70C-1670-4EAD-90C5-8B852FF6EC0E&zw
-https://mail.google.com/mail/u/0?ui=2&ik=5f8a137b04&attid=0.2&permmsgid=msg-a:r-1741134537228181293&th=19b2990aa63b4651&view=att&disp=safe&realattid=835C881A-AF73-47A7-99FD-A397FED556B3&zw
+![IMG_2418](https://github.com/user-attachments/assets/f5b2d8ac-e80f-4a74-b74d-01ab7ef54dc2)
+
+https://github.com/user-attachments/assets/053faa4e-982c-4b83-8be0-fb1a95b9b857
+
 
 ---
 
