@@ -7,3 +7,4 @@ future, I hope to become a Mechanical Engineer and use those skills to create a 
 ## Portfolio Navigation
 - [AP Networking](ap-networking.md)
 - [Honors Senior Engineering](senior-engineering.md)
+- [Book to Box Office](book-to-box-office.md)
