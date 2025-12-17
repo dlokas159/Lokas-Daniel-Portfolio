@@ -274,3 +274,245 @@ Reference:
 - Scenario patterns  
 - How normal LAN behavior can hide malicious activity  
 
+# Hands-On Lab — Observing ARP Requests and Replies (Bridged Mode)
+
+## Required Network Configuration (DO NOT SKIP)
+
+- **VM #1 (Ubuntu Desktop):** Bridged  
+- **VM #2 (Linux Server):** Bridged  
+
+Both VMs must be bridged to the **same physical network adapter**.  
+If the VMs are not bridged, ARP replies may not occur.
+
+---
+
+## STEP 1 — Identify Network Information on VM #2 (Linux Server)
+
+You must first determine the target information from VM #2.
+
+On VM #2, open a terminal and run:
+bash
+ip addr
+ip route
+Record the following from VM #2:
+
+The interface name that has an IPv4 address
+
+Examples: enp0s1, ens33, eth0
+
+The IPv4 address of VM #2
+
+The default gateway
+
+You will use VM #2’s IP address as the ARP target.
+
+## STEP 2 — Start ARP Packet Capture on VM #2
+
+On VM #2, start listening for ARP traffic
+
+sudo tcpdump -i <interface> arp
+
+sudo tcpdump -i enp0s1 arp
+Important Rules (READ CAREFULLY)
+
+Replace <interface> with your actual interface name
+
+Do NOT include IP addresses in this command
+
+arp is the only filter you should use
+
+If the command is correct, you will see:
+listening on enp0s1, link-type EN10MB (Ethernet)
+
+## STEP 3 — Generate ARP Requests from VM #1 (Ubuntu Desktop)
+
+Switch to VM #1.
+
+Run the following command, targeting the IP address of VM #2:
+sudo arping -c 5 -I <interface> <VM2-IP-address>
+Example: 
+sudo arping -c 5 -I ens33 172.16.110.132
+
+What This Does
+
+VM #1 broadcasts ARP requests asking:
+“Who has <VM #2 IP>?”
+
+VM #2 responds with its MAC address
+
+What You SHOULD See
+On VM #1 (arping)
+
+ARP request messages
+
+ARP reply messages
+
+MAC address of VM #2
+
+Final statistics showing packets transmitted and received
+
+On VM #2 (tcpdump)
+
+ARP requests arriving from VM #1
+
+ARP replies sent back to VM #1
+
+IP-to-MAC associations displayed
+
+Typical output may look like:
+
+ARP, Request who-has 172.16.110.132 tell 172.16.110.101
+ARP, Reply 172.16.110.132 is-at aa:bb:cc:dd:ee:ff
+
+If You See an Error Message
+
+Error:
+
+tcpdump: can't parse filter expression: syntax error
+
+
+Cause:
+
+You included an IP address in the tcpdump command
+
+You typed placeholder brackets < >
+
+Fix:
+
+Use only:
+
+sudo tcpdump -i <interface> arp
+
+What You Must DOCUMENT (Digital Portfolio)
+
+Include screenshots showing:
+
+ip addr and ip route on VM #2
+
+arping output on VM #1
+
+tcpdump output on VM #2
+
+Written Analysis (Required)
+
+Write a well-developed paragraph answering the following:
+
+What information does ARP reveal about devices on a LAN?
+
+Why does ARP assume devices are trustworthy?
+
+How does this make ARP vulnerable to spoofing?
+
+Why was Bridged mode required for this lab to work?
+
+Your response should clearly reference evidence from the commands you ran.
+
+In-Class “Mini-Project” — Visualizing an Internal LAN Attack
+
+You will create a clean, neatly constructed diagram illustrating how an internal LAN attack can occur when no security controls are in place. This assignment helps visualize the flow of information during an attack and demonstrates your understanding of how LAN vulnerabilities are exploited.
+
+You may complete your diagram digitally (using a diagram-making site) or by hand (uploading a clear photo or screenshot). If drawn by hand, it must be neat, labeled, and easy to read.
+
+Approved Diagram Tools (Choose One)
+
+Google Drawings
+
+Lucidchart
+
+Canva
+
+Figma
+
+Diagrams.net (formerly draw.io)
+
+Microsoft PowerPoint or Google Slides
+
+Your final diagram must be exported as a screenshot and uploaded to your digital portfolio.
+
+What Your Diagram Must Include
+1. Devices Involved
+
+VM #1 (Workstation)
+
+VM #2 (Server-like device)
+
+Switch
+
+Default gateway or router
+
+2. One Internal LAN Threat (Choose One)
+
+ARP Spoofing
+
+MAC Flooding
+
+Rogue DHCP Server
+
+Unauthorized Plug-In Device
+
+Lateral Movement
+
+3. Sequence of Events
+
+Use arrows or numbered steps (3–5 steps minimum) to show:
+
+What the attacker sends
+
+How the switch responds
+
+How victim devices are affected
+
+Where the LAN’s trust assumptions fail
+
+4. Annotations
+
+Label each major component
+
+Add brief, clear explanations
+
+The diagram should make sense to someone who did not complete the lab
+
+Digital Portfolio Requirements
+
+Create a section titled “LAN Attack Path Diagram (Homework)” and include:
+
+Your completed diagram
+Upload the image, PDF, or photo.
+
+A thorough explanation addressing:
+
+Why this attack succeeds when no internal security controls are present
+
+Which security control introduced in today’s reading would stop this attack
+
+How that control prevents the attack from progressing
+
+Your explanation should connect directly to concepts from today’s reading:
+
+Port Security
+
+VLAN Segmentation
+
+DHCP Snooping
+
+Dynamic ARP Inspection (DAI)
+
+Access Control Lists (ACLs)
+
+Expectations
+
+The diagram must be:
+
+Neatly organized
+
+Clearly labeled
+
+Visually understandable
+
+Fully uploaded to your digital portfolio
+
+
+If you want, I can also:
+- Strip the horizontal rules (`---`) entirely
+- Reformat headings to match a specific LMS (Canvas / GitHub / Obsidian)
+- Add a **title block** with course name, lab number, and student info placeholders
