@@ -19,26 +19,105 @@ https://github.com/user-attachments/assets/053faa4e-982c-4b83-8be0-fb1a95b9b857
 
 ## Workflow
 
-### 1. Data Acquisition
-- Source topographic elevation data for Beirut, Lebanon  
-- Convert elevation data into a usable heightmap  
-- Normalize elevation ranges for CNC machining depth  
+#### 1. Terrain Generation (Terrain2STL)
 
-<!-- TODO: Add data source links (e.g., USGS, OpenTopoMap, etc.) -->
+Navigate to https://jthatch.com/Terrain2STL/
 
----
+Pan and center the map on the target location (Beirut, Lebanon)
 
-### 2. Design & Toolpath Setup (Vectric Aspire)
+Define the model area using the red selection box:
 
-- Imported the heightmap into **Vectric Aspire**
-- Scaled the model to fit stock dimensions
-- Defined material thickness and zero position
-- Generated:
-  - Roughing toolpath
-  - Finishing toolpath
+Move, resize, and rotate as needed
 
-<!-- TODO: Insert screenshots of Aspire setup -->
-![Aspire Setup Screenshot](./images/aspire_setup.jpg)
+Adjust terrain settings:
+
+Vertical Scale (Z-scale): Controls elevation exaggeration
+
+Water Drop: Lowers water bodies to emphasize coastlines
+
+Base Height: Adds a solid base under the terrain
+
+Generate and download the terrain model as an STL (.zip) file
+
+#### 2. Job Setup & STL Import (Aspire – CAD)
+
+Create a new Aspire file
+
+Set job type to Single-Sided
+
+Define stock dimensions (X, Y, Z) to match material
+
+Set zero:
+
+Z-zero: Material surface (top)
+
+XY datum: Bottom-left
+
+Import the STL and orient it:
+
+Orientation: Top
+
+Scale model to fit stock (Z height ≤ material thickness)
+
+Center the model in the workspace
+
+Position the model relative to the cutting plane to preserve relief and base thickness
+
+#### 3. Component Scaling & Positioning
+
+Adjust Shape Height to enhance vertical relief
+
+Set Base Height to raise the model closer to the top of stock
+
+Center the component in the material
+
+Draw a rectangular boundary matching final stock size (used for machining limits and profiling)
+
+#### 4. 3D Toolpath Creation (CAM)
+
+Roughing Pass
+
+Tool: ⅛" flat end mill (ATC Tool #1)
+
+Strategy: Z-Level or Raster
+
+Boundary: Model boundary
+
+Leave a small machining allowance for finishing
+
+Finishing Pass
+
+Tool: ⅛" ball nose (ATC Tool #6)
+
+Strategy: Raster or Offset
+
+Boundary: Model boundary
+
+Generates final surface detail
+
+#### 5. 2D Profile Toolpath
+
+Select the rectangular boundary
+
+Tool: ⅛" flat end mill
+
+Cut depth set to release the part from stock
+
+Climb cutting, no tabs required
+
+#### 6. Simulation & Export
+
+Preview all toolpaths together to verify accuracy and detail
+
+Check for missed areas or collisions
+
+Review machining time via Toolpath Summary
+
+Save the Aspire project file (.crv3d)
+
+Export combined toolpaths using the Carvera ATC post-processor
+
+Output a single CNC file that runs roughing, finishing, and profiling sequentially
 
 ---
 
@@ -73,18 +152,14 @@ Once both the software and machine referenced the **same anchor point**, the too
 
 ## Files Included
 
-### Design Files
-- `Beirut_Topography.asp`
-<!-- TODO: Confirm final Aspire file name -->
+### Design File (ASPIRE)
+- 
 
-### CNC Toolpaths
-- `beirut_roughing.nc`
-- `beirut_finishing.nc`
-<!-- TODO: Confirm toolpath filenames and formats -->
 
-### Additional Assets
-- Heightmap source file: **[FILE NAME]**
-- Reference images: **[OPTIONAL]**
+### CNC Toolpath
+- 
+
+
 
 ---
 
