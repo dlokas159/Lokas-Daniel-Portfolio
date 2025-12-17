@@ -115,7 +115,7 @@ Conclude with a prediction: what will the overall mood of the film be—more lik
 
 ---
 
-#### 3. Wiseguy / *Goodfellas* Creative Writing
+#### 3. Wiseguy / *Goodfellas* Journals 1 and 2
 
 **Prompt:**  
 **2. Screenplay or One-Act Scene (600-650 words)
