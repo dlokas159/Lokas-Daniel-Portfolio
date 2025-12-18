@@ -89,6 +89,18 @@ Description: Mr. Dubick showed us how to setup our Jekyll pages.
 
 ---
 
+# CNC Topography Project — Journal Entries
+
+- **11-20-2025**  
+  Finalized Aspire toolpaths for the CNC topography project.  
+  Updated documentation to better explain the CNC milling workflow and corrected gaps in earlier entries.
+
+- **12-11-2025**  
+  Ran the CNC job to machine the topography file.  
+  Identified potential issues with cutting depth and vacuum shoe clearance, and adjusted the vacuum shoe height with assistance from Dr. Taylor, allowing the cut to proceed without interference.
+
+---
+
 # Capstone Project: Robotic Arm Cup Holder for Pearl Rehab Center
 
 ### Project Name: "Adaptive Arm-Based Beverage Delivery System"
@@ -100,17 +112,75 @@ In collaboration with Pearl Rehab Center, I began designing an assistive device 
 ### Bill of Materials
 ![Screenshot](Screenshot.png)
 
-### Timeline:
+### Daily Journal:
 
-9-18-2025: Committed to working with Pearl Rehab and started research on the types of assistive technologies already available.
+- **9-18-2025**  
+  Committed to working with Pearl Rehab Center and began research into existing assistive technologies.
 
-10-1-2025: Researched various cup holder mechanisms and mounting systems.
+- **10-1-2025**  
+  Researched cup holder mechanisms and mounting systems.  
+  Evaluated servo motor options for the robotic arm.  
+  Collaborated with Aaron to define design requirements and produced an initial system sketch.
 
-10-6-2025: Researched different motors (servo) for the arm.
+- **10-8-2025**  
+  Refined overall project concept and clarified system goals.  
+  Began planning the mechanical arm structure and self-balancing cup holder approach.
 
-10-9-2025: Worked with Aaron to finalize design specifications and created the initial sketch for the robotic arm system.
+- **10-15-2025**  
+  Began preliminary CAD planning for robotic arm components.  
+  Considered joint layout, range of motion, and modular design for 3D printing.
 
-10-10-2025: Practiced using all three laser cutters. Also 3D printed a sample car model to test printer functionality.
+- **10-22-2025**  
+  Planned Arduino control approach and basic servo wiring layout.  
+  Researched motion control strategies and safety considerations.
+
+- **10-29-2025**  
+  Prepared for initial prototyping and identified required materials and print settings.  
+  Reviewed design assumptions and noted areas for iteration.
+
+- **11-6-2025**  
+  Reviewed project requirements and accessibility goals for users with limited mobility.  
+  Refined ideas for how the robotic arm would approach and deliver a cup safely.
+
+- **11-7-2025**  
+  Continued research on self-balancing cup holder mechanisms.  
+  Looked into passive vs. active stabilization approaches.
+
+- **11-8-2025**  
+  Sketched alternative cup holder and arm joint concepts.  
+  Considered how center of gravity affects spill prevention.
+
+- **11-13-2025**  
+  Began outlining the mechanical structure of the robotic arm.  
+  Considered joint count, arm reach, and mounting options.
+
+- **11-14-2025**  
+  Researched Arduino-compatible servo control methods.  
+  Reviewed example Arduino servo projects for reference.
+
+- **11-18-2025**  
+  Compared different servo motor torque ratings and sizes.  
+  Evaluated tradeoffs between strength, precision, and cost.
+
+- **12-8-2025**  
+  Reviewed overall system design and identified components needing further refinement.  
+  Updated project documentation to reflect current progress.
+
+- **12-10-2025**  
+  Planned next steps for CAD modeling and prototyping.  
+  Organized research notes and reference materials.
+
+- **12-11-2025**  
+  Continued refining design ideas for the self-balancing cup holder.  
+  Considered how the cup holder will interface with the arm.
+
+- **12-14-2025**  
+  Reviewed safety considerations related to user interaction and motion limits.  
+  Noted potential improvements to reduce spill risk.
+
+- **12-16-2025**  
+  Prepared for upcoming fabrication and electronics work.  
+  Finalized short-term goals for continuing development of the project.
 
 ---
 
