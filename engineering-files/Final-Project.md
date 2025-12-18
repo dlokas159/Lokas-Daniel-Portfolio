@@ -129,7 +129,7 @@ This section will include:
 - Key design decisions and reasoning
 - Challenges encountered during prototyping
 
-**Journal Entries for Final Project:**  
+## Journal Entries for Final Project:
 - **9-18-2025**  
   Committed to working with Pearl Rehab Center and began research into existing assistive technologies.
 
