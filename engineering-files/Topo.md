@@ -16,108 +16,164 @@ https://github.com/user-attachments/assets/053faa4e-982c-4b83-8be0-fb1a95b9b857
 
 
 ---
+## Workflows
 
-## Workflow
+---
 
-#### 1. Terrain Generation (Terrain2STL)
+## CNC Topography Workflow
 
-Navigate to https://jthatch.com/Terrain2STL/
+### 1. Terrain Generation (Terrain2STL)
 
-Pan and center the map on the target location (Beirut, Lebanon)
+- Navigate to https://jthatch.com/Terrain2STL/
+- Pan and center the map on the target location (Beirut, Lebanon)
+- Define the model area using the red selection box:
+  - Move, resize, and rotate the box as needed
+- Adjust terrain settings:
+  - **Vertical Scale (Z-scale):** Controls elevation exaggeration
+  - **Water Drop:** Lowers water bodies to emphasize coastlines
+  - **Base Height:** Adds a solid base beneath the terrain
+- Generate and download the terrain model as an **STL (.zip)** file
 
-Define the model area using the red selection box:
+---
 
-Move, resize, and rotate as needed
+### 2. Job Setup & STL Import (Aspire – CAD)
 
-Adjust terrain settings:
+- Create a new Aspire file
+- Set job type to **Single-Sided**
+- Define stock dimensions (X, Y, Z) to match the material
+- Set zero positions:
+  - **Z-zero:** Material surface (top)
+  - **XY datum:** Bottom-left
+- Import the STL file and orient it:
+  - Orientation: **Top**
+  - Scale the model to fit the stock (Z height ≤ material thickness)
+  - Center the model in the workspace
+- Position the model relative to the cutting plane to preserve relief and base thickness
 
-Vertical Scale (Z-scale): Controls elevation exaggeration
+---
 
-Water Drop: Lowers water bodies to emphasize coastlines
+### 3. Component Scaling & Positioning
 
-Base Height: Adds a solid base under the terrain
+- Adjust **Shape Height** to enhance vertical relief
+- Set **Base Height** to raise the model closer to the top of the stock
+- Center the component within the material
+- Draw a rectangular boundary matching the final stock size  
+  *(Used for machining limits and profiling)*
 
-Generate and download the terrain model as an STL (.zip) file
+---
 
-#### 2. Job Setup & STL Import (Aspire – CAD)
+### 4. 3D Toolpath Creation (CAM)
 
-Create a new Aspire file
+#### Roughing Pass
+- Tool: **⅛" flat end mill** (ATC Tool #1)
+- Strategy: **Z-Level** or **Raster**
+- Boundary: **Model boundary**
+- Leave a small machining allowance for finishing
 
-Set job type to Single-Sided
+#### Finishing Pass
+- Tool: **⅛" ball nose** (ATC Tool #6)
+- Strategy: **Raster** or **Offset**
+- Boundary: **Model boundary**
+- Used to generate final surface detail
 
-Define stock dimensions (X, Y, Z) to match material
+---
 
-Set zero:
+### 5. 2D Profile Toolpath
 
-Z-zero: Material surface (top)
+- Select the rectangular boundary
+- Tool: **⅛" flat end mill**
+- Set cut depth to release the part from the stock
+- Use **climb cutting**
+- Tabs not required
 
-XY datum: Bottom-left
+---
 
-Import the STL and orient it:
+### 6. Simulation & Export
 
-Orientation: Top
+- Preview all toolpaths together to verify accuracy and detail
+- Check for missed areas or collisions
+- Review machining time via **Toolpath Summary**
+- Save the Aspire project file (**.crv3d**)
+- Export combined toolpaths using the **Carvera ATC post-processor**
+- Output a single CNC file that runs roughing, finishing, and profiling sequentially
 
-Scale model to fit stock (Z height ≤ material thickness)
+---
 
-Center the model in the workspace
+## PCB Toolpath & Milling Workflow
 
-Position the model relative to the cutting plane to preserve relief and base thickness
+### Key Notes
 
-#### 3. Component Scaling & Positioning
+- **0.8 mm corn flat-end bit:** Used to remove bulk material
+- **0.2 mm × 30° engraving bit:** Used to cut copper traces
+- The Makera milling machine uses **clamps** (not adhesive), so **tabs are required**
+- Toolpath usage:
+  - **2D Pocket:** Copper traces
+  - **2D Contour:** Board edge cuts
+  - **2D Drilling:** Drill holes
 
-Adjust Shape Height to enhance vertical relief
+---
 
-Set Base Height to raise the model closer to the top of stock
+### PCB Toolpath Workflow (MakeraCAM)
 
-Center the component in the material
+1. Open **MakeraCAM**
+2. Select **3-AXIS**
+3. Edit stock settings:
+   - Material: **PCB**
+   - Length (X): **127 mm**
+   - Width (Y): **101 mm**
+   - Height (Z): **1.7 mm** (FR4 thickness)
+4. Import all Gerber files using **Import PCB**
+5. Reposition Gerbers:
+   - Select all 2D layers
+   - Use **Adjust Object → Transform → Move**
+   - Set anchor point to **Bottom Left**
+   - Set X and Y to **6 mm**
+6. Toggle visibility:
+   - Enable only **F_Cu** and **Edge_cuts**
+7. Create copper trace toolpath:
+   - Select **2D Path → 2D Pocket**
+   - End depth: **0.05 mm**
+   - Tools:
+     - 0.8 mm corn tool
+     - 0.2 mm × 30° engraving tool
+   - Material: **PCB**
+   - Click **Calculate**
+8. Drill holes (if applicable):
+   - Toggle visibility for drill files
+   - Select **2D Drilling**
+   - Drill tip end depth: **1.7 mm**
+   - Tool: **0.8 mm corn tool**
+   - Click **Calculate**
+9. Edge cuts:
+   - Toggle visibility to show only **Edge_cuts**
+   - Select inner outline
+   - Choose **2D Contour**
+   - End depth: **1.7 mm**
+   - Tool: **0.8 mm corn tool**
+   - Strategy: **Outside**
+   - Tabs: **Custom**, add ~3 staggered tabs
+   - Click **Calculate**
+10. Preview all toolpaths
+11. Export toolpaths:
+    - Select all toolpaths
+    - Rename file using: `LastName_FirstInitial_ProjectName_gcode.nc`
 
-Draw a rectangular boundary matching final stock size (used for machining limits and profiling)
+---
 
-#### 4. 3D Toolpath Creation (CAM)
+### PCB Milling on Carvera Controller
 
-Roughing Pass
+1. Open **Carvera Controller**
+2. Connect to the correct **COM port**
+3. Switch to manual control interface and press **Home**
+4. Verify probe voltage is **≥ 3.6V**
+5. Load the G-code file
+6. Preview toolpaths in file preview mode
+7. Select **Config and Run**
+   - Enable **Auto Vacuum**
+   - Enable **Auto Leveling**
+8. Click **Run** to begin milling
 
-Tool: ⅛" flat end mill (ATC Tool #1)
 
-Strategy: Z-Level or Raster
-
-Boundary: Model boundary
-
-Leave a small machining allowance for finishing
-
-Finishing Pass
-
-Tool: ⅛" ball nose (ATC Tool #6)
-
-Strategy: Raster or Offset
-
-Boundary: Model boundary
-
-Generates final surface detail
-
-#### 5. 2D Profile Toolpath
-
-Select the rectangular boundary
-
-Tool: ⅛" flat end mill
-
-Cut depth set to release the part from stock
-
-Climb cutting, no tabs required
-
-#### 6. Simulation & Export
-
-Preview all toolpaths together to verify accuracy and detail
-
-Check for missed areas or collisions
-
-Review machining time via Toolpath Summary
-
-Save the Aspire project file (.crv3d)
-
-Export combined toolpaths using the Carvera ATC post-processor
-
-Output a single CNC file that runs roughing, finishing, and profiling sequentially
 
 ---
 
