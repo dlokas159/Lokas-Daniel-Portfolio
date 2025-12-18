@@ -122,14 +122,14 @@ N/A bc I am a coder
 
 ---
 
-## Documentation of Learning (Ongoing)
+## Documentation of Learning 
 
 This section will include:
 - Journal entries
 - Key design decisions and reasoning
 - Challenges encountered during prototyping
 
-**Journal Entries Placeholder:**  
+**Journal Entries for Final Project:**  
 - **9-18-2025**  
   Committed to working with Pearl Rehab Center and began research into existing assistive technologies.
 
@@ -154,11 +154,53 @@ This section will include:
   Prepared for initial prototyping and identified required materials and print settings.  
   Reviewed design assumptions and noted areas for iteration.
 
-  
+- **11-6-2025**  
+  Reviewed project requirements and accessibility goals for users with limited mobility.  
+  Refined ideas for how the robotic arm would approach and deliver a cup safely.
+
+- **11-7-2025**  
+  Continued research on self-balancing cup holder mechanisms.  
+  Looked into passive vs. active stabilization approaches.
+
+- **11-8-2025**  
+  Sketched alternative cup holder and arm joint concepts.  
+  Considered how center of gravity affects spill prevention.
+
+- **11-13-2025**  
+  Began outlining the mechanical structure of the robotic arm.  
+  Considered joint count, arm reach, and mounting options.
+
+- **11-14-2025**  
+  Researched Arduino-compatible servo control methods.  
+  Reviewed example Arduino servo projects for reference.
+
+- **11-18-2025**  
+  Compared different servo motor torque ratings and sizes.  
+  Evaluated tradeoffs between strength, precision, and cost.
+
+- **12-8-2025**  
+  Reviewed overall system design and identified components needing further refinement.  
+  Updated project documentation to reflect current progress.
+
+- **12-10-2025**  
+  Planned next steps for CAD modeling and prototyping.  
+  Organized research notes and reference materials.
+
+- **12-11-2025**  
+  Continued refining design ideas for the self-balancing cup holder.  
+  Considered how the cup holder will interface with the arm.
+
+- **12-14-2025**  
+  Reviewed safety considerations related to user interaction and motion limits.  
+  Noted potential improvements to reduce spill risk.
+
+- **12-16-2025**  
+  Prepared for upcoming fabrication and electronics work.  
+  Finalized short-term goals for continuing development of the project.
 
 ---
 
-## Current Challenges (Early Stage)
+## Current Challenges 
 
 - Balancing strength vs. smooth motion
 - Designing a reliable self-balancing cup mechanism
