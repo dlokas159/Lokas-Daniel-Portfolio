@@ -8,7 +8,7 @@
 This project is currently under active development. Design, prototyping, and testing are ongoing, and no final hardware or software implementation has been completed yet.
 
 ### Design Spec Sheet
-![Link](https://docs.google.com/document/d/1RlveuHIZWM5QWMhkt3ebb2Dl6V2vLC_BaKYv-PvAG7E/edit?usp=sharing)
+[Link](https://docs.google.com/document/d/1RlveuHIZWM5QWMhkt3ebb2Dl6V2vLC_BaKYv-PvAG7E/edit?usp=sharing)
 
 ---
 
