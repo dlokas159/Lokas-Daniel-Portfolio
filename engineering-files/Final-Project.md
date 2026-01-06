@@ -105,11 +105,15 @@ Key design considerations include:
 
 - Arduino source code: [code](https://docs.google.com/document/d/1JzSWEezLwWs6ETRjX4n0eiQ5AaLUB9aJAykjetHIvts/edit?usp=sharing)
 - STL files for 3D printing: [print](https://drive.google.com/file/d/18iG6IoLDqeNWONsQEqfif6LjOAfSxby3/view?usp=sharing)
+
+
 **First 3D printed gyro cup model**
   <img width="792" height="652" alt="Screenshot 2025-12-19 at 3 43 05 PM" src="https://github.com/user-attachments/assets/6c588462-365a-4e63-a908-00b46d773c70" />
 
+
 **Failed Model**
 <img width="933" height="705" alt="Screenshot 2025-12-19 at 3 41 50 PM" src="https://github.com/user-attachments/assets/886b3453-45d4-4e01-8b4c-47af7907c736" />
+
 
 **3D print file photo**
 <img width="666" height="571" alt="Screenshot 2026-01-05 at 6 22 50 PM" src="https://github.com/user-attachments/assets/334d9de8-774f-4d5e-abd9-c8d3ce7c96db" />
