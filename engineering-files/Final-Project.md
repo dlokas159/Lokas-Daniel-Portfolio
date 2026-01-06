@@ -181,8 +181,9 @@ This section will include:
   Reviewed example Arduino servo projects for reference.
 
 - **11-18-2025**  
-  Compared different servo motor torque ratings and sizes.  
-  Evaluated tradeoffs between strength, precision, and cost.
+  Aaron and I researched different servo motors to see which ones would work best for the robotic arm. We looked at torque ratings, sizes, and cost, and compared small micro servos to larger metal-gear servos. The smaller servos were too weak to safely hold a cup, especially when the arm is extended. The larger, very high-torque servos seemed unnecessary and could move too aggressively near a user.
+
+From this research, we decided that a medium-torque servo would be the best option for prototyping because it provides enough strength while still allowing smoother, safer movement. This helped guide the direction of the arm design moving forward.
 
 - **12-8-2025**  
   Reviewed overall system design and identified components needing further refinement.  
@@ -193,25 +194,31 @@ This section will include:
   Organized research notes and reference materials.
 
 - **12-11-2025**  
-  Continued refining design ideas for the self-balancing cup holder.  
-  Considered how the cup holder will interface with the arm.
+  I tried printing the self-balancing cup holder multiple times. Two of the prints failed completely, and one only printed about halfway before stopping. These failures showed that the design had weak areas, thin walls, and was difficult to print in its current orientation.
+
+Based on this, I realized the design needs to be simplified and reinforced. I plan to redesign the cup holder with thicker walls and better support so it can print more reliably and be strong enough for real use.
 
 - **12-14-2025**  
-  Reviewed safety considerations related to user interaction and motion limits.  
-  Noted potential improvements to reduce spill risk.
+  I spent time thinking about safety since the arm will be operating close to a person’s face and upper body. Fast or unpredictable movement could cause spills or discomfort. Because of this, I decided that smooth and slow motion is more important than speed or reach.
 
-- **12-16-2025**  
-  Prepared for upcoming fabrication and electronics work.  
-  Finalized short-term goals for continuing development of the project.
+This will affect how the arm is programmed and how far it is allowed to move.
+
 
 ---
 
 ## Current Challenges 
+1. Strength vs. Smooth Motion
 
-- Balancing strength vs. smooth motion
-- Designing a reliable self-balancing cup mechanism
-- Ensuring user safety
-- Keeping the system affordable and maintainable
+The robotic arm must be strong enough to hold a filled cup while moving smoothly and safely. Higher-torque servos improve strength but can cause quick movement if not controlled. 
+
+2. Self-Balancing Cup Holder Fabrication
+
+The self-balancing cup holder has been hard to manufacture. It was printed two times: one prints failed completely, and one print completed only partially. These failures revealed issues with print orientation and thin structural sections. We fixed the model by changing the thickness of the rim. 
+
+3. User Safety and Stability
+
+Because the system operates near the user, safety is critical. Mechanical motion limits and software constraints will be used to control speed and range of motion. We are going to make a stable mounting system to prevent tipping or unintended movement.
+
 
 ---
 
