@@ -135,8 +135,7 @@ This section will include:
   <img width="792" height="652" alt="Screenshot 2025-12-19 at 3 43 05 PM" src="https://github.com/user-attachments/assets/6c588462-365a-4e63-a908-00b46d773c70" />****
 
 - **10-8-2025**  
-  Refined overall project concept and clarified system goals.  
-  Began planning the mechanical arm structure and self-balancing cup holder approach.
+  Me and Aaron did research on the different servos and were deciding if we should use the smaller SG90 9g Micro Servos because we are changing the arm to not have fingers. 
 
 - **10-15-2025**  
   I started planning the mechanical structure of the robotic arm, including how many joints it should have and how much reach it needs. I considered how joint placement affects strength and stability, especially when holding a full cup.
@@ -145,8 +144,7 @@ This section will include:
   I researched how Arduino boards control servo motors and looked at example projects to understand basic wiring and programming. I learned how servo angles are controlled and how movement speed can be adjusted through code.
 
 - **10-29-2025**  
-  Prepared for initial prototyping and identified required materials and print settings.  
-  Reviewed design assumptions and noted areas for iteration.
+  After completing research on the servos needed we modified the bill of materials to accurately reflect how we needed 2 9g micro servos instead of the original 4 because we will not have fingers on the arm. 
 
 - **11-6-2025**  
   Reviewed project requirements and accessibility goals for users with limited mobility.  
@@ -157,17 +155,14 @@ This section will include:
   <img width="933" height="705" alt="Screenshot 2025-12-19 at 3 41 50 PM" src="https://github.com/user-attachments/assets/886b3453-45d4-4e01-8b4c-47af7907c736" />
 
 - **11-8-2025**  
-  Sketched alternative cup holder and arm joint concepts.  
-  Considered how center of gravity affects spill prevention.
+  Sketched alternative cup holder and arm joint concepts. Considered how center of gravity affects spill prevention. Also tested the cup holder by attaching it to a wooden piece and filling a cup with water. 
 
 - **11-13-2025**  
   I continued planning the arm structure and thought more carefully about joint count and arm reach. I realized that adding too many joints would make the system harder to control and less reliable. Also finalized the cup holder mechanism and here is a photo of the file.
   <img width="666" height="571" alt="Screenshot 2026-01-05 at 6 22 50 PM" src="https://github.com/user-attachments/assets/334d9de8-774f-4d5e-abd9-c8d3ce7c96db" />
 
 - **11-14-2025**  
-  I looked deeper into how servo motors are controlled with Arduino, including how speed and smoothness can be adjusted in code. I also reviewed common servo issues like jitter and overloading.
-
-This helped prepare me for choosing the right servos and programming safer motion later.
+  I looked deeper into how servo motors are controlled with Arduino, including how speed and smoothness can be adjusted in code. I also reviewed common servo issues like jitter and overloading. This helped prepare me for choosing the right servos and programming safer motion later.
 
 - **11-18-2025**  
   Aaron and I researched different servo motors to see which ones would work best for the robotic arm. We looked at torque ratings, sizes, and cost, and compared small micro servos to larger metal-gear servos. The smaller servos were too weak to safely hold a cup, especially when the arm is extended. The larger, very high-torque servos seemed unnecessary and could move too aggressively near a user.
@@ -175,12 +170,7 @@ This helped prepare me for choosing the right servos and programming safer motio
 From this research, we decided that a medium-torque servo would be the best option for prototyping because it provides enough strength while still allowing smoother, safer movement. This helped guide the direction of the arm design moving forward.
 
 - **12-8-2025**  
-  Reviewed overall system design and identified components needing further refinement.  
-  Updated project documentation to reflect current progress.
-
-- **12-10-2025**  
-  Planned next steps for CAD modeling and prototyping.  
-  Organized research notes and reference materials.
+  Reviewed overall system design and identified components needing further refinement. Also updated my project documentation with the problems for the printing of the cup holder and the new servo decisions
 
 - **12-11-2025**  
   I tried printing the self-balancing cup holder multiple times. Two of the prints failed completely, and one only printed about halfway before stopping. These failures showed that the design had weak areas, thin walls, and was difficult to print in its current orientation.
