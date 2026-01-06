@@ -140,21 +140,17 @@ This section will include:
   Committed to working with Pearl Rehab Center and began research into existing assistive technologies.
 
 - **10-1-2025**  
-  Researched cup holder mechanisms and mounting systems.  
-  Evaluated servo motor options for the robotic arm.  
-  Collaborated with Aaron to define design requirements and produced an initial system sketch.
+  I researched different assistive technology projects and focused on ideas that could realistically help people with limited mobility. I specifically looked at cup holders and robotic arm systems to understand how they work and what problems they solve. I also started thinking about how this project could be designed for real use at Pearl Rehab Center instead of just as a demonstration.
 
 - **10-8-2025**  
   Refined overall project concept and clarified system goals.  
   Began planning the mechanical arm structure and self-balancing cup holder approach.
 
 - **10-15-2025**  
-  Began preliminary CAD planning for robotic arm components.  
-  Considered joint layout, range of motion, and modular design for 3D printing.
+  I started planning the mechanical structure of the robotic arm, including how many joints it should have and how much reach it needs. I considered how joint placement affects strength and stability, especially when holding a full cup.
 
 - **10-22-2025**  
-  Planned Arduino control approach and basic servo wiring layout.  
-  Researched motion control strategies and safety considerations.
+  I researched how Arduino boards control servo motors and looked at example projects to understand basic wiring and programming. I learned how servo angles are controlled and how movement speed can be adjusted through code.
 
 - **10-29-2025**  
   Prepared for initial prototyping and identified required materials and print settings.  
@@ -173,12 +169,12 @@ This section will include:
   Considered how center of gravity affects spill prevention.
 
 - **11-13-2025**  
-  Began outlining the mechanical structure of the robotic arm.  
-  Considered joint count, arm reach, and mounting options.
+  I continued planning the arm structure and thought more carefully about joint count and arm reach. I realized that adding too many joints would make the system harder to control and less reliable.
 
 - **11-14-2025**  
-  Researched Arduino-compatible servo control methods.  
-  Reviewed example Arduino servo projects for reference.
+  I looked deeper into how servo motors are controlled with Arduino, including how speed and smoothness can be adjusted in code. I also reviewed common servo issues like jitter and overloading.
+
+This helped prepare me for choosing the right servos and programming safer motion later.
 
 - **11-18-2025**  
   Aaron and I researched different servo motors to see which ones would work best for the robotic arm. We looked at torque ratings, sizes, and cost, and compared small micro servos to larger metal-gear servos. The smaller servos were too weak to safely hold a cup, especially when the arm is extended. The larger, very high-torque servos seemed unnecessary and could move too aggressively near a user.
