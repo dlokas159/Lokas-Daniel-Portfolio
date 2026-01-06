@@ -12,11 +12,14 @@ The final piece was machined from wood and highlights the elevation contours and
 
 ![IMG_2418](https://github.com/user-attachments/assets/f5b2d8ac-e80f-4a74-b74d-01ab7ef54dc2)
 
-(video)[https://github.com/user-attachments/assets/053faa4e-982c-4b83-8be0-fb1a95b9b857]
+https://github.com/user-attachments/assets/053faa4e-982c-4b83-8be0-fb1a95b9b857
+
+### Final Topo
+![IMG](https://github.com/user-attachments/assets/6a92ae92-8934-4922-94c0-568fd5e8f679)
 
 
 ---
-## Workflows
+## Workflows (from Mr. Dubick)
 
 ---
 
@@ -26,9 +29,12 @@ The final piece was machined from wood and highlights the elevation contours and
 
 - Navigate to https://jthatch.com/Terrain2STL/
 - Pan and center the map on the target location (Beirut, Lebanon)
+-<img width="428" height="305" alt="Screenshot 2026-01-05 192423" src="https://github.com/user-attachments/assets/d98de3ce-7ede-4a2c-93fd-1bc719811ebf" />
+ 
 - Define the model area using the red selection box:
   - Move, resize, and rotate the box as needed
-- Adjust terrain settings:
+- Adjust terrain settings: <img width="222" height="192" alt="Screenshot 2026-01-05 192510" src="https://github.com/user-attachments/assets/1a2fb40a-af27-40ef-a810-4882fd8edc5f" />
+
   - **Vertical Scale (Z-scale):** Controls elevation exaggeration
   - **Water Drop:** Lowers water bodies to emphasize coastlines
   - **Base Height:** Adds a solid base beneath the terrain
@@ -59,6 +65,7 @@ The final piece was machined from wood and highlights the elevation contours and
 - Center the component within the material
 - Draw a rectangular boundary matching the final stock size  
   *(Used for machining limits and profiling)*
+<img width="776" height="267" alt="Screenshot 2026-01-05 192702" src="https://github.com/user-attachments/assets/7137f66b-1a74-493e-b0db-462d9394efa5" />
 
 ---
 
@@ -75,6 +82,7 @@ The final piece was machined from wood and highlights the elevation contours and
 - Strategy: **Raster** or **Offset**
 - Boundary: **Model boundary**
 - Used to generate final surface detail
+<img width="227" height="327" alt="Screenshot 2026-01-05 192737" src="https://github.com/user-attachments/assets/af159167-8718-40d8-9da0-289b07485fb5" />
 
 ---
 
@@ -122,6 +130,8 @@ The final piece was machined from wood and highlights the elevation contours and
    - Length (X): **127 mm**
    - Width (Y): **101 mm**
    - Height (Z): **1.7 mm** (FR4 thickness)
+<img width="226" height="522" alt="Screenshot 2026-01-05 192645" src="https://github.com/user-attachments/assets/9b296281-9f3d-4cf3-930f-577e4f7dc15b" />
+
 4. Import all Gerber files using **Import PCB**
 5. Reposition Gerbers:
    - Select all 2D layers
@@ -157,6 +167,7 @@ The final piece was machined from wood and highlights the elevation contours and
 11. Export toolpaths:
     - Select all toolpaths
     - Rename file using: `LastName_FirstInitial_ProjectName_gcode.nc`
+<img width="245" height="507" alt="Screenshot 2026-01-05 192810" src="https://github.com/user-attachments/assets/ee7e8127-c549-450d-830d-fdf55a8fc6b7" />
 
 ---
 
