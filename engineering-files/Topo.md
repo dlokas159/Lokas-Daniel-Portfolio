@@ -12,7 +12,7 @@ The final piece was machined from wood and highlights the elevation contours and
 
 ![IMG_2418](https://github.com/user-attachments/assets/f5b2d8ac-e80f-4a74-b74d-01ab7ef54dc2)
 
-https://github.com/user-attachments/assets/053faa4e-982c-4b83-8be0-fb1a95b9b857
+(video)[https://github.com/user-attachments/assets/053faa4e-982c-4b83-8be0-fb1a95b9b857]
 
 
 ---
