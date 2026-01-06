@@ -10,7 +10,7 @@ The final piece was machined from wood and highlights the elevation contours and
 
 ## Photos / Videos
 
-### 3D Printed Topo
+### 3D Printed Topo File Image
 <img width="1118" height="725" alt="Screenshot 2026-01-06 092051" src="https://github.com/user-attachments/assets/786e32f1-0f3d-4d00-8758-e2109714cbde" />
 
 ### Topo Being Milled
