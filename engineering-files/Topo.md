@@ -224,7 +224,7 @@ Once both the software and machine referenced the **same anchor point**, the too
 ## Files Included
 
 ### 3D Print File (stl)
-- (.stl)[https://drive.google.com/file/d/17b8iErIgdTPC2QINoPxt5SSZ8n9nIliX/view?usp=sharing]
+- [.stl](https://drive.google.com/file/d/17b8iErIgdTPC2QINoPxt5SSZ8n9nIliX/view?usp=sharing)
 
 ### Design File (ASPIRE)
 - [.crv3d](DanielLTopo.crv3d)
