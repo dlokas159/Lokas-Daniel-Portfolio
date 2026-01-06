@@ -7,9 +7,6 @@
 **In Progress**  
 This project is currently under active development. Design, prototyping, and testing are ongoing, and no final hardware or software implementation has been completed yet.
 
-### Design Spec Sheet
-[Link](https://docs.google.com/document/d/1RlveuHIZWM5QWMhkt3ebb2Dl6V2vLC_BaKYv-PvAG7E/edit?usp=sharing)
-
 ---
 
 ## Project Overview
@@ -61,7 +58,7 @@ Key design considerations include:
 - User safety and spill prevention
 
 **Design Specification Considerations Document:**  
-N/A bc I am a coder 
+[Link](https://docs.google.com/document/d/1RlveuHIZWM5QWMhkt3ebb2Dl6V2vLC_BaKYv-PvAG7E/edit?usp=sharing)
 
 ---
 
@@ -106,11 +103,17 @@ N/A bc I am a coder
 
 ## Files to Be Included (As Project Progresses)
 
-- Arduino source code (`.ino`)
-- Fusion 360 design files (`.f3d`)
-- STL files for 3D printing
-- Wiring diagrams
-- Documentation and images
+- Arduino source code: [code](https://docs.google.com/document/d/1JzSWEezLwWs6ETRjX4n0eiQ5AaLUB9aJAykjetHIvts/edit?usp=sharing)
+- STL files for 3D printing: [print](https://drive.google.com/file/d/18iG6IoLDqeNWONsQEqfif6LjOAfSxby3/view?usp=sharing)
+**First 3D printed gyro cup model**
+  <img width="792" height="652" alt="Screenshot 2025-12-19 at 3 43 05 PM" src="https://github.com/user-attachments/assets/6c588462-365a-4e63-a908-00b46d773c70" />
+
+**Failed Model**
+<img width="933" height="705" alt="Screenshot 2025-12-19 at 3 41 50 PM" src="https://github.com/user-attachments/assets/886b3453-45d4-4e01-8b4c-47af7907c736" />
+
+**3D print file photo**
+<img width="666" height="571" alt="Screenshot 2026-01-05 at 6 22 50 PM" src="https://github.com/user-attachments/assets/334d9de8-774f-4d5e-abd9-c8d3ce7c96db" />
+
 
 ---
 
@@ -222,7 +225,7 @@ This section will include:
 
 ## Summary
 
-This capstone project is an ongoing effort to design a practical assistive device that supports independence for individuals with limited mobility. Through collaboration with Pearl Rehab Center, the project emphasizes real-world usability, thoughtful design, and iterative problem solving. As development continues, documentation, testing, and refinement will guide the system toward a functional and meaningful outcome.
+This capstone project is a process for designing an assistive device that helps a mobility-impaired person maintain his/her autonomy. Through a partnership with Pearl Rehab Center, this project is focused on ensuring that a practical, well-designed, and meaningful solution is achieved that can be used in a real-life situation.
 
 ---
 
