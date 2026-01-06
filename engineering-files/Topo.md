@@ -10,6 +10,10 @@ The final piece was machined from wood and highlights the elevation contours and
 
 ## Photos / Videos
 
+### 3D Printed Topo
+<img width="1118" height="725" alt="Screenshot 2026-01-06 092051" src="https://github.com/user-attachments/assets/786e32f1-0f3d-4d00-8758-e2109714cbde" />
+
+
 ![IMG_2418](https://github.com/user-attachments/assets/f5b2d8ac-e80f-4a74-b74d-01ab7ef54dc2)
 
 https://github.com/user-attachments/assets/053faa4e-982c-4b83-8be0-fb1a95b9b857
