@@ -106,19 +106,6 @@ Key design considerations include:
 - Arduino source code: [code](https://docs.google.com/document/d/1JzSWEezLwWs6ETRjX4n0eiQ5AaLUB9aJAykjetHIvts/edit?usp=sharing)
 - STL files for 3D printing: [print](https://drive.google.com/file/d/18iG6IoLDqeNWONsQEqfif6LjOAfSxby3/view?usp=sharing)
 
-
-**First 3D printed gyro cup model**
-  <img width="792" height="652" alt="Screenshot 2025-12-19 at 3 43 05 PM" src="https://github.com/user-attachments/assets/6c588462-365a-4e63-a908-00b46d773c70" />
-
-
-**Failed Model**
-<img width="933" height="705" alt="Screenshot 2025-12-19 at 3 41 50 PM" src="https://github.com/user-attachments/assets/886b3453-45d4-4e01-8b4c-47af7907c736" />
-
-
-**3D print file photo**
-<img width="666" height="571" alt="Screenshot 2026-01-05 at 6 22 50 PM" src="https://github.com/user-attachments/assets/334d9de8-774f-4d5e-abd9-c8d3ce7c96db" />
-
-
 ---
 
 ## Project Timeline
@@ -144,7 +131,8 @@ This section will include:
   Committed to working with Pearl Rehab Center and began research into existing assistive technologies.
 
 - **10-1-2025**  
-  I researched different assistive technology projects and focused on ideas that could realistically help people with limited mobility. I specifically looked at cup holders and robotic arm systems to understand how they work and what problems they solve. I also started thinking about how this project could be designed for real use at Pearl Rehab Center instead of just as a demonstration.
+  I researched different assistive technology projects and focused on ideas that could realistically help people with limited mobility. I specifically looked at cup holders and robotic arm systems to understand how they work and what problems they solve. I also started thinking about how this project could be designed for real use at Pearl Rehab Center instead of just as a demonstration. Also printed the first model
+  <img width="792" height="652" alt="Screenshot 2025-12-19 at 3 43 05 PM" src="https://github.com/user-attachments/assets/6c588462-365a-4e63-a908-00b46d773c70" />****
 
 - **10-8-2025**  
   Refined overall project concept and clarified system goals.  
@@ -165,15 +153,16 @@ This section will include:
   Refined ideas for how the robotic arm would approach and deliver a cup safely.
 
 - **11-7-2025**  
-  Continued research on self-balancing cup holder mechanisms.  
-  Looked into passive vs. active stabilization approaches.
+  Worked on a second model for the self stablizing cup holder with a built-in cup at the bottom instead of putting one inside, which failed the first time.
+  <img width="933" height="705" alt="Screenshot 2025-12-19 at 3 41 50 PM" src="https://github.com/user-attachments/assets/886b3453-45d4-4e01-8b4c-47af7907c736" />
 
 - **11-8-2025**  
   Sketched alternative cup holder and arm joint concepts.  
   Considered how center of gravity affects spill prevention.
 
 - **11-13-2025**  
-  I continued planning the arm structure and thought more carefully about joint count and arm reach. I realized that adding too many joints would make the system harder to control and less reliable.
+  I continued planning the arm structure and thought more carefully about joint count and arm reach. I realized that adding too many joints would make the system harder to control and less reliable. Also finalized the cup holder mechanism and here is a photo of the file.
+  <img width="666" height="571" alt="Screenshot 2026-01-05 at 6 22 50 PM" src="https://github.com/user-attachments/assets/334d9de8-774f-4d5e-abd9-c8d3ce7c96db" />
 
 - **11-14-2025**  
   I looked deeper into how servo motors are controlled with Arduino, including how speed and smoothness can be adjusted in code. I also reviewed common servo issues like jitter and overloading.
@@ -213,7 +202,8 @@ The robotic arm must be strong enough to hold a filled cup while moving smoothly
 
 2. Self-Balancing Cup Holder Fabrication
 
-The self-balancing cup holder has been hard to manufacture. It was printed two times: one prints failed completely, and one print completed only partially. These failures revealed issues with print orientation and thin structural sections. We fixed the model by changing the thickness of the rim. 
+The self-balancing cup holder has been hard to make. It was printed two times: one prints failed completely, and one print completed only partially. These failures revealed issues with print orientation and thin structural sections. We fixed the model by changing the thickness of the rim. 
+<img width="933" height="705" alt="Screenshot 2025-12-19 at 3 41 50 PM" src="https://github.com/user-attachments/assets/886b3453-45d4-4e01-8b4c-47af7907c736" />
 
 3. User Safety and Stability
 
