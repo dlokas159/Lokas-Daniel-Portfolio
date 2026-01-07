@@ -182,6 +182,8 @@ Based on this, I realized the design needs to be simplified and reinforced. I pl
 
 This will affect how the arm is programmed and how far it is allowed to move.
 
+- **1-6/7-2025**
+  Worked on Task Analysis so that we can plan ahead for our project and make sure that we are on time with all of our goals. Also worked on printing a new model for the cup holder mechanism. 
 
 ---
 
