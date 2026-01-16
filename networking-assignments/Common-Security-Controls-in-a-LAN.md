@@ -565,7 +565,7 @@ Clearly labeled
 ## LAN Attack Path Diagram (Homework)
 
 ### Diagram Upload
-<img width="1017" height="599" alt="Screenshot 2026-01-16 at 10 38 26 AM" src="https://github.com/user-attachments/assets/be177749-cc68-419a-94b5-493b090c497d" />
+<img width="1785" height="981" alt="Screenshot 2026-01-15 201024" src="https://github.com/user-attachments/assets/e847ce2c-b478-491a-addc-d9f33f6e2d1a" />
 
 
 
@@ -800,7 +800,7 @@ Clear procedures reduce human error and ensure consistent enforcement of securit
 
 ## Digital Physical Security Diagram
 
-<img width="1773" height="986" alt="Screenshot 2026-01-15 204020" src="https://github.com/user-attachments/assets/bb4b9747-9a30-4fc4-94bf-8724c3307c7f" />
+<img width="964" height="582" alt="Screenshot 2026-01-16 at 10 40 33 AM" src="https://github.com/user-attachments/assets/29b6fe72-a841-4416-b9c9-6b371dbce043" />
 
 This diagram demonstrates how physical security supports network and cybersecurity by controlling access, monitoring activity, and protecting critical infrastructure. Strong physical controls ensure that technical security measures remain effective and trustworthy in a pharmaceutical research environment.
 
