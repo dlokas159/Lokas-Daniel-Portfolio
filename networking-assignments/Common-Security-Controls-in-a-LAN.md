@@ -509,10 +509,3 @@ Clearly labeled
 
 Visually understandable
 
-Fully uploaded to your digital portfolio
-
-
-If you want, I can also:
-- Strip the horizontal rules (`---`) entirely
-- Reformat headings to match a specific LMS (Canvas / GitHub / Obsidian)
-- Add a **title block** with course name, lab number, and student info placeholders
