@@ -155,6 +155,9 @@ Add a section: **“Task A — LAN Observation”**, including:
 2. **Reflection (2–3 sentences):**  
    How could an attacker misuse this information?
 
+![unnamed](https://github.com/user-attachments/assets/e472e628-d58c-4aa4-be4a-91b23b6fe4d3)
+
+
 This information could help an attacker identify important devices like the default gateway and active hosts on the network. ARP and neighbor tables reveal which IP addresses belong to which MAC addresses, which could be used to impersonate a trusted device or redirect traffic. Routing information also shows where to target if the goal is to intercept or block network access.
 
 ---
@@ -252,16 +255,14 @@ Add:
 - **One screenshot from VM #1**
 
 It shows active hosts, the default gateway, and IP-to-MAC mappings. This helps an attacker choose targets and potentially impersonate trusted devices using spoofing techniques.
+![0](https://github.com/user-attachments/assets/6992e1eb-ccab-4c60-9cf0-8f29d2b72437)
+
 
 - **One screenshot from VM #2**
 
 It provides network layout details and trusted communication relationships. This can help identify which devices are infrastructure-related and how traffic flows through the LAN.
+![0](https://github.com/user-attachments/assets/dac280f8-71cf-426a-bcf5-65b78391b660)
 
-Each screenshot must show information an attacker could exploit (ARP, routing, MAC/IP mappings, visible hosts, etc.).
-
-Under each screenshot, write:
-
-**Why would this information be valuable to an attacker?**
 
 ---
 
@@ -344,23 +345,17 @@ On VM #2, open a terminal and run:
 bash
 ip addr
 ip route
-Record the following from VM #2:
 
-The interface name that has an IPv4 address
+![0](https://github.com/user-attachments/assets/cededb04-c6e0-459e-b308-ff6746f802f6)
 
-Examples: enp0s1, ens33, eth0
-
-The IPv4 address of VM #2
-
-The default gateway
-
-You will use VM #2’s IP address as the ARP target.
 
 ## STEP 2 — Start ARP Packet Capture on VM #2
 
 On VM #2, start listening for ARP traffic
 
 sudo tcpdump -i <interface> arp
+
+![unnamed](https://github.com/user-attachments/assets/417c5ce9-2aaf-43e4-b71f-34acef37683e)
 
 sudo tcpdump -i enp0s1 arp
 Important Rules (READ CAREFULLY)
@@ -433,15 +428,6 @@ Use only:
 
 sudo tcpdump -i <interface> arp
 
-What You Must DOCUMENT (Digital Portfolio)
-
-Include screenshots showing:
-
-ip addr and ip route on VM #2
-
-arping output on VM #1
-
-tcpdump output on VM #2
 
 ### Written Analysis (Required)
 
@@ -457,10 +443,7 @@ Why was Bridged mode required for this lab to work?
 
 Your response should clearly reference evidence from the commands you ran.
 
-ARP reveals IP-to-MAC relationships for devices on a LAN.  
-It assumes devices are trustworthy and does not verify replies.  
-This allows attackers to send fake ARP responses and redirect traffic.  
-Bridged mode was required so both VMs could share the same broadcast domain and exchange ARP packets.
+ARP reveals IP-to-MAC relationships for devices on a LAN. It assumes devices are trustworthy and does not verify replies. This allows attackers to send fake ARP responses and redirect traffic. Bridged mode was required so both VMs could share the same broadcast domain and exchange ARP packets.
 
 ### In-Class “Mini-Project” — Visualizing an Internal LAN Attack
 
@@ -674,11 +657,11 @@ Clear procedures reduce human error and ensure consistent enforcement of securit
 
 ## Digital Physical Security Diagram
 
-*(Insert digital physical security diagram image here)*
+
 
 **Diagram Includes:**
 - Facility perimeter
-- Entry points
+- Entry point
 - Public, restricted, and highly restricted zones
 - Data center and network closets
 - Research labs and clean rooms
