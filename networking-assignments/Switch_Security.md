@@ -4,7 +4,6 @@
 ---
 
 ## 1. Planning & Conceptual Understanding  
-(Evidence of reasoning about LAN security before formal controls are applied)
 
 ### Initial Security Thinking
 
