@@ -109,11 +109,11 @@ ARP spoofing is one of the most difficult internal LAN threats to detect because
 # 4. Professional Integration & Portfolio Quality
 
 ### Internal LAN Threat Catalog
-ARP Spoofing: Impersonates devices using fake ARP replies; abuses unauthenticated ARP trust.
-MAC Flooding: Overloads switch MAC tables; exploits automatic MAC learning.
-Rogue DHCP: Issues unauthorized IP leases; clients trust DHCP offers.
-Unauthorized Plug-In Device: Unknown device joins network; open ports allow access.
-Lateral Movement: Attacker spreads internally; internal trust enables access.
+- ARP Spoofing: Impersonates devices using fake ARP replies; abuses unauthenticated ARP trust.
+- MAC Flooding: Overloads switch MAC tables; exploits automatic MAC learning.
+- Rogue DHCP: Issues unauthorized IP leases; clients trust DHCP offers.
+- Unauthorized Plug-In Device: Unknown device joins network; open ports allow access.
+- Lateral Movement: Attacker spreads internally; internal trust enables access.
 
 ---
 
@@ -130,15 +130,11 @@ Key risks include unauthorized lab access, weak zone separation, poor environmen
 
 ### Physical Security Plan:
 
-Environmental controls (climate, fire suppression)
-
-Access control (badges, biometrics, mantraps)
-
-Surveillance (cameras, monitoring)
-
-Hardware security (locked racks, disabled ports)
-
-Personnel procedures (escorts, audits, training)
+- Environmental controls (climate, fire suppression)
+- Access control (badges, biometrics, mantraps)
+- Surveillance (cameras, monitoring)
+- Hardware security (locked racks, disabled ports)
+- Personnel procedures (escorts, audits, training)
 
 <img width="964" height="582" alt="Screenshot 2026-01-16 at 10 40 33 AM" src="https://github.com/user-attachments/assets/29b6fe72-a841-4416-b9c9-6b371dbce043" />
 
