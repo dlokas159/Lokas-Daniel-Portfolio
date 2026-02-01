@@ -95,7 +95,6 @@ ip route
 sudo tcpdump -i <interface> arp
 
 **Evidence:**
-
 ![0](https://github.com/user-attachments/assets/cededb04-c6e0-459e-b308-ff6746f802f6)
 
 ![unnamed](https://github.com/user-attachments/assets/417c5ce9-2aaf-43e4-b71f-34acef37683e)
@@ -105,6 +104,8 @@ ARP reveals IP-to-MAC relationships for devices on a LAN and assumes all respons
 
 **Risk Evaluation Reflection**
 ARP spoofing is one of the most difficult internal LAN threats to detect because it closely resembles normal traffic. ARP tables change frequently during standard operation, masking malicious behavior. Evidence from ARP and neighbor outputs shows how easily mappings can be altered. Normal LAN behavior can therefore hide active attacks.
+
+---
 
 # 4. Professional Integration & Portfolio Quality
 
@@ -148,11 +149,4 @@ Switched LAN Security Assessment Report:
 
 ### Conclusion
 This portfolio demonstrates a complete understanding of internal LAN risk, supported by VM evidence, threat analysis, and physical security integration. By connecting observation, testing, and control selection, this assessment shows how layered defenses reduce both technical and physical attack paths.
-
-
-
-
-
-
-
 
