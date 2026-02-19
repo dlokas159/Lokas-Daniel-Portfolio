@@ -18,6 +18,7 @@ Welcome — this is my AP Networking portfolio. Below are the projects I’m doc
 - [Understanding Physical Address](networking-assignments/Understanding_Physical_Address.md)
 - [Common Security Controls in a LAN](networking-assignments/Common-Security-Controls-in-a-LAN.md)
 - [Switch Security](networking-assignments/Switch_Security.md)
+- [Routing](networking-assignments/Routing.md)
 
 
 
