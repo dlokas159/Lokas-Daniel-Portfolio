@@ -17,6 +17,22 @@
 2. What would happen if the default gateway entry disappeared?
 
 # 2. Technical Development
+## Part 1 – Your Inside Identity
+<img width="717" height="331" alt="Screenshot 2026-02-25 at 10 34 09 AM" src="https://github.com/user-attachments/assets/85f8dea2-4d4f-4971-8049-4952d238590b" />
+
+### As a description to your screenshot, answer the following on your digital portfolio.
+1. What is your IPv4 address?
+2. Is this address globally unique?
+3. Could another network somewhere else in the world use the same address?
+4. What clues help you determine this?
+
+### Now verify your thinking. Search online for:
+“RFC1918 address ranges”
+Identify the three private IPv4 ranges. Determine whether your IP falls within one of
+those ranges. Write about this on your digital portfolio.
+
+## Part 2 – Your Outside Identity
+
 
 
 # 3. Testing & Evaluation
