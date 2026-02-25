@@ -32,7 +32,30 @@ Identify the three private IPv4 ranges. Determine whether your IP falls within o
 those ranges. Write about this on your digital portfolio.
 
 ## Part 2 – Your Outside Identity
+<img width="642" height="64" alt="unnamed (1)" src="https://github.com/user-attachments/assets/0810e73b-9154-4c5c-a325-31bcfb7f0b55" />
 
+| Questionj | Private Address | Public Address |
+|--------|--------------------|------------|
+| Are they the same? |  |  |
+| Why or why not? |  |  |
+
+### Document all evidence on your digital portfolio and answer in paragraph form:
+• Why does your machine appear to have two different IP addresses?
+• What device or system is responsible for this translation?
+• Where is that device located in the network?
+
+## Part 3 – The “Can I Reach You?” Investigation (with a partner)
+### Step 1 – Private Address Test
+<img width="1382" height="350" alt="unnamed (2)" src="https://github.com/user-attachments/assets/ddd6eba8-260a-4c65-96c0-7c49f2aff570" />
+
+### Step 2 – Public Address Test
+<img width="1180" height="218" alt="unnamed (3)" src="https://github.com/user-attachments/assets/ac745249-8963-4bd7-97fb-112b397d7d2c" />
+
+### Write about this on your digital portfolio, but be sure your response answers the following:
+1. Do you and your partner share the same public IP?
+2. Why might multiple devices appear to share one public IP?
+3. If pinging a partner’s public IP fails, what might be blocking it?
+4. Does the failure mean the address does not exist? Or does it suggest filtering?
 
 
 # 3. Testing & Evaluation
@@ -75,5 +98,12 @@ Will the next hop be:
 3. What condition must be true for direct delivery?
 4. What condition requires router involvement?
 
+## Part 4 – NAT Reasoning
+Without searching for a formal definition, explain the following:
+1. Why are private IPv4 addresses reused in millions of different networks?
+2. Why are private addresses not routed on the public internet?
+3. What would happen if every internal device required its own public IP?
+4. Why does a business typically have one public IP but many internal devices?
+5. How does this affect WAN design?
 
 
