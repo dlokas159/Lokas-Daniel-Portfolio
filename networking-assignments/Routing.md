@@ -74,6 +74,7 @@ those ranges. Write about this on your digital portfolio.
 ## Part 2 - Observe Same-Network Communication
 ### Simulated PDU Movement
 [video](https://github.com/user-attachments/assets/7a385781-aae0-4ea9-8b56-4df769731442)
+
 Observe carefully:
 • Does the packet go through the router or stay on the left side? no, stays on left
 • What happens before the first ICMP packet is sent?
@@ -82,6 +83,7 @@ Observe carefully:
 ## Part 3 - Observe Inter-Network Communication
 ### Simulated Packet from PC0 --> PC1
 [video](https://github.com/user-attachments/assets/e1c22b33-c935-4ae4-b691-29fd740d44cb)
+
 When the packet leaves PC0:
 • Destination IP?
 • Destination MAC?
