@@ -57,6 +57,55 @@ those ranges. Write about this on your digital portfolio.
 3. If pinging a partner’s public IP fails, what might be blocking it?
 4. Does the failure mean the address does not exist? Or does it suggest filtering?
 
+## Part 1 - Build the network 
+### Steps 1 & 2
+#### Topology Layout
+<img width="652" height="122" alt="Screenshot 2026-02-26 at 12 37 53 PM" src="https://github.com/user-attachments/assets/452926a6-f06e-4411-80df-bfe15eca2608" />
+
+### Step 3
+### IP Addresses Configured
+<img width="645" height="184" alt="Screenshot 2026-02-26 at 12 38 42 PM" src="https://github.com/user-attachments/assets/9cbfbf87-79b5-47fc-be6c-afc92ccbaeda" />
+<img width="638" height="175" alt="Screenshot 2026-02-26 at 12 38 55 PM" src="https://github.com/user-attachments/assets/355693be-52a0-4f04-a454-596e8f96bcf7" />
+
+### Step 4
+### Router Interface Configured
+<img width="474" height="242" alt="Screenshot 2026-02-26 at 12 39 22 PM" src="https://github.com/user-attachments/assets/0b11c61e-3f5d-4659-b0c9-f5a3a685dbbe" />
+
+## Part 2 - Observe Same-Network Communication
+### Simulated PDU Movement
+(video)[https://github.com/user-attachments/assets/7a385781-aae0-4ea9-8b56-4df769731442]
+Observe carefully:
+• Does the packet go through the router or stay on the left side? no, stays on left
+• What happens before the first ICMP packet is sent?
+• Do you see ARP appear?
+
+## Part 3 - Observe Inter-Network Communication
+### Simulated Packet from PC0 --> PC1
+(video)[https://github.com/user-attachments/assets/e1c22b33-c935-4ae4-b691-29fd740d44cb]
+When the packet leaves PC0:
+• Destination IP?
+• Destination MAC?
+When it reaches the router:
+• What happens to the Ethernet frame?
+• Does the router keep the same MAC?
+• Does the router keep the same IP?
+When it leaves the router:
+• What has changed?
+
+• What has stayed constant?
+You must identify:
+• What is rebuilt at each hop
+• What is preserved from start to finish
+
+## Part 5 – Failure Thought Experiment
+### Failed Attempt After Deleting the Router
+<img width="637" height="128" alt="Screenshot 2026-02-26 at 12 56 38 PM" src="https://github.com/user-attachments/assets/135b8482-93c5-4509-86cf-9d2cda17b182" />
+Answer on your digital portfolio:
+• At what precise moment does communication break?
+• Why can switches not solve this problem?
+• What is the router doing that no other device can do?
+
+
 
 # 3. Testing & Evaluation
 ## Investigation 2 — Three Destinations
@@ -104,6 +153,14 @@ Without searching for a formal definition, explain the following:
 2. Why are private addresses not routed on the public internet?
 3. What would happen if every internal device required its own public IP?
 4. Why does a business typically have one public IP but many internal devices?
-5. How does this affect WAN design?
+
+## Part 4 - Analytical Pause
+Without looking anything up, answer on your digital portfolio:
+1. Why does the switch never modify the IP address?
+2. Why must the router modify the MAC address?
+3. Why does the source IP remain the same from PC0 to PC1?
+4. What exactly does “next hop” mean in this simulation?
+5. Why is the default gateway necessary?
+6. How does this affect WAN design?
 
 
