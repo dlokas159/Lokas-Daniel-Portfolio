@@ -140,6 +140,75 @@ Will the next hop be:
 • **Gateway**
 <img width="1386" height="266" alt="unnamed" src="https://github.com/user-attachments/assets/c23a6ec5-a2bd-4397-a0bd-7a2f47049cfe" />
 
+##  Part 1 - Predict Before Testing 
+<img width="692" height="146" alt="Screenshot 2026-03-02 at 9 48 18 AM" src="https://github.com/user-attachments/assets/00740512-0a8c-453a-8f2d-0d99adf47265" />
+
+Identify:
+• Your directly connected network
+• Your default route
+• Your gateway IP
+
+If you send traffic to:
+1. The other VM
+2. 8.8.8.8
+3. google.com
+For each, predict:
+• Will it go directly or through the gateway?
+• What will the first hop be?
+• How many hops do you expect?
+• Why?
+
+## Part 2 – Run Traceroute
+<img width="725" height="397" alt="Screenshot 2026-03-02 at 9 54 47 AM" src="https://github.com/user-attachments/assets/0b387bfd-b43e-4270-b79e-c949858611dd" />
+
+Step 1: Identify the first hop.
+Step 2: Identify where private addresses stop appearing.
+Step 3: Count total hops.
+
+<img width="721" height="684" alt="Screenshot 2026-03-02 at 9 58 08 AM" src="https://github.com/user-attachments/assets/95c3516b-68da-4dd8-91a1-deaf68287231" />
+
+On your digital portfolio, compare:
+• Is the first hop the same?
+• Is the total hop count the same?
+• Where do the paths diverge?
+
+## Part 3 – Interpret What You Are Seeing
+For at least one traceroute output, create a structured analysis:
+Complete the following on your digital portfolio. For each of the first 5 hops:
+• Is the IP private or public?
+• What device is this likely?
+• Why?
+• Is this inside your LAN, your ISP, or backbone infrastructure?
+Use reasoning, not guesses.
+
+## Part 4 – Validate with Routing Table
+ip route get 8.8.8.8
+<img width="1086" height="120" alt="unnamed (5)" src="https://github.com/user-attachments/assets/bced2aee-24de-42bb-adaa-2c81e7880137" />
+
+On your digital portfolio, answer:
+• What is the next hop?
+• What interface is used?
+• Does this match the first hop of traceroute?
+
+ip route get <other VM IP>
+<img width="890" height="120" alt="unnamed (4)" src="https://github.com/user-attachments/assets/51602d97-efd2-45e5-95ac-989d438a2f71" />
+
+Critical Thinking (again, on your digital portfolio)
+Why does ip route get only show one hop, but traceroute shows many?
+What layer is each tool exposing?
+
+## Part 5 – TTL Experiment
+<img width="1116" height="212" alt="unnamed (6)" src="https://github.com/user-attachments/assets/5b67b10c-78d1-4aa4-bb2a-44f510365463" />
+ONLY STARS POP UP
+
+Observe:
+• Where does it stop?
+• Why?
+Now, and your digital portfolio, answer:
+• What is TTL?
+• Why must routers decrement it?
+• How does this allow traceroute to work?
+
 
 # 4. Reflection & Analysis
 
@@ -165,4 +234,15 @@ Without looking anything up, answer on your digital portfolio:
 5. Why is the default gateway necessary?
 6. How does this affect WAN design?
 
-
+## Final Synthesis
+Without looking anything up (and on your digital portfolio), explain clearly:
+1. How can you determine the path of data from your device?
+2. What does the first hop represent?
+3. Why do private IPs appear early in the path?
+4. Why can two different destinations share the same first several hops?
+5. What is the difference between:
+• A routing-table decision
+• A traceroute path
+Your explanation must reference:
+• At least one routing-table output
+• At least one traceroute observation
