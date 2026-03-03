@@ -34,8 +34,6 @@
 | Retransmission   |  |                            |
 | Overhead         |                            |                         |
 
-#### 
-
 # 2. Technical Development
 ## Investigation 1 — Connection Establishment
 Before data is sent:
@@ -72,6 +70,33 @@ Answer:
 
 # 3. Testing & Evaluation
 
+## Part 2 — The Conceptual Trap
+
+## Part 3 — Port Number Rigor
+
 
 # 4. Reflection and Analysis
+## Activity 1 Reflection: 
+Now that you have completed all of the activities, write about these in a clear summary
+paragraph:
+1. Why would live video prefer UDP?
+2. Why would financial transactions require TCP?
+3. Which protocol introduces more overhead?
+4. Which protocol reduces latency?
+5. Why is reliability not always desirable?
+Also include a structured paragraph explaining:
+• Why Layer 3 cannot guarantee successful communication
+• What mechanisms Layer 4 introduces
+• What problem TCP solves
+• Why UDP intentionally does not solve that problem
+Your explanations must:
+• Use correct terminology
+• Reference Packet Tracer evidence
+• Avoid vague phrasing
 
+## Assignment 1 Final Reflection
+On your digital portfolio, write a short, structured response answering:
+1. What mechanism allows TCP to recover from packet loss?
+2. Why does deleting a TCP segment not permanently break communication?
+3. Why does deleting an ICMP packet behave differently?
+4. What role do port numbers play in reliable communication?
