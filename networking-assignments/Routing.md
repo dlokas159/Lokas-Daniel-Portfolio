@@ -19,10 +19,10 @@ My device uses a private IP address, which is not globally unique. Other network
 ## Part 2 – Your Outside Identity
 <img width="642" height="64" alt="unnamed (1)" src="https://github.com/user-attachments/assets/0810e73b-9154-4c5c-a325-31bcfb7f0b55" />
 
-| Questionj | Private Address | Public Address |
-|--------|--------------------|------------|
-| Are they the same? |  |  |
-| Why or why not? |  |  |
+| Question            | Private Address | Public Address |
+|---------------------|----------------|----------------|
+| Are they the same?  | No             | No             |
+| Why or why not?     | A private IP address is used within a local network and is not accessible from the internet. | A public IP address is assigned by an ISP and is visible on the internet. It allows communication outside the local network. |
 
 ### Reflection
 My machine appears to have two IP addresses because one is private (used inside my local network) and the other is public (used on the internet). The router performs Network Address Translation (NAT), which translates private addresses into a public one. This device is located at the edge of the network, typically the home or school router.
