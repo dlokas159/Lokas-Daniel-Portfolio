@@ -7,6 +7,7 @@
 <img width="699" height="177" alt="Screenshot 2026-03-04 at 2 45 02 PM" src="https://github.com/user-attachments/assets/e926bc1d-c40a-44fe-bf2e-b560a1f2d48a" />
 
 ##### Step C — Step Through the First Three Packets Only
+
 [video](https://github.com/user-attachments/assets/e7390416-2681-4d37-af14-bb8b02abea90)
 Record in your digital portfolio:
 1. What flag appears in the first packet?
@@ -37,6 +38,7 @@ Answer:
 <img width="342" height="297" alt="Screenshot 2026-03-03 at 1 32 51 PM" src="https://github.com/user-attachments/assets/4ffc418a-4688-4aff-bc95-95cf096c4210" />
 
 #### Step 4: Run the Simulation Slowly
+
 [video](https://github.com/user-attachments/assets/af97f347-9ba6-44fd-9785-c447196ac180)
 
 ### Part 3 — Observe UDP Behavior
