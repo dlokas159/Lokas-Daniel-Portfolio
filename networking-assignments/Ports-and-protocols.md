@@ -2,18 +2,35 @@
 ## Transport Layer Reliability
 ### Part 1 — Build the Network
 
-#### Step 1: Create the Topology & Step 2: Connect Devices
-<img width="406" height="297" alt="Screenshot 2026-03-03 at 1 27 04 PM" src="https://github.com/user-attachments/assets/cefb850f-a288-4f8d-a47f-c374ed1a004c" />z
+#### Investigation 1 — Connection Establishment (Three-Step Setup)
+##### Step A — Reset and Prepare & Step B — Generate TCP Traffic
+<img width="699" height="177" alt="Screenshot 2026-03-04 at 2 45 02 PM" src="https://github.com/user-attachments/assets/e926bc1d-c40a-44fe-bf2e-b560a1f2d48a" />
 
-#### Step 3: Assign IP Addresses
-<img width="652" height="202" alt="Screenshot 2026-03-03 at 1 29 16 PM" src="https://github.com/user-attachments/assets/19902542-b4b8-4653-bb5b-3078b676740b" />
-<img width="641" height="135" alt="Screenshot 2026-03-03 at 1 29 31 PM" src="https://github.com/user-attachments/assets/67520ddc-3165-4a67-8360-6cacd1348e7c" />
+##### Step C — Step Through the First Three Packets Only
+[video](https://github.com/user-attachments/assets/e7390416-2681-4d37-af14-bb8b02abea90)
+Record in your digital portfolio:
+1. What flag appears in the first packet?
+2. What flag(s) appear in the second?
+3. What flag appears in the third?
+4. After which packet does data begin?
 
-#### Step 4: Verify Connectivity
-<img width="298" height="183" alt="Screenshot 2026-03-03 at 1 29 55 PM" src="https://github.com/user-attachments/assets/473243ed-e7e4-4025-818f-cc86dcbb1048" />
-1. What layer is responsible for this ping?
-2. Is ping using TCP or UDP?
-3. Does successful ping prove TCP reliability?
+#### Investigation 2 — Acknowledgment and Ordering
+<img width="463" height="558" alt="Screenshot 2026-03-04 at 2 47 28 PM" src="https://github.com/user-attachments/assets/44414379-519a-40e5-ae2e-9c04ec4d98ea" />
+<img width="464" height="527" alt="Screenshot 2026-03-04 at 2 47 58 PM" src="https://github.com/user-attachments/assets/0c385b3e-86b1-4482-9ee8-987ccb71ea5f" />
+
+1. Do sequence numbers increase?
+2. Do acknowledgment numbers increase?
+3. Does the sender transmit additional data before receiving acknowledgment?
+4. What does this imply about how TCP ensures delivery?
+If the link were interrupted, what would the sender expect?
+
+#### Investigation 3 — Header Fields and Error Detection
+<img width="461" height="407" alt="Screenshot 2026-03-04 at 2 48 17 PM" src="https://github.com/user-attachments/assets/ab765c26-954d-446f-bd37-a91ea4234b17" />
+Answer:
+1. What is the purpose of the checksum?
+2. If the checksum failed, would the receiver accept the data?
+3. If data were rejected, what would logically happen next?**
+
 
 ### Part 2 — Observing TCP Behavior
 #### Step 1: Switch to Simulation Mode & Step 2: Generate TCP Traffic & Step 3: Filter for TCP
@@ -33,6 +50,40 @@
 | Ordering         |                       |                 |
 | Retransmission   |  |                            |
 | Overhead         |                            |                         |
+
+### Part 4
+Step 1 — Start TCP Traffic
+Switch to Simulation Mode.
+Generate HTTP request again.
+Step 2 — Interrupt the Link
+Click the Switch → Config tab.
+Select active FastEthernet interface.
+Set Port Status = Off
+This simulates a link failure.
+Step 3 — Step Forward
+Click Capture/Forward repeatedly.
+Observe:
+• Do packets stop arriving?
+• Does the sender attempt retransmission?
+• Do sequence numbers repeat?
+
+Step 4 — Restore Connectivity
+Set Port Status back to On.
+Continue stepping.
+
+<img width="343" height="335" alt="Screenshot 2026-03-04 at 2 53 04 PM" src="https://github.com/user-attachments/assets/2b4257a9-711a-45ef-8b77-c342730c8747" />
+
+In paragraph form on your digital portfolio, answer
+• What evidence shows TCP detected loss?
+• What evidence shows retransmission?
+• Why does communication not permanently break?
+
+### Part 5 — Port Number Rigor
+In paragraph form on your digital portfolio answer:
+• Why does Layer 4 use port numbers?
+• What problem do ports solve that IP cannot?
+• How does the system distinguish multiple browser tabs?
+• Does UDP also use ports?
 
 # 2. Technical Development
 ## Investigation 1 — Connection Establishment
@@ -76,27 +127,18 @@ Answer:
 
 
 # 4. Reflection and Analysis
-## Activity 1 Reflection: 
-Now that you have completed all of the activities, write about these in a clear summary
-paragraph:
-1. Why would live video prefer UDP?
-2. Why would financial transactions require TCP?
-3. Which protocol introduces more overhead?
-4. Which protocol reduces latency?
-5. Why is reliability not always desirable?
-Also include a structured paragraph explaining:
-• Why Layer 3 cannot guarantee successful communication
-• What mechanisms Layer 4 introduces
-• What problem TCP solves
-• Why UDP intentionally does not solve that problem
-Your explanations must:
-• Use correct terminology
-• Reference Packet Tracer evidence
-• Avoid vague phrasing
+## Assignment Reflection: 
+Explain clearly in well-written paragraphs on your digital portfolio:
+• How TCP detects loss
+• How TCP confirms delivery
+• Why deleting a TCP segment does not permanently break communication
+• Why ICMP behaves differently
+• Why reliability increases overhead
+Your answer must reference:
+• At least one packet header
+• At least one observed retransmission
+• Clear separation of Layer 3 vs Layer 4
 
-## Assignment 1 Final Reflection
-On your digital portfolio, write a short, structured response answering:
-1. What mechanism allows TCP to recover from packet loss?
 2. Why does deleting a TCP segment not permanently break communication?
 3. Why does deleting an ICMP packet behave differently?
 4. What role do port numbers play in reliable communication?
