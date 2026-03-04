@@ -9,6 +9,7 @@
 ##### Step C — Step Through the First Three Packets Only
 
 [video](https://github.com/user-attachments/assets/e7390416-2681-4d37-af14-bb8b02abea90)
+
 Record in your digital portfolio:
 1. What flag appears in the first packet?
 2. What flag(s) appear in the second?
@@ -122,10 +123,6 @@ Answer:
 3. What would logically happen next?
 
 # 3. Testing & Evaluation
-
-## Part 2 — The Conceptual Trap
-
-## Part 3 — Port Number Rigor
 
 
 # 4. Reflection and Analysis
