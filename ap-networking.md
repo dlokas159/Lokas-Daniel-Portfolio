@@ -19,6 +19,7 @@ Welcome — this is my AP Networking portfolio. Below are the projects I’m doc
 - [Common Security Controls in a LAN](networking-assignments/Common-Security-Controls-in-a-LAN.md)
 - [Switch Security](networking-assignments/Switch_Security.md)
 - [Routing](networking-assignments/Routing.md)
+- [Ports and Protocols](networking-assignments/Ports-and-protocols.md)
 
 
 
