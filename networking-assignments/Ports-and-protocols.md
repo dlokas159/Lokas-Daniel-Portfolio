@@ -245,8 +245,8 @@ Your answer must reference:
 3. Why does deleting an ICMP packet behave differently?
 4. What role do port numbers play in reliable communication?
 
-5. ## Assignment 2 Reflection:
-6. Final Reflection
+## Assignment 2 Reflection:
+Final Reflection
 Return to your initial predictions.
 Now write a structured paragraph explaining:
 • Structural difference between TCP and UDP
