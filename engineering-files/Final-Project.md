@@ -57,6 +57,22 @@ Key design considerations include:
 - Mounting method (table, wheelchair, or bed-side)
 - User safety and spill prevention
 
+### Additional Design Constraints
+
+During the design process we identified several additional constraints that affect how the device should be built.
+
+**Weight Distribution**  
+The robotic arm must remain stable when holding a filled cup. If the arm extends too far or becomes too heavy, the base could tip or become unstable.
+
+**Printability**  
+Because most of the parts are 3D printed, the design must be printable using common printer settings. Parts with very thin walls or unsupported overhangs may fail during printing.
+
+**Ease of Assembly**  
+The device should be easy to assemble and repair. Using modular parts makes it easier to replace individual components if something breaks.
+
+**Cost Accessibility**  
+One goal of the project is to keep the device affordable so that similar systems could realistically be used in rehabilitation centers or homes.
+
 **Design Specification Considerations Document:**  
 [Link](https://docs.google.com/document/d/1RlveuHIZWM5QWMhkt3ebb2Dl6V2vLC_BaKYv-PvAG7E/edit?usp=sharing)
 
@@ -96,8 +112,10 @@ Key design considerations include:
 
 ### Fabrication Tools
 - 3D Printer
-- Hand tools (screwdrivers, hex keys)
-- Fab Lab equipment (as needed)
+- Wire strippers for preparing electrical connections
+- Small pliers for adjusting wires and connectors
+- Digital calipers to measure printed parts and verify dimensions
+- Computer simulation tools inside Fusion 360 to visualize the arm structure before printing
 
 ---
 
@@ -117,6 +135,14 @@ Key design considerations include:
   - Cup stabilization testing
   - Iterative refinement based on feedback
 
+### Timeline Reflection
+
+Although the project started with a planned timeline, several parts of the process required more time than expected. This is common in engineering projects because prototypes often reveal problems that were not obvious during the design phase.
+
+For example, several early versions of the cup holder failed during printing. These failures required redesigning the model with thicker walls and better support structures. In addition, researching the correct servo motors took longer than expected because we needed to balance torque, speed, and safety.
+
+Even though the timeline shifted, each challenge helped improve the design and provided valuable learning experience.
+
 ---
 
 ## Documentation of Learning 
@@ -125,6 +151,16 @@ This section will include:
 - Journal entries
 - Key design decisions and reasoning
 - Challenges encountered during prototyping
+
+### Important Design Decisions
+
+Throughout the project we had to make several key design decisions.
+
+One important decision was reducing the number of arm joints. At first we considered building a more complex arm with additional joints, but this would make the system harder to control and less reliable. We decided to simplify the design to improve stability.
+
+Another important decision was selecting medium-torque servo motors instead of smaller micro servos. Smaller servos did not provide enough strength to hold a filled cup, while very large servos could move too quickly and create safety concerns.
+
+We also decided that the arm should move slowly rather than quickly. Since the device operates close to a person's face and upper body, smooth and predictable motion is more important than speed.
 
 ## Journal Entries for Final Project:
 - **9-18-2025**  
@@ -183,7 +219,55 @@ Based on this, I realized the design needs to be simplified and reinforced. I pl
 This will affect how the arm is programmed and how far it is allowed to move.
 
 - **1-6/7-2025**
-  Worked on Task Analysis so that we can plan ahead for our project and make sure that we are on time with all of our goals. Also worked on printing a new model for the cup holder mechanism. 
+  Worked on Task Analysis so that we can plan ahead for our project and make sure that we are on time with all of our goals. Also worked on printing a new model for the cup holder mechanism.
+
+- **1-9-2026**  
+  Continued researching Arduino servo control and reviewed example code for controlling servo motors. Focused on understanding how servo angles are controlled and how movement timing can affect how smooth the arm moves.
+
+- **1-13-2026**  
+  Spent time studying wiring diagrams for Arduino and servo motors. Looked at how power should be supplied to the servos and how the wiring can be organized so it does not interfere with the arm’s movement.
+
+- **1-15-2026**  
+  Began drafting basic Arduino code to test servo movement. The goal was to confirm that the servo motors respond correctly to commands and can move to specific angles.
+
+- **1-21-2026**  
+  Continued testing servo control and experimented with different delay values in the Arduino code to improve motion smoothness.
+
+- **1-23-2026**  
+  Reviewed the mechanical designs Aaron created for the robotic arm components and discussed how the electronics would be mounted onto the arm structure.
+
+- **1-27-2026**  
+  Researched common servo problems such as jitter, power limitations, and overheating. Looked into ways to make servo motion more stable.
+
+- **1-29-2026**  
+  Continued organizing the Arduino code structure so the motion commands are easier to adjust during testing.
+
+- **2-3-2026**  
+  Reviewed updates to the cup holder design and discussed how the electronics and PCB board will connect to the arm assembly.
+
+- **2-5-2026**  
+  Continued refining Arduino code and testing servo movement logic. Focused on making the arm move slower and smoother for safety.
+
+- **2-10-2026**  
+  Continued planning the electronics layout and considered how the control board will be mounted to the device.
+
+- **2-12-2026**  
+  Reviewed system integration plans with Aaron to make sure the mechanical design and electronics layout will work together.
+
+- **2-18-2026**  
+  Continued working with Arduino code for servo control and tested different motion patterns for delivering the cup.
+
+- **2-20-2026**  
+  Reviewed project documentation and updated notes about servo choices, electronics layout, and mechanical design decisions.
+
+- **2-24-2026**  
+  Continued researching ways to reduce sudden servo movements and improve smooth robotic arm motion.
+
+- **2-26-2026**  
+  Reviewed overall progress with Aaron and discussed the remaining steps needed before final testing.
+
+- **3-3-2026**  
+  Updated the project portfolio and documentation to reflect the most recent design progress and planning for the final presentation.
 
 ---
 
@@ -215,6 +299,18 @@ Because the system operates near the user, safety is critical. Mechanical motion
 ## Summary
 
 This capstone project is a process for designing an assistive device that helps a mobility-impaired person maintain his/her autonomy. Through a partnership with Pearl Rehab Center, this project is focused on ensuring that a practical, well-designed, and meaningful solution is achieved that can be used in a real-life situation.
+
+## Extended Reflection
+
+Working on this project helped me understand how engineering projects develop over time. Many parts of the design that seemed simple at first became more complex when we began testing real prototypes.
+
+One important lesson was that failure is a normal part of the engineering process. Several of our early 3D prints failed completely, which forced us to rethink the design and improve the structure of the cup holder. Instead of seeing these failures as setbacks, they helped guide better design decisions.
+
+Another lesson was learning how different parts of a system interact. The mechanical design, electronics, and software must all work together. For example, even if the mechanical design is strong, the system could still fail if the servo motors move too quickly or if the control code does not limit motion.
+
+I also learned how important safety is when designing assistive technology. Because the robotic arm operates close to a user, every movement must be controlled carefully. This influenced many design decisions, including slower motion speeds and a stable cup holder.
+
+If we continued this project in the future, we would focus on building a more refined prototype and adding additional features such as sensors or automated positioning. This could make the system even more helpful and reliable for real users.
 
 ---
 
