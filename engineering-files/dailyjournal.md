@@ -182,6 +182,82 @@ In collaboration with Pearl Rehab Center, I began designing an assistive device 
   Prepared for upcoming fabrication and electronics work.  
   Finalized short-term goals for continuing development of the project.
 
+- **1-6-2026**  
+  Worked on task analysis for the project to better understand the steps required to complete the robotic arm system.  
+  Identified major tasks including mechanical design, electronics setup, programming, and testing.
+
+- **1-7-2026**  
+  Continued refining the project timeline and identifying which components needed to be completed first.  
+  Discussed with Aaron how the mechanical arm components and electronics would integrate once prototypes are completed.
+
+- **1-9-2026**  
+  Researched Arduino servo control and reviewed example code for controlling servo motors.  
+  Focused on understanding how servo angles and movement timing are controlled through programming.
+
+- **1-13-2026**  
+  Studied wiring diagrams for Arduino and servo motors to better understand how the electronics should be connected.  
+  Reviewed power requirements to ensure the system can operate safely.
+
+- **1-15-2026**  
+  Began drafting basic Arduino code to test servo movement.  
+  Focused on confirming that the servo responds correctly to angle commands.
+
+- **1-21-2026**  
+  Continued testing Arduino servo control and experimenting with delay timing to improve smoothness of movement.  
+  Evaluated how speed adjustments affect motion safety.
+
+- **1-23-2026**  
+  Reviewed the mechanical arm designs Aaron created and discussed how the electronics would be mounted on the system.  
+  Considered how wiring will be routed to avoid interfering with arm movement.
+
+- **1-27-2026**  
+  Researched common servo issues such as jitter and power limitations.  
+  Looked into ways to improve stability and reliability when controlling multiple servos.
+
+- **1-29-2026**  
+  Continued improving the structure of the Arduino code so that motion commands are easier to adjust during testing.  
+  Reviewed how different servo angles will affect the reach of the arm.
+
+- **2-3-2026**  
+  Reviewed design updates for the cup holder and mounting system.  
+  Discussed how the electronics and PCB board will connect to the robotic arm assembly.
+
+- **2-5-2026**  
+  Continued refining Arduino code and testing servo movement logic.  
+  Focused on programming slower and smoother motion to improve safety.
+
+- **2-7-2026**  
+  Researched other robotic arm projects to understand how motion sequences and safety limits are implemented.  
+  Used these examples to improve ideas for the control system.
+
+- **2-10-2026**  
+  Continued planning the electronics layout and how the control board will be mounted to the system.  
+  Considered how wiring will connect from the control board to the servos.
+
+- **2-12-2026**  
+  Reviewed system integration plans with Aaron to make sure the mechanical design and electronics layout work together properly.  
+  Discussed adjustments needed to support both structure and wiring.
+
+- **2-18-2026**  
+  Continued working with Arduino code for servo control.  
+  Tested different motion sequences that could be used to move the cup toward the user.
+
+- **2-20-2026**  
+  Reviewed project documentation and updated notes on servo choices, electronics layout, and system design.  
+  Reflected on progress and identified areas that still require testing.
+
+- **2-24-2026**  
+  Continued researching improvements to servo motion control.  
+  Looked for ways to reduce sudden movements and improve smoothness of the robotic arm.
+
+- **2-26-2026**  
+  Reviewed project progress with Aaron and discussed remaining tasks for completing the prototype.  
+  Identified areas where further testing and refinement will be needed.
+
+- **3-3-2026**  
+  Updated project portfolio and documentation to reflect the most recent design decisions and development work.  
+  Reviewed next steps for completing the prototype and preparing for the final presentation.
+
 ---
 
 # What I've Been Working On
