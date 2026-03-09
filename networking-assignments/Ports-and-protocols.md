@@ -228,6 +228,66 @@ Port number → application
 | File Download      |          |      |
 | DNS Query          |          |      |
 
+## Part 1 — Application Layer Investigation
+### Step 1 — Inspect an HTTP Transaction
+curl -I http://example.com
+<img width="421" height="261" alt="Screenshot 2026-03-09 at 9 19 25 AM" src="https://github.com/user-attachments/assets/21593c7d-6ebf-4505-a253-ede0650e2ef6" />
+
+Answer in paragraph form in your digital portfolio (and provide evidence):
+1. What protocol is being used?
+2. What transport protocol is underneath it?
+3. How do you know?
+4. Which layer is responsible for interpreting “200 OK”?
+
+### Step 2 — Inspect an HTTPS Transaction
+curl -I https://example.com
+<img width="440" height="215" alt="Screenshot 2026-03-09 at 9 20 56 AM" src="https://github.com/user-attachments/assets/ef747178-7953-4a3e-86f1-da7d0ec0d524" />
+
+Answer in paragraph form and provide evidence on your digital portfolio:
+1. What changed?
+2. What additional protocol must now be involved?
+3. Does HTTP itself provide encryption?
+4. Where does encryption logically occur?
+
+## Part 2 — Presentation Layer Investigation
+openssl s_client -connect example.com:443
+<img width="968" height="694" alt="Screenshot 2026-03-09 at 9 22 30 AM" src="https://github.com/user-attachments/assets/c5a8a005-0ed4-4dd8-9b4c-366159fe76b7" />
+
+Answer:
+1. What is being exchanged before data transfer?
+2. Is this Layer 4 behavior?
+3. What problem is this solving?
+4. Why must this occur before application data is sent?
+
+## Conceptual Distinction
+Without looking anything up, answer in paragraph form on your digital portfolio:
+• If TLS encrypts data, is it replacing TCP?
+• Or is it operating above it?
+Your answer must distinguish between:
+• Reliable transport
+• Data formatting and encryption
+
+## Part 3 — Session Layer Investigation
+curl https://example.com & ss -tn
+<img width="1916" height="398" alt="unnamed (17)" src="https://github.com/user-attachments/assets/1d12c4be-f866-4ea2-b676-d11382822ff6" />
+
+Answer in paragraph form and reference evidence on your digital portfolio:
+1. Is the connection still active?
+2. What state is it in?
+3. When does the session end?
+4. Who decides that?
+5. If you log into a website with a username and password:
+• Is that TCP managing your login?
+• Or is that handled at a higher layer?
+
+| Protocol | Layer | Purpose |
+|----------|-------|---------|
+| HTTP     |       |         |
+| HTTPS    |       |         |
+| TLS      |       |         |
+| DNS      |       |         |
+| TCP      |       |         |
+
 # 4. Reflection and Analysis
 ## Assignment 1 Reflection: 
 Explain clearly in well-written paragraphs on your digital portfolio:
@@ -259,3 +319,26 @@ You must reference:
 • At least one ss output
 • At least one netcat experiment
 Be architectural. Avoid vague phrasing.
+
+## Assignment 3 Reflections: 
+A. On your digital portfolio, in paragraph form, answer the following, making sure to
+provide evidence:
+
+1. Why does encryption not occur at Layer 3?
+2. Why does TCP not handle user authentication?
+3. Why separate:
+• Transport reliability
+• Encryption
+• Application logic
+4. What would break if all of this were collapsed into one layer?
+
+Your answers must show architectural reasoning.
+B. Write a structured paragraph explaining:
+• What role Layer 5 plays in managing communication state
+• What role Layer 6 plays in formatting and encryption
+• What role Layer 7 plays in application behavior
+• Why Layer 4 alone is insufficient
+Your explanation must:
+• Reference at least one curl command
+• Reference the TLS handshake observation
+• Distinguish between TCP reliability and TLS encryption
