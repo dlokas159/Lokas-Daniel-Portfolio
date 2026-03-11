@@ -227,6 +227,48 @@ Your explanation must:
 Avoid phrases like:
 “Everything just works together.”
 
+## HTTP Response Status Codes Investigation
+
+**Source Used:**  
+MDN Web Docs — HTTP Response Status Codes  
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+---
+
+### Task 1 — Understanding Status Code Categories
+
+| Status Code Range | Meaning | Example Code | Explanation |
+|---|---|---|---|
+| **1xx** | Informational responses | **100 Continue** | This means the server has received the beginning of the request and the client should continue sending the rest of the request. |
+| **2xx** | Successful responses | **200 OK** | This means the request was successful and the server returned the requested resource, such as a webpage. |
+| **3xx** | Redirection messages | **301 Moved Permanently** | This means the requested resource has been permanently moved to a new URL and the client should use the new address in the future. |
+| **4xx** | Client error responses | **404 Not Found** | This means the server could not find the requested page or resource. The request was valid, but the content does not exist at that location. |
+| **5xx** | Server error responses | **500 Internal Server Error** | This means the server encountered a problem while trying to process the request and could not complete it. |
+
+---
+
+### Task 2 — Investigating Real Codes
+
+| Status Code | Name | What It Means | When It Happens |
+|---|---|---|---|
+| **200** | OK | The request was successful and the server sent back the requested data. | Happens when a webpage loads normally without any issues. |
+| **301** | Moved Permanently | The requested resource has been permanently moved to a new URL. | Happens when a website permanently changes the address of a page and wants browsers to update their bookmarks. |
+| **302** | Found (Temporary Redirect) | The requested resource is temporarily located at a different URL. | Happens when a website temporarily redirects users to another page, such as during maintenance. |
+| **404** | Not Found | The server cannot find the requested page or resource. | Happens when a user enters the wrong URL or the page has been deleted. |
+| **500** | Internal Server Error | The server encountered an unexpected problem while processing the request. | Happens when there is a bug, misconfiguration, or crash on the web server. |
+
+---
+
+### Task 3 — Connecting Status Codes to Networking Concepts
+
+HTTP status codes are handled at theApplication Layer because they describe the meaning of a web request and response. The Transport Layer, which uses TCP, is responsible for reliably delivering data between computers. TCP ensures that packets arrive correctly and in order, but it does not understand the meaning of the data being sent. HTTP, which operates at the Application Layer, defines how web browsers and servers communicate about web resources. Because status codes describe the outcome of an HTTP request (such as success, redirect, or error), they must be handled at the Application Layer where the web communication rules are defined.
+
+---
+
+### Task 4 — Reasoning About Web Behavior
+
+A server might return 301 Moved Permanently instead of just sending the new page so that browsers and search engines know the page has a new permanent address. This allows them to update bookmarks and indexes to the correct location. 404 errors are common on the internet because pages are often deleted, moved, or linked incorrectly, which causes the server to be unable to find the requested resource. A *500 Internal Server Error suggests that something went wrong on the server itself, such as a coding error, misconfiguration, or software failure that prevented the server from completing the request.
+
 
 # 3. Testing & Evaluation
 ## Part 1 — Predict Before Testing
