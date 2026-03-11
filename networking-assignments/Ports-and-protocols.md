@@ -261,13 +261,13 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 ### Task 3 — Connecting Status Codes to Networking Concepts
 
-HTTP status codes are handled at theApplication Layer because they describe the meaning of a web request and response. The Transport Layer, which uses TCP, is responsible for reliably delivering data between computers. TCP ensures that packets arrive correctly and in order, but it does not understand the meaning of the data being sent. HTTP, which operates at the Application Layer, defines how web browsers and servers communicate about web resources. Because status codes describe the outcome of an HTTP request (such as success, redirect, or error), they must be handled at the Application Layer where the web communication rules are defined.
+HTTP status codes are handled at theApplication Layer because they describe the meaning of a web request and response. The Transport Layer, which uses TCP, is responsible for reliably delivering data between computers. TCP ensures that packets arrive correctly and in order, but it does not understand the meaning of the data being sent. HTTP, which operates at the Application Layer, defines how web browsers and servers communicate about web resources. Because status codes describe the outcome of an HTTP request, they must be handled at the Application Layer where the web communication rules are defined.
 
 ---
 
 ### Task 4 — Reasoning About Web Behavior
 
-A server might return 301 Moved Permanently instead of just sending the new page so that browsers and search engines know the page has a new permanent address. This allows them to update bookmarks and indexes to the correct location. 404 errors are common on the internet because pages are often deleted, moved, or linked incorrectly, which causes the server to be unable to find the requested resource. A *500 Internal Server Error suggests that something went wrong on the server itself, such as a coding error, misconfiguration, or software failure that prevented the server from completing the request.
+A server might return 301 Moved Permanently instead of just sending the new page so that browsers and search engines know the page has a new permanent address. This allows them to update bookmarks and indexes to the correct location. 404 errors are common on the internet because pages are often deleted, moved, or linked incorrectly, which causes the server to be unable to find the requested resource. A 500 Internal Server Error suggests that something went wrong on the server itself, such as a coding error, misconfiguration, or software failure that prevented the server from completing the request.
 
 
 # 3. Testing & Evaluation
