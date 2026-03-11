@@ -122,6 +122,112 @@ Answer:
 2. If checksum verification failed, would the receiver accept the data?
 3. What would logically happen next?
 
+## Part 1 — Full Stack Analysis: HTTP vs HTTPS
+### Step 1 
+curl -I http://example.com
+ss -tn
+<img width="1348" height="242" alt="unnamed (18)" src="https://github.com/user-attachments/assets/229d395f-3f88-4520-8d4a-0c6e7da9671e" />
+
+### Step 2
+curl -I https://example.com
+ss -tn
+<img width="1328" height="256" alt="unnamed (19)" src="https://github.com/user-attachments/assets/6d42fc47-982b-4523-8aaa-dfb6b25248b3" />
+
+Now answer in paragraph form (with evidence) on your digital portfolio:
+1. What changed at the application layer?
+2. What changed at the transport layer?
+3. What port numbers are involved?
+4. What additional protocol appears between HTTP and TCP?
+5. Is TLS replacing TCP — or operating above it?
+Your explanation must trace:
+Application → Encryption → Transport → IP
+
+## Part 2 — DNS as a Supporting Application Protocol
+nslookup example.com
+<img width="380" height="252" alt="Screenshot 2026-03-11 at 12 48 30 PM" src="https://github.com/user-attachments/assets/0f1cc5c6-dcc9-4254-8ce1-0d26b67c233d" />
+
+In paragraph form, and with evidence, on your digital portfolio, answer:
+1. What port does DNS typically use?
+2. Does it usually use TCP or UDP?
+3. Why does DNS not require guaranteed delivery in most cases?
+4. When might DNS switch to TCP?
+Support reasoning with protocol design principles from the second lesson in this unit, called
+“2TCP_UDP_ComparingTransmissionTypes”.
+
+## Part 3 — Remote Access Using SSH
+### Step 1 — Identify Your Local IP
+ip addr
+<img width="581" height="306" alt="Screenshot 2026-03-11 at 12 49 52 PM" src="https://github.com/user-attachments/assets/4dab008b-e1b4-4e76-8e81-fbae7ed0695e" />
+
+### Step 2 — Connect to Yourself via SSH
+ssh your_username@localhost
+<img width="713" height="500" alt="Screenshot 2026-03-11 at 12 50 41 PM" src="https://github.com/user-attachments/assets/13bdcc87-8ae1-4b88-95a1-aa379193167f" />
+
+### Step 3 — Inspect the Connection
+ss -tn
+<img width="1414" height="252" alt="unnamed (20)" src="https://github.com/user-attachments/assets/b4b397c4-e9fb-43a4-8b78-0713dd25f8cc" />
+
+On your digital portfolio and in paragraph form, clearly answer (with evidence):
+1. What port is SSH using?
+2. What transport protocol is underneath it?
+3. Is this connection encrypted?
+4. What evidence supports your answer?
+5. Which OSI layers are involved in this remote session?
+
+## Part 4 — Secure File Transfer
+echo "Layered Networking Test" > stacktest.txt
+scp stacktest.txt your_username@localhost:/home/your_username/
+<img width="709" height="241" alt="Screenshot 2026-03-11 at 12 54 31 PM" src="https://github.com/user-attachments/assets/64c58ff9-82cd-40a5-af01-eec7087ef029" />
+
+Fully answer (in paragraph form, with evidence, on your digital portfolio):
+1. What protocol does SCP rely on?
+2. Does SCP require TCP?
+3. Is the file encrypted?
+4. What would happen if TCP reliability were removed?
+5. Which layers are involved in this transfer?
+Map the stack explicitly.
+
+## Part 5 — Stack Mapping Requirement
+Choose ONE of the following:
+• HTTPS request
+• SSH session
+• SCP transfer
+
+Construct a layered analysis:
+
+| Layer        | Protocol | Purpose |
+|--------------|----------|---------|
+| Application  |          |         |
+| Presentation |          |         |
+| Session      |          |         |
+| Transport    |          |         |
+| Network      |          |         |
+
+You must:
+• Fill every layer.
+• Justify each placement.
+• Reference command output as evidence.
+On your digital portfolio and in paragraph form, answer clearly and provide evidence:
+1. Why does SSH require TCP?
+2. Why is encryption not handled at Layer 3?
+3. Why does HTTP not provide its own reliability?
+4. What would break if port numbers did not exist?
+5. Why separate remote access from file transfer protocols?
+Write a structured paragraph on your digital portfolio explaining:
+• How routing (Layer 3)
+• Reliability (Layer 4)
+• Encryption (Layer 6)
+• Application logic (Layer 7)
+work together in a single transaction.
+Your explanation must:
+• Reference curl
+• Reference ssh
+• Reference port numbers
+• Distinguish between TCP reliability and TLS encryption
+Avoid phrases like:
+“Everything just works together.”
+
+
 # 3. Testing & Evaluation
 ## Part 1 — Predict Before Testing
 Before running any commands, answer in paragraph form in your digital portfolio:
