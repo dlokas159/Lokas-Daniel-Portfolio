@@ -113,7 +113,6 @@ Choose ONE of the following:
 • SSH session
 • SCP transfer
 
-Construct a layered analysis:
 
 | Layer        | Protocol                    | Purpose                                    |
 | ------------ | --------------------------- | ------------------------------------------ |
