@@ -20,6 +20,7 @@ Welcome — this is my AP Networking portfolio. Below are the projects I’m doc
 - [Switch Security](networking-assignments/Switch_Security.md)
 - [Routing](networking-assignments/Routing.md)
 - [Ports and Protocols](networking-assignments/Ports-and-protocols.md)
+- [Subnetting and Maintaining Multiple LANs](networking-assignments/subnetting_and_maintaining_multiple_LANs)
 
 
 
