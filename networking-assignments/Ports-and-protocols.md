@@ -300,6 +300,6 @@ SSH requires TCP because it needs reliable, ordered communication, which TCP pro
 
 In a transaction, Layer 3 handles routing between networks, Layer 4 (TCP) ensures reliable delivery, Layer 6 (TLS) encrypts the data, and Layer 7 defines how the data is used. For example, curl sends HTTP requests to specific port numbers like 80 or 443, while ssh connects to port 22. TCP ensures reliability, while TLS provides encryption, and both are needed for secure communication.
 
-## Assignment 45 Reflection: 
+## Assignment 5 Reflection: 
 The server does not send the new page automatically because the web uses a request-response model where the client must request each resource. Instead, the server sends a status code and a redirect header telling the client where to go next. The client then makes a new request. This gives the client control and allows flexibility, caching, and better scalability. The server provides instructions, and the client decides how to respond, which makes the web more efficient and organized.
 
