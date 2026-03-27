@@ -83,6 +83,7 @@ on the same network
 ## Assignment 2: 
 ### Scenario C: Small Business Workspace
 ### Part 1: Device Exploration
+
 <img width="725" height="401" alt="Screenshot 2026-03-27 at 9 14 59 AM" src="https://github.com/user-attachments/assets/f6dfabb9-9df6-4098-9077-c12bd7ac0bd5" />
 
 Take a screenshot (and explain it) showing:
@@ -91,6 +92,7 @@ Take a screenshot (and explain it) showing:
 • Clean, organized layout
 
 ### Part 2: Design Decisions & Part 3: Final Network Layout
+
 <img width="680" height="372" alt="Screenshot 2026-03-27 at 9 24 25 AM" src="https://github.com/user-attachments/assets/c8821202-0ec3-4c2f-a3bf-13d247a912ce" />
 
 explain the final layout in a paragraph
