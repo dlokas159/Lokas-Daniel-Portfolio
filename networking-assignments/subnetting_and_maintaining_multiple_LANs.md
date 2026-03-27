@@ -109,3 +109,11 @@ B: Describe a situation where two IP addresses look similar but are NOT on the s
 C: Describe a situation where two IP addresses look different but ARE on the same network.
 D Why is a router required when devices are on different networks?
 
+## Assignment 2 Reflection: 
+Write at least one well-developed paragraph that explains your design decisions based on
+your assigned scenario.
+Your paragraph must include:
+• Why you selected the specific devices in your network
+• Why certain parts of your network are wired and others are wireless
+• Whether you chose a peer-to-peer or client-server model, and why
+
