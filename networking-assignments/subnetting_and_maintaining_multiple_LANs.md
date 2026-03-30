@@ -100,6 +100,23 @@ explain the final layout in a paragraph
 
 
 # Testing and Evaluation
+## Assignment 3:
+### Part 1: Add the Router & Part 2: Configure Router Interfaces
+
+Fully configured setup with router working
+<img width="831" height="400" alt="Screenshot 2026-03-30 at 10 17 38 AM" src="https://github.com/user-attachments/assets/c5a49bdf-c288-4d1f-bb2f-756861b6aed6" />
+<img width="510" height="496" alt="Screenshot 2026-03-30 at 10 18 13 AM" src="https://github.com/user-attachments/assets/5fc4e7b8-2909-4b03-9c56-8eeee46632d0" />
+
+### Part 3: Configure Default Gateway on PCs
+Default gateways and ip addresses set on a pc in each LAN
+<img width="638" height="156" alt="Screenshot 2026-03-30 at 10 21 00 AM" src="https://github.com/user-attachments/assets/1b2b2393-e2ca-46b7-ae3b-9248edaaea25" />
+<img width="644" height="145" alt="Screenshot 2026-03-30 at 10 21 30 AM" src="https://github.com/user-attachments/assets/a5a17735-a3b6-4acf-8080-b683d0773bd9" />
+
+### Part 4: Test Communication
+Communication from LAN 1 to LAN 2
+<img width="298" height="172" alt="Screenshot 2026-03-30 at 10 22 39 AM" src="https://github.com/user-attachments/assets/ff0e4b0f-73f5-4bf7-99c6-f1f91fa80621" />
+
+Question to Answerà What role does the router play in this network?
 
 
 # Reflection and Analysis
@@ -118,4 +135,15 @@ Your paragraph must include:
 • Why you selected the specific devices in your network
 • Why certain parts of your network are wired and others are wireless
 • Whether you chose a peer-to-peer or client-server model, and why
+
+## Assignment 3 Reflection: 
+2. Written Explanation (One Paragraph Required)
+Write one well-developed paragraph that answers:
+Explain how the router allowed devices on different LANs to communicate. Include the role of
+the default gateway.
+Your paragraph must include:
+• Explanation of how the router connects networks
+• Role of the router interfaces
+• Role of the default gateway
+• Evidence from your ping results
 
