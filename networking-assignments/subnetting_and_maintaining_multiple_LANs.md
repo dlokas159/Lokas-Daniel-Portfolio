@@ -97,8 +97,6 @@ Take a screenshot (and explain it) showing:
 
 explain the final layout in a paragraph
 
-
-
 # Testing and Evaluation
 ## Assignment 3:
 ### Part 1: Add the Router & Part 2: Configure Router Interfaces
@@ -116,8 +114,37 @@ Default gateways and ip addresses set on a pc in each LAN
 Communication from LAN 1 to LAN 2
 <img width="298" height="172" alt="Screenshot 2026-03-30 at 10 22 39 AM" src="https://github.com/user-attachments/assets/ff0e4b0f-73f5-4bf7-99c6-f1f91fa80621" />
 
-Question to Answerà What role does the router play in this network?
+Question to Answer --> What role does the router play in this network?
 
+## Assignment 4:
+### Part 1: Troubleshooting Investigation
+#### 1. Ping (Command Prompt)
+ping 192.168.2.10 (failed)
+<img width="311" height="167" alt="Screenshot 2026-03-31 at 12 38 19 PM" src="https://github.com/user-attachments/assets/3dc37ad0-9aef-4787-926e-490b51b1291f" />
+
+#### 2. IP Configuration
+PC2 IP Configuration
+<img width="640" height="140" alt="Screenshot 2026-03-31 at 12 40 36 PM" src="https://github.com/user-attachments/assets/3b4ad1fc-bebe-43d5-8a0b-61e4e5055e52" />
+
+#### 3. Visual Inspection
+Physical Layout
+<img width="791" height="425" alt="Screenshot 2026-03-31 at 12 42 01 PM" src="https://github.com/user-attachments/assets/0ba92f9c-e0ca-4422-9c16-13312f2d1cdb" />
+
+#### 4. Router CLI
+Router IOS Command Line Interface
+<img width="614" height="466" alt="Screenshot 2026-03-31 at 12 42 27 PM" src="https://github.com/user-attachments/assets/055e59a6-b5f6-4cc8-aaf1-6dee16bdaa09" />
+
+### Step 2: Identify the Problem
+The second terminal had not yet been configured
+<img width="450" height="110" alt="Screenshot 2026-03-31 at 12 44 59 PM" src="https://github.com/user-attachments/assets/e86ee8c9-6641-4443-9208-bacd49a1567d" />
+
+### Step 3: Apply a Fix
+Working Layout
+<img width="796" height="410" alt="Screenshot 2026-03-31 at 12 46 25 PM" src="https://github.com/user-attachments/assets/bafcc5f3-a4fe-4d6f-a1ff-5e0579d95906" />
+
+### Step 4: Test Again
+ping 192.168.2.10 (working)
+<img width="350" height="175" alt="Screenshot 2026-03-31 at 12 47 36 PM" src="https://github.com/user-attachments/assets/2869ab87-457a-4b11-96e4-1cd43f5154c0" />
 
 # Reflection and Analysis
 ## Assignment 1 Reflection
@@ -147,3 +174,13 @@ Your paragraph must include:
 • Role of the default gateway
 • Evidence from your ping results
 
+## Assignment 4 Reflection: 
+Write one well-developed paragraph that answers:
+Describe one network issue you encountered and how you diagnosed and fixed it. Include
+the tools you used and the evidence that confirmed your solution.
+Your paragraph must include:
+● What the problem was
+● How you discovered it
+● What steps you took to fix it
+● Which tools you used
+● Evidence that the network is now working
