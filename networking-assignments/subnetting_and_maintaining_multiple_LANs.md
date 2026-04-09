@@ -34,19 +34,13 @@ ping 192.168.1.25 (succeeded)
 ping 192.168.2.10 (failed)
 <img width="245" height="62" alt="Screenshot 2026-03-26 at 8 26 48 AM" src="https://github.com/user-attachments/assets/698fb7ae-a898-4108-8a04-d0108965e409" />
 
-Record Observations
-• Which pings succeed?
-• Which fail?
-Key Question
-What determines whether the ping works?
+A ping works if both devices are on the same network. If they are on different networks and there is no router, the ping will fail.
 
 ### Part 3: Modify and Test Again
 ping 192.168.2.10 (failed)
 <img width="293" height="143" alt="Screenshot 2026-03-26 at 8 28 52 AM" src="https://github.com/user-attachments/assets/bff3b764-064b-4835-9716-04fb36363519" />
 
-Analyze
-• Did anything change?
-• Why or why not?
+Nothing changed at first because the devices were still on different networks. Without changing the subnet mask or adding a router, they still could not communicate.
 
 ### Scenario A
 Change all subnet masks to:
@@ -65,19 +59,14 @@ Set:
 
 ping 192.168.2.10 (failed)
 <img width="299" height="136" alt="Screenshot 2026-03-26 at 8 33 03 AM" src="https://github.com/user-attachments/assets/5589c920-5d54-4f67-8555-d24fcb70310b" />
-Are they on the same
-network?
+
+No, they are not on the same network.
 
 ### Scenario C
-Create:
-• Two PCs that look
-“similar” but are NOT
-on the same network
+Two PCs that look “similar” but are NOT on the same network
 <img width="347" height="285" alt="Screenshot 2026-03-26 at 8 35 05 AM" src="https://github.com/user-attachments/assets/12f98653-8369-4778-8a6e-f3e7fcc4095e" />
 
-• Two PCs that look
-“different” but ARE
-on the same network
+Two PCs that look “different” but ARE on the same network
 <img width="351" height="294" alt="Screenshot 2026-03-26 at 8 36 46 AM" src="https://github.com/user-attachments/assets/5ad3944f-7c72-4234-b9be-2a8a418f8fd8" />
 
 ## Assignment 2: 
@@ -86,16 +75,13 @@ on the same network
 
 <img width="725" height="401" alt="Screenshot 2026-03-27 at 9 14 59 AM" src="https://github.com/user-attachments/assets/f6dfabb9-9df6-4098-9077-c12bd7ac0bd5" />
 
-Take a screenshot (and explain it) showing:
-• All devices placed
-• All devices labeled
-• Clean, organized layout
+The network layout includes multiple PCs, a switche, and a wireless device. All devices are clearly labeled and organized neatly. The layout shows how each device is connected, making it easy to understand the structure of the network.
 
 ### Part 2: Design Decisions & Part 3: Final Network Layout
 
 <img width="680" height="372" alt="Screenshot 2026-03-27 at 9 24 25 AM" src="https://github.com/user-attachments/assets/c8821202-0ec3-4c2f-a3bf-13d247a912ce" />
 
-explain the final layout in a paragraph
+The final network layout was designed to be clean and efficient, with all devices clearly labeled and connected through switches to keep communication organized. Wired connections were used for devices that require stable and fast connections, such as desktop computers, while wireless connections could be used for flexibility and mobility.
 
 # Testing and Evaluation
 ## Assignment 3:
@@ -114,7 +100,7 @@ Default gateways and ip addresses set on a pc in each LAN
 Communication from LAN 1 to LAN 2
 <img width="298" height="172" alt="Screenshot 2026-03-30 at 10 22 39 AM" src="https://github.com/user-attachments/assets/ff0e4b0f-73f5-4bf7-99c6-f1f91fa80621" />
 
-Question to Answer --> What role does the router play in this network?
+The router connects different networks (LANs) together and allows devices on separate networks to communicate with each other.
 
 ## Assignment 4:
 ### Part 1: Troubleshooting Investigation
@@ -148,39 +134,13 @@ ping 192.168.2.10 (working)
 
 # Reflection and Analysis
 ## Assignment 1 Reflection
-2. Written Explanation Write your response in one paragraph that answers all of the
-following. Provide screenshots if they can help support your response.
-A: Explain how a device determines whether another device is on the same network.
-B: Describe a situation where two IP addresses look similar but are NOT on the same network.
-C: Describe a situation where two IP addresses look different but ARE on the same network.
-D Why is a router required when devices are on different networks?
+A device determines whether another device is on the same network by comparing its IP address and subnet mask. The subnet mask tells the device which part of the IP address represents the network. If those parts match, the devices are on the same network. For example, two IP addresses like 192.168.1.10 and 192.168.2.10 may look similar but are not on the same network if the subnet mask is 255.255.255.0. On the other hand, addresses like 172.16.1.10 and 172.16.2.20 may look different but are on the same network if the subnet mask is 255.255.0.0.
 
 ## Assignment 2 Reflection: 
-Write at least one well-developed paragraph that explains your design decisions based on
-your assigned scenario.
-Your paragraph must include:
-• Why you selected the specific devices in your network
-• Why certain parts of your network are wired and others are wireless
-• Whether you chose a peer-to-peer or client-server model, and why
+In my network design, I selected devices including a router, switch, server, multiple PCs, and a laptop to create a structured and functional small business network. The router was used to connect the network and allow communication outside of the local network, while the switch was used to connect all internal devices efficiently. I included a server to represent centralized storage or services, which supports a client-server model instead of peer-to-peer because it is more organized and scalable for a business environment. Most devices were connected using wired connections to ensure stable and fast communication, especially for the PCs and server, while the laptop represents a device that could be used more flexibly. The layout is clean and organized with all devices connected through the switch, which helps reduce network issues and makes the system easier to manage and expand in the future.
 
 ## Assignment 3 Reflection: 
-2. Written Explanation (One Paragraph Required)
-Write one well-developed paragraph that answers:
-Explain how the router allowed devices on different LANs to communicate. Include the role of
-the default gateway.
-Your paragraph must include:
-• Explanation of how the router connects networks
-• Role of the router interfaces
-• Role of the default gateway
-• Evidence from your ping results
+The router allowed devices on different LANs to communicate by acting as a bridge between networks. Each router interface connects to a different network and has its own IP address, which helps direct traffic correctly. The default gateway is the router’s IP address that devices use when sending data to another network. When I tested communication using ping, it initially failed between networks, but after configuring the router and setting the default gateways correctly, the ping succeeded. This showed that the router was correctly forwarding data between the LAN
 
 ## Assignment 4 Reflection: 
-Write one well-developed paragraph that answers:
-Describe one network issue you encountered and how you diagnosed and fixed it. Include
-the tools you used and the evidence that confirmed your solution.
-Your paragraph must include:
-● What the problem was
-● How you discovered it
-● What steps you took to fix it
-● Which tools you used
-● Evidence that the network is now working
+One issue I encountered was that a device could not communicate with another network because it was not configured properly. I discovered this problem by using the ping command, which failed, and then checking the IP configuration settings. I also looked at the router command line interface to identify the issue. The problem was fixed by correctly configuring the device with the proper IP address and settings. After applying the fix, I tested the network again using ping, and it worked successfully. This confirmed that the network was functioning properly.
