@@ -29,6 +29,7 @@ Their binary form is such that there is an uninterrupted string of 1s only at th
 
 ### Part 2: Investigate Communication
 ping 192.168.1.25 (succeeded)
+
 <img width="291" height="178" alt="Screenshot 2026-03-26 at 8 26 01 AM" src="https://github.com/user-attachments/assets/9d5b2561-0482-40c5-90af-49a3b4903dd2" />
 
 ping 192.168.2.10 (failed)
@@ -38,6 +39,7 @@ A ping works if both devices are on the same network. If they are on different n
 
 ### Part 3: Modify and Test Again
 ping 192.168.2.10 (failed)
+
 <img width="293" height="143" alt="Screenshot 2026-03-26 at 8 28 52 AM" src="https://github.com/user-attachments/assets/bff3b764-064b-4835-9716-04fb36363519" />
 
 Nothing changed at first because the devices were still on different networks. Without changing the subnet mask or adding a router, they still could not communicate.
@@ -48,6 +50,7 @@ Change all subnet masks to:
 Test communication again.
 
 ping 192.168.2.10 (succeeded)
+
 <img width="282" height="154" alt="Screenshot 2026-03-26 at 8 30 41 AM" src="https://github.com/user-attachments/assets/50f65fc5-61ec-47b4-ae40-f5d0ff175871" />
 
 ### Scenario B
@@ -58,15 +61,18 @@ Set:
 255.255.0.0
 
 ping 192.168.2.10 (failed)
+
 <img width="299" height="136" alt="Screenshot 2026-03-26 at 8 33 03 AM" src="https://github.com/user-attachments/assets/5589c920-5d54-4f67-8555-d24fcb70310b" />
 
 No, they are not on the same network.
 
 ### Scenario C
 Two PCs that look “similar” but are NOT on the same network
+
 <img width="347" height="285" alt="Screenshot 2026-03-26 at 8 35 05 AM" src="https://github.com/user-attachments/assets/12f98653-8369-4778-8a6e-f3e7fcc4095e" />
 
 Two PCs that look “different” but ARE on the same network
+
 <img width="351" height="294" alt="Screenshot 2026-03-26 at 8 36 46 AM" src="https://github.com/user-attachments/assets/5ad3944f-7c72-4234-b9be-2a8a418f8fd8" />
 
 ## Assignment 2: 
@@ -88,16 +94,19 @@ The final network layout was designed to be clean and efficient, with all device
 ### Part 1: Add the Router & Part 2: Configure Router Interfaces
 
 Fully configured setup with router working
+
 <img width="831" height="400" alt="Screenshot 2026-03-30 at 10 17 38 AM" src="https://github.com/user-attachments/assets/c5a49bdf-c288-4d1f-bb2f-756861b6aed6" />
 <img width="510" height="496" alt="Screenshot 2026-03-30 at 10 18 13 AM" src="https://github.com/user-attachments/assets/5fc4e7b8-2909-4b03-9c56-8eeee46632d0" />
 
 ### Part 3: Configure Default Gateway on PCs
 Default gateways and ip addresses set on a pc in each LAN
+
 <img width="638" height="156" alt="Screenshot 2026-03-30 at 10 21 00 AM" src="https://github.com/user-attachments/assets/1b2b2393-e2ca-46b7-ae3b-9248edaaea25" />
 <img width="644" height="145" alt="Screenshot 2026-03-30 at 10 21 30 AM" src="https://github.com/user-attachments/assets/a5a17735-a3b6-4acf-8080-b683d0773bd9" />
 
 ### Part 4: Test Communication
 Communication from LAN 1 to LAN 2
+
 <img width="298" height="172" alt="Screenshot 2026-03-30 at 10 22 39 AM" src="https://github.com/user-attachments/assets/ff0e4b0f-73f5-4bf7-99c6-f1f91fa80621" />
 
 The router connects different networks (LANs) together and allows devices on separate networks to communicate with each other.
@@ -106,30 +115,37 @@ The router connects different networks (LANs) together and allows devices on sep
 ### Part 1: Troubleshooting Investigation
 #### 1. Ping (Command Prompt)
 ping 192.168.2.10 (failed)
+
 <img width="311" height="167" alt="Screenshot 2026-03-31 at 12 38 19 PM" src="https://github.com/user-attachments/assets/3dc37ad0-9aef-4787-926e-490b51b1291f" />
 
 #### 2. IP Configuration
 PC2 IP Configuration
+
 <img width="640" height="140" alt="Screenshot 2026-03-31 at 12 40 36 PM" src="https://github.com/user-attachments/assets/3b4ad1fc-bebe-43d5-8a0b-61e4e5055e52" />
 
 #### 3. Visual Inspection
 Physical Layout
+
 <img width="791" height="425" alt="Screenshot 2026-03-31 at 12 42 01 PM" src="https://github.com/user-attachments/assets/0ba92f9c-e0ca-4422-9c16-13312f2d1cdb" />
 
 #### 4. Router CLI
 Router IOS Command Line Interface
+
 <img width="614" height="466" alt="Screenshot 2026-03-31 at 12 42 27 PM" src="https://github.com/user-attachments/assets/055e59a6-b5f6-4cc8-aaf1-6dee16bdaa09" />
 
 ### Step 2: Identify the Problem
 The second terminal had not yet been configured
+
 <img width="450" height="110" alt="Screenshot 2026-03-31 at 12 44 59 PM" src="https://github.com/user-attachments/assets/e86ee8c9-6641-4443-9208-bacd49a1567d" />
 
 ### Step 3: Apply a Fix
 Working Layout
+
 <img width="796" height="410" alt="Screenshot 2026-03-31 at 12 46 25 PM" src="https://github.com/user-attachments/assets/bafcc5f3-a4fe-4d6f-a1ff-5e0579d95906" />
 
 ### Step 4: Test Again
 ping 192.168.2.10 (working)
+
 <img width="350" height="175" alt="Screenshot 2026-03-31 at 12 47 36 PM" src="https://github.com/user-attachments/assets/2869ab87-457a-4b11-96e4-1cd43f5154c0" />
 
 # Reflection and Analysis
